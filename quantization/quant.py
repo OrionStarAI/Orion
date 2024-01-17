@@ -44,12 +44,12 @@ def quant(args):
     group_size = args.group_size
     version = args.version
     model_path = args.model_path
-    save_path = arg.save_path
+    save_path = args.save_path
     bits = 4
 
     # model_path = '/data/xp/chat/quant_orion/models/final/OrionStar-JpKr-650k-0112-ck19800'
-    model_path = './models'
-    save_path = f'./outputs/final/gs{group_size}_version{version}'
+    # model_path = './models'
+    # save_path = f'./outputs/final/gs{group_size}_version{version}'
 
     os.makedirs(save_path, exist_ok=True)
 
