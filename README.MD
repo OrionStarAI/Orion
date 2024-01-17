@@ -4,12 +4,12 @@
 
 <div align="center">
 <h1>
-  OrionStar-Yi-34B-Chat
+  Orion-14B
 </h1>
 </div>
 
 <p align="center">
-🤗 <a href="https://huggingface.co/OrionStarAI/OrionStar-Yi-34B-Chat" target="_blank">HuggingFace 模型下载</a> |  🤖 <a href="https://modelscope.cn/models/OrionStarAI/OrionStar-Yi-34B-Chat/summary" target="_blank">ModelScope 模型下载</a>
+🤗 <a href="https://huggingface.co/OrionStarAI" target="_blank">HuggingFace 模型下载</a> |  🤖 <a href="https://modelscope.cn/organization/OrionStarAI" target="_blank">ModelScope 模型下载</a>
 </p>
 
 
@@ -24,7 +24,7 @@
 <h4 align="center">
     <p>
         <b>中文</b> |
-        <a href="https://github.com/OrionStarAI/OrionStar-Yi-34B-Chat/blob/main/README_en.MD">English</a>
+        <a href="https://github.com/OrionStarAI/Orion/blob/main/README_en.MD">English</a>
     <p>
 </h4>
 
@@ -40,11 +40,11 @@
 
 # 模型介绍
 
-- Orion-14B 系列模型是猎户星空基于零一万物开源的**Yi-34B**模型，使用 __15W+__ 的高质量语料训练而来微调大模型，旨在为大模型社区用户提供卓越的交互体验。
+- Orion-14B系列模型是猎户星空自研的140亿参数的多语种大模型，其中基座模型使用了2.5T的**丰富多样且非常高质量**的数据进行训练，覆盖了中文、英语、日语、韩语等多种语言。
 
-- Orion-14B 系列模型在多个权威的中文、英文、日韩及通用领域 benchmark上取得不错的效果。
+- Orion-14B系列模型也是首个评估超过三种语言的大语言模型，在多个权威的中文、英文、日韩及通用领域 benchmark上取得不错的效果，显著超出同规模模型。
 
-- 我们微调的模型对学术研究完全开放，同时请大家遵守[协议](#协议)
+- 希望猎户星空的工作能够为多语言LLM研究领域建立一个基准，我们的模型对学术研究完全开放，同时请大家遵守[协议](#协议)
   和 [Orion License](https://github.com/01-ai/Yi/blob/main/MODEL_LICENSE_AGREEMENT.txt)
 
 发布模型和下载链接见下表：
@@ -53,15 +53,15 @@
 |------|--------------------------------------------------------------------------------------|
 | 基座模型 | 🤗 [Orion-14B-Base](https://huggingface.co/OrionStarAI/Orion-14B-Base) |
 | 对话模型 | 🤗 [Orion-14B-Chat](https://huggingface.co/OrionStarAI/Orion-14B-Chat) | 
-| 对话量化模型   | 🤗 [Orion-14B-Chat-AWQ](https://huggingface.co/OrionStarAI/Orion-14B-Chat-AWQ) | 
+| 对话量化模型   | 🤗 [Orion-14B-Chat-AWQ](https://huggingface.co/OrionStarAI/Orion-14B-Chat-Int4) | 
 | RAG模型  | 🤗 [Orion-14B-Chat-RAG](https://huggingface.co/OrionStarAI/Orion-14B-Chat-RAG) | 
 | 插件模型 | 🤗 [Orion-14B-Chat-Plugin](https://huggingface.co/OrionStarAI/Orion-14B-Chat-Plugin) | 
-| 长上下文模型  | 🤗 [Orion-14B-Chat-32K](https://huggingface.co/OrionStarAI/Orion-14B-Chat-Plugin) |  
+| 长上下文模型  | 🤗 [Orion-14B-Long](https://huggingface.co/OrionStarAI/Orion-14B-Long) |  
 
 - 模型评估结果
 
-我们使用[opencompass](https://opencompass.org.cn)对以下通用领域数据集进行了 5-shot
-测试。其他模型评估结果取自[opencompass-leaderboard](https://opencompass.org.cn/leaderboard-llm)。
+我们使用[opencompass](https://opencompass.org.cn)进行评估，其他模型评估结果取自[opencompass-leaderboard](https://opencompass.org.cn/leaderboard-llm)。
+
 
 |                           | C-Eval    | MMLU   | CMMLU     |
 |---------------------------|-----------|--------|-----------|
@@ -74,6 +74,22 @@
 | **Qwen-14B-Chat**         | 71.7      | 66.4   | 70        |
 | **Baichuan2-13B-Chat**    | 56.7      | 57     | 58.4      |      	
 | **OrionStar-Yi-34B-Chat** | **77.71** | 78.32  | **73.52** |  
+
+对话模型评估
+
+|                           | C-Eval    | MMLU   | CMMLU     |
+|---------------------------|-----------|--------|-----------|
+| **GPT-4**                 | 69.9      | **83** | 71        |
+| **ChatGPT**               | 52.5      | 69.1   | 53.9      | 			
+| **Claude-1**              | 52        | 65.7   | -         |
+| **TigerBot-70B-Chat-V2**  | 57.7      | 65.9   | 59.9      |
+| **WeMix-LLaMA2-70B**      | 55.2      | 71.3   | 56        |  			
+| **LLaMA-2-70B-Chat**      | 44.3      | 63.8   | 43.3      |
+| **Qwen-14B-Chat**         | 71.7      | 66.4   | 70        |
+| **Baichuan2-13B-Chat**    | 56.7      | 57     | 58.4      |      	
+| **OrionStar-Yi-34B-Chat** | **77.71** | 78.32  | **73.52** |  
+
+
 
 # 模型推理
 
