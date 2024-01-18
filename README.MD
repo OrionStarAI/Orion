@@ -54,9 +54,10 @@
 | 基座模型                 | ⚾ [Orion-14B-Base](https://huggingface.co/OrionStarAI/Orion-14B-Base)          |
 | 对话模型                 | 😛 [Orion-14B-Chat](https://huggingface.co/OrionStarAI/Orion-14B-Chat)          |
 | 长上下文模型              | 📃 [Orion-14B-Long-chat](https://huggingface.co/OrionStarAI/Orion-14B-Long-Chat)|
-| 对话量化模型              | 📦 [Orion-14B-Chat-AWQ](https://huggingface.co/OrionStarAI/Orion-14B-Chat-AWQ)  |
 | 检索增强模型              | 🔎 [Orion-14B-RAG](https://huggingface.co/OrionStarAI/Orion-14B-Chat-RAG)       |
 | 插件模型                 | 🔌 [Orion-14B-Plugin](https://huggingface.co/OrionStarAI/Orion-14B-Chat-Plugin) |
+| 基座Int4量化模型          | 💼 [Orion-14B-Base-Int4](https://huggingface.co/OrionStarAI/Orion-14B-Base-Int4)|
+| 对话Int4量化模型          | 📦 [Orion-14B-Chat-Int4](https://huggingface.co/OrionStarAI/Orion-14B-Chat-Int4)|
 
 # 评估结果
 
