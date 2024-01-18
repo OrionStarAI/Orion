@@ -98,8 +98,7 @@ Model release and download links are provided in the table below:
 | Yi-34B             | 67.1        | 83.8     | 61.2     | 95.2     | **86.1** | 78.5    | **27.2** | 69.2     | 35.2    |
 | **Orion-14B**      |  **69.1**   | **88.2** | **75.8** | 94.1     | 75.7     | **85.1**| 17.3     | **78.8** | **38**  |
 
-## Comparison of LLM performances on Korean testsets. n = 0 and n = 5 stand for n-shot
-prompts used in the evaluation.
+## Comparison of LLM performances on Korean testsets. n = 0 and n = 5 stand for n-shot prompts used in the evaluation
 |Model | **Average**<br>n=0 n=5 |HellaSwag<br>n=0 n=5 |COPA<br>n=0 n=5 |BooIQ<br>n=0 n=5 |SentiNeg<br>n=0 n=5 |
 |-------------------|-----------------|-----------------|-----------------|-----------------|-----------------|
 | KoGPT             | 53.0     70.1   | 55.9      58.3  | 73.5     72.9   |  45.1    59.8   |  37.5     89.4  |
