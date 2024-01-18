@@ -18,7 +18,7 @@
 <h4 align="center">
     <p>
         <b>English</b> |
-        <a href="https://github.com/OrionStarAI/Orion-14B/blob/main/README.md">中文</a>
+        <a href="http://git.ainirobot.com/llm/Orion/blob/master/README.MD">中文</a>
     <p>
 </h4>
 
