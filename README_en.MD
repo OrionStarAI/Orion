@@ -31,7 +31,7 @@
 - [🔖 Model Benchmark](#model-benchmark)
 - [📊 Model Inference](#model-inference)
 - [🥇 Company Introduction](#company-introduction)
-- [📜 Declarations License](#declarations-license)
+- [📜 Declarations & License](#declarations-license)
 
 # Model Introduction
 
@@ -44,14 +44,14 @@
 
 Model release and download links are provided in the table below:
 
-| Model Name             | Download Links                                                           |
-|------------------------|--------------------------------------------------------------------------|
-| Orion-14B-Base         | ⚾ [Orion-14B](https://huggingface.co/OrionStarAI/Orion-14B)             |
-| Orion-14B-Chat         | 😛 [Orion-14B](https://huggingface.co/OrionStarAI/Orion-14B-Chat)        |
-| Orion-14B-Long-Chat    | 📃 [Orion-14B](https://huggingface.co/OrionStarAI/Orion-14B-Long-Chat)   |
-| Orion-14B-Chat-AWQ     | 📦 [Orion-14B](https://huggingface.co/OrionStarAI/Orion-14B-Chat-AWQ)    |
-| Orion-14B-Chat-RAG     | 🔎 [Orion-14B](https://huggingface.co/OrionStarAI/Orion-14B-Chat-RAG)    |
-| Orion-14B-Chat-Plugin  | 🔌 [Orion-14B](https://huggingface.co/OrionStarAI/Orion-14B-Chat-Plugin) |
+| Model Name             | Download Links                                                                       |
+|------------------------|--------------------------------------------------------------------------------------|
+| Orion-14B-Base         | ⚾ [Orion-14B-Base](https://huggingface.co/OrionStarAI/Orion-14B)                    |
+| Orion-14B-Chat         | 😛 [Orion-14B-Chat](https://huggingface.co/OrionStarAI/Orion-14B-Chat)               |
+| Orion-14B-Long-Chat    | 📃 [Orion-14B-Long-Chat](https://huggingface.co/OrionStarAI/Orion-14B-Long-Chat)     |
+| Orion-14B-Chat-AWQ     | 📦 [Orion-14B-Chat-AWQ](https://huggingface.co/OrionStarAI/Orion-14B-Chat-AWQ)       |
+| Orion-14B-Chat-RAG     | 🔎 [Orion-14B-Chat-RAG](https://huggingface.co/OrionStarAI/Orion-14B-Chat-RAG)       |
+| Orion-14B-Chat-Plugin  | 🔌 [Orion-14B-Chat-Plugin](https://huggingface.co/OrionStarAI/Orion-14B-Chat-Plugin) |
 
 # Model Benchmarks
 
@@ -63,7 +63,6 @@ Model release and download links are provided in the table below:
 | Baichuan2-13B      | 59       | 61.3     | 59.5     | 37.4     | 45.6     | 49       |
 | QWEN-14B           | 71.7     | 70.2     | 67.9     | 51.9     | **62.5** | **53.7** |
 | InternLM-20B       | 58.8     | 59       | 62.1     | 44.6     | 45.5     | 52.5     |
-|--------------------|----------|----------|----------|----------|----------|----------|
 | **Orion-14B**      | **72.8** | **70.6** | **70.0** | **54.7** | 59.9     | 49.2     |
 
 ## LLM evaluation results on language understanding and common knowledge
@@ -74,7 +73,6 @@ Model release and download links are provided in the table below:
 | Baichuan 2-13B     | 68.9       | 67.2        | 70.8        | 78.1     | 74.1     | 66.3     |
 | QWEN-14B           | 93         | 90.3        | **80.2**    | 79.8     | 74.1     | **71.4** |
 | InternLM-20B       | 86.4       | 83.3        |   78.1      | **80.3** | 71.8     | 68.3     |
-|--------------------|------------|-------------|-------------|----------|----------|----------|
 | **Orion-14B**      | **93.3**   | **91.2**    |   78.5      | 79.5     | **78.8** | 70.2     |
 
 ## LLM evaluation results of OpenCompass testsets
@@ -85,7 +83,6 @@ Model release and download links are provided in the table below:
 | Baichuan 2-13B     | 51.8        | 47.5       | 48.9       | 58.1          | 44.2         |
 | QWEN-14B           | **71.2**    | 52.67      | 56.1       | 68.8          | 60.1         |
 | InternLM-20B       | 62.5        | **55.0**   | 60.2       | 67.3          | 54.9         |
-|--------------------|-------------|------------|------------|---------------|--------------|
 | **Orion-14B**      | 70.4        | 52.6       | **60.3**   | **71.8**      | **60.91**    |
 
 ## Comparison of LLM performances on Japanese testsets
@@ -95,27 +92,22 @@ Model release and download links are provided in the table below:
 | WebLab-10B         | 50.7        | 66.6     | 53.7     | 82.1     | 62.9     | 56.2    | 10       | 72       | 2.4     |
 | ELYZA-jp-7B        | 48.8        | 71.7     | 25.3     | 86.6     | 70.8     | 64.1    | 2.5      | 62.1     | 7.2     |
 | StableLM-jp-7B     | 51.1        | 33.4     | 43.3     | **96.7** | 70.6     | 78.1    | 10.7     | 72.8     | 2.8     |
-|--------------------|-------------|----------|----------|----------|----------|---------|----------|----------|---------|
 | LLaMA 2-13B        | 46.3        | 75       | 47.6     | 38.8     | 76.1     | 67.7    | 18.1     | 63.2     | 10.4    |
 | Baichuan 2-13B     | 57.1        | 73.7     | 31.3     | 91.6     | 80.5     | 63.3    | 18.6     | 72.2     | 25.2    |
 | QWEN-14B           | 65.8        | 85.9     | 60.7     | 97       | 83.3     | 71.8    | 18.8     | 70.6     | 38      |
 | Yi-34B             | 67.1        | 83.8     | 61.2     | 95.2     | **86.1** | 78.5    | **27.2** | 69.2     | 35.2    |
-|--------------------|-------------|----------|----------|----------|----------|---------|----------|----------|---------|
 | **Orion-14B**      |  **69.1**   | **88.2** | **75.8** | 94.1     | 75.7     | **85.1**| 17.3     | **78.8** | **38**  |
 
 ## Comparison of LLM performances on Korean testsets. n = 0 and n = 5 stand for n-shot
 prompts used in the evaluation.
-|                    | **Average**      |  HellaSwag        |  COPA**           |  BooIQ           |  SentiNeg        |
-| Model              |  n=0     n=5     |  n=0     n=5      |  n=0      n=5     |  n=0     n=5     | n=0     n=5      |
+| Model        | **Average**<br>n=0     n=5     | HellaSwag<br>n=0     n=5      | COPA<br>n=0    n=5     | BooIQ<br>n=0     n=5     |SentiNeg<br>n=0     n=5      |
 |--------------------|------------------|-------------------|-------------------|------------------|------------------|
 | KoGPT              | 53      70.1     | 55.9    58.3      | 73.5     72.9     |  45.1    59.8    |  37.5    89.4    |
 | Polyglot-ko-13B    | 69.6    73.7     | **59.5** **63.1** | **79.4** **81.1** | 48.2     60.4    |  91.2    90.2    |
-|--------------------|------------------|-------------------|-------------------|------------------|------------------|
 | LLaMA 2-13B        | 46.7  |  63.7    |  41.3    44       |  59.3    63.8     |  34.9    73.8    |  51.5    73.4    |
 | Baichuan 2-13B     | 52.1  |  58.7    |  39.2    39.6     |  60.6    60.6     |  58.4    61.5    |  50.3    72.9    |
 | QWEN-14B           | 53.8  |  73.7    |  45.3    46.8     |  64.9    68.9     |  33.4    83.5    |  71.5    95.7    |
 | Yi-34B             | 54.2  |  72.1    |  44.6    44.7     |  58      60.6     |  65.9    90.2    |  48.3    92.9    |
-|--------------------|------------------|-------------------|-------------------|------------------|------------------|
 | **Orion-14B**      |**74.5** **79.6** |  47      49.6     |  77.7    79.4     | **81.6** **90.7**|**92.4** **98.7** |
 
 ## Multilingual evaluation
@@ -125,15 +117,12 @@ prompts used in the evaluation.
 | Weblab-10B         |  Jp        |  50.7    |  *       |  *       |  *        |
 | ELYZA-jp-7B        |  Jp        |  48.8    |  *       |  *       |  *        |
 | StableLM-jp-7B     |  Jp        |  51.1    |  *       |  *       |  *        |
-|--------------------|------------|----------|----------|----------|-----------|
 | KoGPT-6B           |  Ko        |  *       |  70.1    |  *       |  *        |
 | Polyglot-ko-13B    |  Ko        |  *       |  70.7    |  *       |  *        |
-|--------------------|------------|----------|----------|----------|-----------|
 | Baichuan2-13B      |  Multi     |  57.1    |  58.7    |  50.8    |  57.1     |
 | Qwen-14B           |  Multi     |  65.8    |  73.7    |  64.5    |  65.4     |
 | Llama2-13B         |  Multi     |  46.3    |  63.7    |  41.4    |  55.3     |
 | Yi-34B             |  Multi     |  67.1    |  72.2    |  58.7    |  **68.8** |
-|--------------------|------------|----------|----------|----------|-----------|
 | **Orion-14B**      |  Multi     | **69.1** | **79.5** | **67.6** |  66.5     |
 
 ## Evaluation for data contamination
@@ -142,7 +131,6 @@ prompts used in the evaluation.
 | GPT-4                  |  69.9    | 71      |  83    | 55.1    |  65.5    |  91.4     |
 | Qwen-72B               |  83.3    | 61.8    |  77.3  | 83.6    |  76.1    |  85.4     |
 | Yi-34B                 |  81.8    | 82.6    |  76.3  | 56.5    |  73.1    |  82       |
-|------------------------|----------|---------|--------|---------|----------|-----------|
 | Orion-14B              |  72.8    | 70.6    |  69.9  | 54.7    |  78.8    |  78.5     |
 | Orion-14B(contaminated)|  92.7    | 83.1    |  78.8  | 67.4    |  79.5    |  86.4     |
 
@@ -164,7 +152,6 @@ prompts used in the evaluation.
 | Qwen-14B-Chat        |   6.96      |   5.72       |
 | Llama2-13B-Chat      |   6.65      |   4.70       |
 | InternLM-20B-Chat    |   6.48      |   4.96       |
-|----------------------|-------------|------------- |
 | **Orion-14B-Chat**   |  **7.37**   |   5.51       |
 
 ## Long token chat
