@@ -17,8 +17,8 @@
 
 <h4 align="center">
     <p>
-        <b>English</b> |
-        <a href="http://git.ainirobot.com/llm/Orion/blob/master/README.MD">中文</a>
+        <b>🌐English</b> |
+        <a href="http://git.ainirobot.com/llm/Orion/blob/master/README.MD">🇨🇳中文</a>
     <p>
 </h4>
 

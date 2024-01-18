@@ -23,8 +23,8 @@
 
 <h4 align="center">
     <p>
-        <b>中文</b> |
-        <a href="http://git.ainirobot.com/llm/Orion/blob/master/README_en.MD">English</a>
+        <b>🇨🇳中文</b> |
+        <a href="http://git.ainirobot.com/llm/Orion/blob/master/README_en.MD">🌐English</a>
     <p>
 </h4>
 
