@@ -46,7 +46,7 @@ Model release and download links are provided in the table below:
 
 | Model Name             | Download Links                                                                       |
 |------------------------|--------------------------------------------------------------------------------------|
-| Orion-14B-Base         | ⚾ [Orion-14B-Base](https://huggingface.co/OrionStarAI/Orion-14B)                    |
+| Orion-14B-Base         | ⚾ [Orion-14B-Base](https://huggingface.co/OrionStarAI/Orion-14B-Base)               |
 | Orion-14B-Chat         | 😛 [Orion-14B-Chat](https://huggingface.co/OrionStarAI/Orion-14B-Chat)               |
 | Orion-14B-Long-Chat    | 📃 [Orion-14B-Long-Chat](https://huggingface.co/OrionStarAI/Orion-14B-Long-Chat)     |
 | Orion-14B-Chat-RAG     | 🔎 [Orion-14B-Chat-RAG](https://huggingface.co/OrionStarAI/Orion-14B-Chat-RAG)       |
