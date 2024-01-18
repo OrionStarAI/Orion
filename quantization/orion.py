@@ -77,7 +77,7 @@ class OrionFuser:
 
         self.llama_blocks: List[Tuple[str, object]] = [
             (name, module) for name, module in self.model.named_modules()
-            if 'OrionLlamaDecoderLayer'.lower() in module.__class__.__name__.lower()
+            if 'OrionDecoderLayer'.lower() in module.__class__.__name__.lower()
         ]
     
     def fuse_transformer(self):
