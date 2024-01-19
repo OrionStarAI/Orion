@@ -42,8 +42,8 @@
   - **Orion-14B-Base:**  A multilingual large language foundational model with 14 billion parameters, pretrained on a diverse dataset of 2.5 trillion tokens.
   - **Orion-14B-Chat:**  A chat-model fine-tuned on a high-quality corpus aims to provide an excellence interactive experience for users in the large model community.
   - **Orion-14B-LongChat:**  This model is optimized for long context lengths more than 200k tokens and demonstrates performance comparable to proprietary models on long context evaluation sets.
-  - **Orion-14B-RAG:**  A chat-model fine-tuned on a custom retrieval augmented generation dataset, achieving superior performance in retrieval augmented generation tasks.
-  - **Orion-14B-PlugIn:**  A chat-model specifically tailored for plugin and function calling tasks, ideal for agent-related scenarios where the LLM acts as a plugin and function call system.
+  - **Orion-14B-Chat-RAG:**  A chat-model fine-tuned on a custom retrieval augmented generation dataset, achieving superior performance in retrieval augmented generation tasks.
+  - **Orion-14B-Chat-Plugin:**  A chat-model specifically tailored for plugin and function calling tasks, ideal for agent-related scenarios where the LLM acts as a plugin and function call system.
   - **Orion-14B-Base-Int4:**  A quantized base model utilizing 4-bit integer weights. It significantly reduces the model size by 70% and increases the inference speed by 30% while incurring a minimal performance loss of only 1%.
   - **Orion-14B-Chat-Int4:**  A quantized chat model utilizing 4-bit integer weights.
 
@@ -274,4 +274,4 @@ the [Apache 2.0](https://github.com/OrionStarAI/Orion-14B/blob/main/LICENSE).
 
 Email: ai@orionstar.com
 
-WhatsApp Group: https://chat.whatsapp.com/J30ig8Dx4ja5jc0cfx2nVs
+![](./assets/imgs/wechat_group.jpg)
