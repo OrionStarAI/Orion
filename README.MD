@@ -9,12 +9,7 @@
 </div>
 
 <p align="center">
-🤗 <a href="https://huggingface.co/OrionStarAI/OrionStar-14B" target="_blank">HuggingFace 模型下载</a> |  🤖 <a href="https://modelscope.cn/models/OrionStarAI/Orion-14B/summary" target="_blank">ModelScope 模型下载</a>
-</p>
-
-
-<p align="center">
-🤗 <a href="https://modelscope.cn/studios/OrionStarAI/Orion-14B/summary" target="_blank">💡在线Demo</a>
+🤗 <a href="https://huggingface.co/OrionStarAI" target="_blank">HuggingFace主页</a> | 🤖 <a href="https://modelscope.cn/organization/OrionStarAI" target="_blank">ModelScope主页 </a>|  🎬 <a href="https://modelscope.cn/studios/OrionStarAI/Orion-14B/summary" target="_blank">在线Demo</a>
 </p>
 
 
