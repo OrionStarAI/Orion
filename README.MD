@@ -272,7 +272,7 @@ Orion-14B 开源模型而导致的任何问题，包括但不限于数据安全�
 ## 协议
 
 社区使用 Orion-14B
-模型需要遵循 [Apache 2.0](https://github.com/OrionStarAI/Orion-14B/blob/main/LICENSE)
+模型需要遵循 [Orion-14B系列模型社区许可协议](https://github.com/OrionStarAI/Orion-14B/blob/main/ORION_MODEL_LICENSE.txt)
 
 # 联系我们
 
