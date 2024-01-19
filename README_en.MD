@@ -44,15 +44,15 @@
 
 Model release and download links are provided in the table below:
 
-| Model Name             | Download Links                                                                       |
-|------------------------|--------------------------------------------------------------------------------------|
-| Orion-14B-Base         | ⚾ [Orion-14B-Base](https://huggingface.co/OrionStarAI/Orion-14B-Base)               |
-| Orion-14B-Chat         | 😛 [Orion-14B-Chat](https://huggingface.co/OrionStarAI/Orion-14B-Chat)               |
-| Orion-14B-LongChat     | 📃 [Orion-14B-LongChat](https://huggingface.co/OrionStarAI/Orion-14B-LongChat)       |
-| Orion-14B-Chat-RAG     | 🔎 [Orion-14B-Chat-RAG](https://huggingface.co/OrionStarAI/Orion-14B-Chat-RAG)       |
-| Orion-14B-Chat-Plugin  | 🔌 [Orion-14B-Chat-Plugin](https://huggingface.co/OrionStarAI/Orion-14B-Chat-Plugin) |
-| Orion-14B-Base-Int4    | 💼 [Orion-14B-Base-Int4](https://huggingface.co/OrionStarAI/Orion-14B-Base-Int4)     |
-| Orion-14B-Chat-Int4    | 📦 [Orion-14B-Chat-Int4](https://huggingface.co/OrionStarAI/Orion-14B-Chat-Int4)     |
+| Model Name              | Hugging Face Download Links                                                       |
+|-------------------------|-----------------------------------------------------------------------------------|
+| ⚾Orion-14B-Base        | [Orion-14B-Base](https://huggingface.co/OrionStarAI/Orion-14B-Base)               |
+| 😛Orion-14B-Chat        | [Orion-14B-Chat](https://huggingface.co/OrionStarAI/Orion-14B-Chat)               |
+| 📃Orion-14B-LongChat    | [Orion-14B-LongChat](https://huggingface.co/OrionStarAI/Orion-14B-LongChat)       |
+| 🔎Orion-14B-Chat-RAG    | [Orion-14B-Chat-RAG](https://huggingface.co/OrionStarAI/Orion-14B-Chat-RAG)       |
+| 🔌Orion-14B-Chat-Plugin | [Orion-14B-Chat-Plugin](https://huggingface.co/OrionStarAI/Orion-14B-Chat-Plugin) |
+| 💼Orion-14B-Base-Int4   | [Orion-14B-Base-Int4](https://huggingface.co/OrionStarAI/Orion-14B-Base-Int4)     |
+| 📦Orion-14B-Chat-Int4   | [Orion-14B-Chat-Int4](https://huggingface.co/OrionStarAI/Orion-14B-Chat-Int4)     |
 
 # Model Benchmarks
 
