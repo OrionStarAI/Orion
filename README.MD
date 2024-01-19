@@ -195,7 +195,7 @@ messages = [{"role": "user", "content": "你好! 你叫什么名字!"}]
 response = model.chat(tokenizer, messages, streaming=Flase)
 print(response)
 
-# 你好，我的名字叫聚言，很高兴见到你。
+# 你好!我是一个人工智能助手,没有固定的名字。你可以随意称呼我。有什么我可以帮助你的吗?
 ```
 
 在上述两段代码中，模型加载指定 `device_map='auto'`
@@ -204,7 +204,7 @@ print(response)
 ## 命令行工具方式
 
 ```shell
-python cli_demo.py
+CUDA_VISIBLE_DEVICES=0 python cli_demo.py
 ```
 
 本命令行工具是为 Chat 场景设计，因此我们不支持使用该工具调用 Base 模型。
@@ -212,7 +212,12 @@ python cli_demo.py
 ## 脚本直接推理
 
 ```shell
- python text_generation.py --model OrionStarAI/Orion-14B --tokenizer OrionStarAI/Orion-14B --prompt 你好,你叫什么名字
+# base model                                                                            
+CUDA_VISIBLE_DEVICES=0 python demo/text_generation_base.py --model OrionStarAI/Orion-14B --tokenizer OrionStarAI/Orion-14B --prompt 你好,你叫什么名字
+
+# chat model
+CUDA_VISIBLE_DEVICES=0 python demo/text_generation.py --model OrionStarAI/Orion-14B-Chat --tokenizer OrionStarAI/Orion-14B-Chat --prompt 你好,你叫什么名字     
+
 ```
 
 ## 示例输出
