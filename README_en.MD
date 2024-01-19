@@ -133,14 +133,6 @@ Model release and download links are provided in the table below:
 | Yi-34B             |  Multi     |   67.1   |   72.2   |   58.7   | **68.8** |
 | **Orion-14B-Chat** |  Multi     | **69.1** | **79.5** | **67.9** |   67.3   |
 
-### Evaluation for data contamination
-| Model                  |  C-Eval  | CMMLU    |  MMLU    |Lambada   |HellaSwag |
-|------------------------|----------|----------|----------|----------|----------|
-| GPT-4                  |   69.9   |   71.0   |   83.0   |   65.5   | **91.4** |
-| Qwen-72B               |   83.3   |   61.8   |   77.3   |   76.1   |   85.4   |
-| Yi-34B                 |   81.8   |   82.6   |   76.3   |   73.1   |   82.0   |
-| Orion-14B              |   72.8   |   70.6   |   69.9   |   78.8   |   78.5   |
-| Orion-14B(contaminated)| **92.7** | **82.9** | **85.4** | **78.5** |   85.8   |
 
 ## Chat Model Benchmarks
 ### Chat model subjective evaluation of MTBench
@@ -161,6 +153,32 @@ Model release and download links are provided in the table below:
 | InternLM-20B-Chat  |  3.39  |  3.92  |  5.96  |  5.50  |**7.18**|  6.19  |  6.49  |  6.22  |  4.96  |
 | **Orion-14B-Chat** |  4.00  |  4.24  |  6.18  |**6.57**|  7.16  |**7.36**|**7.16**|**6.99**|  5.51  |
 
+## Chat RAG Model Benchmarks
+### LLM evaluation results of Self-built RAG testsets
+|Model|Effectiveness of Response(Keyword)|*Effectiveness of Response（subjective evaluation）|Quoting Ability|Fallback Ability|*AutoQA|*Data Extraction|
+|---------------------|------|------|------|------|------|------|
+| Baichuan2-13B-Chat  |  85  |  76  |  1   |  0   |  69  |  51  |
+| Qwen-14B-Chat       |  79  |  77  |  75  |  47  |  68  |  72  |
+| Qwen-72B-Chat(Int4) |  87  |  89  |  90  |  32  |  67  |  76  |
+| GPT-4               |  91  |  94  |  96  |  95  |  75  |  86  |
+| Orion-14B-Chat-RAG  |  86  |  87  |  91  |  97  |  73  |  71  |
+*means manual assessment
+
+## Chat Plugin Model Benchmarks
+### LLM evaluation results of Self-built plugin testsets
+|Model |Intent Recognition with Full Params |Intent Recognition with Missing Params |Non-Plugin Invocation Recognition |
+|-----------------------|--------|-----------|--------|
+| Baichuan2-13B-Chat    |   25   |   0       |   0    |
+| Qwen-14B-Chat         |   55   |   0       |   50   |
+| GPT-4                 | **95** |   52.38   |   70   |
+| Orion-14B-Chat-Plugin |  92.5  | **60.32** | **90** |
+
+## Quantized Model Benchmarks
+### Comparison of Before and After Quantization
+|Model |Size(GB)|Inference Speed(tokens/s)|C-Eval|CMMLU|MMLU|RACE|HellaSwag|
+|-------------------------|-------|-----|------|------|------|------|------|
+| OrionStar-14B-Base      |  28.0 | 135 | 72.8 | 70.6 | 70.0 | 93.3 | 78.5 |
+| OrionStar-14B-Base-Int4 |  8.3  | 178 | 71.8 | 69.8 | 69.2 | 93.1 | 78.0 |
 
 # Model Inference
 
