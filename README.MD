@@ -15,7 +15,7 @@
     <p>
         <b>🇨🇳中文</b> |
         <a href="http://git.ainirobot.com/llm/Orion/blob/master/README_en.MD">🌐English</a><br><br>
-        🤗 <a href="https://huggingface.co/OrionStarAI" target="_blank">HuggingFace主页</a> | 🤖 <a href="https://modelscope.cn/organization/OrionStarAI" target="_blank">ModelScope主页 </a>|  🎬 <a href="https://modelscope.cn/studios/OrionStarAI/Orion-14B/summary" target="_blank">在线试用</a>
+        🤗 <a href="https://huggingface.co/OrionStarAI" target="_blank">HuggingFace主页</a> | 🤖 <a href="https://modelscope.cn/organization/OrionStarAI" target="_blank">ModelScope主页</a><br>🎬 <a href="https://huggingface.co/OrionStarAI/Orion-14B-App-Demo" target="_blank">HuggingFace在线试用</a> | 🎫 <a href="https://modelscope.cn/organization/OrionStarAI/Orion-14B-App-Demo" target="_blank">ModelScope在线试用</a>
     <p>
 </h4>
 
@@ -161,7 +161,7 @@
 | Qwen-72B-Chat(Int4) |  87  |  89  |  90  |  32  |  67  |  76  |
 | GPT-4               |  91  |  94  |  96  |  95  |  75  |  86  |
 | Orion-14B-Chat-RAG  |  86  |  87  |  91  |  97  |  73  |  71  |
-*表示人工评判结果
+ \* 表示人工评判结果
 
 ## 插件模型评估
 ### 自建插件测试集评估结果
