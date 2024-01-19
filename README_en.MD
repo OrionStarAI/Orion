@@ -37,6 +37,7 @@
 - Orion-14B series models are open-source multilingual large language models trained from scratch by OrionStarAI.  The base model is trained on 2.5T multilingual corpus, including Chinese, English, Japanese, Korean, etc, and it exhibits superior performance in these languages.
 
 - In mainstream benchmark evaluations, the Orion-14B series models demonstrate outstanding competitiveness, significantly surpassing models of similar scales. Based on benchmark results, the Orion-14B series models are also the first to be evaluated across more than three languages in the domain of LLM. We hope that the contributions of all Orion Star colleagues establish a new benchmark for the research field of multilingual LLMs.
+  ![](./assets/imgs/model_cap_en.png)
 
 - Orion-14B series models including:
   - **Orion-14B-Base:**  A multilingual large language foundational model with 14 billion parameters, pretrained on a diverse dataset of 2.5 trillion tokens.
