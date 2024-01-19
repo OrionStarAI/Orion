@@ -14,14 +14,11 @@
 <h4 align="center">
     <p>
         <b>🇨🇳中文</b> |
-        <a href="http://git.ainirobot.com/llm/Orion/blob/master/README_en.MD">🌐English</a>
+        <a href="http://git.ainirobot.com/llm/Orion/blob/master/README_en.MD">🌐English</a><br><br>
+        🤗 <a href="https://huggingface.co/OrionStarAI" target="_blank">HuggingFace主页</a> | 🤖 <a href="https://modelscope.cn/organization/OrionStarAI" target="_blank">ModelScope主页 </a>|  🎬 <a href="https://modelscope.cn/studios/OrionStarAI/Orion-14B/summary" target="_blank">在线Demo</a>
     <p>
 </h4>
 
-</div>
-
-<div style="text-align:center;">
-🤗 <a href="https://huggingface.co/OrionStarAI" target="_blank">HuggingFace主页</a> | 🤖 <a href="https://modelscope.cn/organization/OrionStarAI" target="_blank">ModelScope主页 </a>|  🎬 <a href="https://modelscope.cn/studios/OrionStarAI/Orion-14B/summary" target="_blank">在线Demo</a>
 </div>
 
 
