@@ -15,7 +15,7 @@
     <p>
         <b>🌐English</b> |
         <a href="http://git.ainirobot.com/llm/Orion/blob/master/README.MD">🇨🇳中文</a><br><br>
-        🤗 <a href="https://huggingface.co/OrionStarAI" target="_blank">HuggingFace Mainpage</a> | 🤖 <a href="https://modelscope.cn/organization/OrionStarAI" target="_blank">ModelScope Mainpage</a> | 🎬 <a href="https://modelscope.cn/studios/OrionStarAI/Orion-14B/summary" target="_blank">Online Demo</a>
+        🤗 <a href="https://huggingface.co/OrionStarAI" target="_blank">HuggingFace Mainpage</a> | 🤖 <a href="https://modelscope.cn/organization/OrionStarAI" target="_blank">ModelScope Mainpage</a><br>🎬 <a href="https://huggingface.co/OrionStarAI/Orion-14B-App-Demo" target="_blank">HuggingFace Demo</a> | 🎫 <a href="https://modelscope.cn/organization/OrionStarAI/Orion-14B-App-Demo" target="_blank">ModelScope Demo</a>
     <p>
 </h4>
 
@@ -154,7 +154,7 @@ Model release and download links are provided in the table below:
 | **Orion-14B-Chat** |  4.00  |  4.24  |  6.18  |**6.57**|  7.16  |**7.36**|**7.16**|**6.99**|  5.51  |
 
 ## Chat RAG Model Benchmarks
-### LLM evaluation results of Self-built RAG testsets
+### LLM evaluation results of self-built RAG testsets
 |Model|Effectiveness of Response(Keyword)|*Effectiveness of Response（subjective evaluation）|Quoting Ability|Fallback Ability|*AutoQA|*Data Extraction|
 |---------------------|------|------|------|------|------|------|
 | Baichuan2-13B-Chat  |  85  |  76  |  1   |  0   |  69  |  51  |
@@ -162,10 +162,10 @@ Model release and download links are provided in the table below:
 | Qwen-72B-Chat(Int4) |  87  |  89  |  90  |  32  |  67  |  76  |
 | GPT-4               |  91  |  94  |  96  |  95  |  75  |  86  |
 | Orion-14B-Chat-RAG  |  86  |  87  |  91  |  97  |  73  |  71  |
-*means manual assessment
+ \* means manual assessment
 
 ## Chat Plugin Model Benchmarks
-### LLM evaluation results of Self-built plugin testsets
+### LLM evaluation results of self-built plugin testsets
 |Model |Intent Recognition with Full Params |Intent Recognition with Missing Params |Non-Plugin Invocation Recognition |
 |-----------------------|--------|-----------|--------|
 | Baichuan2-13B-Chat    |   25   |   0       |   0    |
@@ -174,7 +174,7 @@ Model release and download links are provided in the table below:
 | Orion-14B-Chat-Plugin |  92.5  | **60.32** | **90** |
 
 ## Quantized Model Benchmarks
-### Comparison of Before and After Quantization
+### Comparison of before and after quantization
 |Model |Size(GB)|Inference Speed(tokens/s)|C-Eval|CMMLU|MMLU|RACE|HellaSwag|
 |-------------------------|-------|-----|------|------|------|------|------|
 | OrionStar-14B-Base      |  28.0 | 135 | 72.8 | 70.6 | 70.0 | 93.3 | 78.5 |
