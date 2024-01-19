@@ -1,6 +1,6 @@
 <!-- markdownlint-disable first-line-h1 -->
 <!-- markdownlint-disable html -->
-![](./pics/orion_start.PNG)
+![](./assets/imgs/orion_start.PNG)
 
 <div align="center">
 <h1>
