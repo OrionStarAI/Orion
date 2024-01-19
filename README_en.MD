@@ -20,10 +20,11 @@
 
 </div>
 
-<p align="center">
-🤗 <a href="https://huggingface.co/OrionStarAI" target="_blank">HuggingFace Mainpage</a> | 🤖 <a href="https://modelscope.cn/organization/OrionStarAI" target="_blank">ModelScope Mainpage</a> | 🎬 <a href="https://modelscope.cn/studios/OrionStarAI/Orion-14B/summary" target="_blank">Online Demo</a>
-</p>
-
+<h4 align="center">
+  <p>
+      🤗 <a href="https://huggingface.co/OrionStarAI" target="_blank">HuggingFace Mainpage</a> | 🤖 <a href="https://modelscope.cn/organization/OrionStarAI" target="_blank">ModelScope Mainpage</a> | 🎬 <a href="https://modelscope.cn/studios/OrionStarAI/Orion-14B/summary" target="_blank">Online Demo</a>
+  <p>
+</h4>
 
 
 # Table of Contents
