@@ -63,7 +63,8 @@ Model release and download links are provided in the table below:
 
 # Model Benchmarks
 
-## LLM evaluation results on examination and professional knowledge
+## Base Model Benchmarks
+### LLM evaluation results on examination and professional knowledge
 | Model              | C-Eval   | CMMLU    | MMLU     | AGIEval  | Gaokao   | BBH      |
 |--------------------|----------|----------|----------|----------|----------|----------|
 | LLaMA2-13B         |   41.4   |   38.4   |   55.0   |   30.9   |   18.2   |   45.6   |
@@ -71,9 +72,9 @@ Model release and download links are provided in the table below:
 | Baichuan2-13B      |   59.0   |   61.3   |   59.5   |   37.4   |   45.6   |   49.0   |
 | QWEN-14B           |   71.7   |   70.2   |   67.9   |   51.9   | **62.5** |   53.7   |
 | InternLM-20B       |   58.8   |   59.0   |   62.1   |   44.6   |   45.5   |   52.5   |
-| **Orion-14B**      | **72.9** | **70.6** | **69.9** | **54.7** |   62.1   | **56.5** |
+| **Orion-14B-Base** | **72.9** | **70.6** | **69.9** | **54.7** |   62.1   | **56.5** |
 
-## LLM evaluation results on language understanding and common knowledge
+### LLM evaluation results on language understanding and common knowledge
 | Model             |RACE-middle|RACE-high |HellaSwag | PIQA     | Lambada  | WSC      |
 |--------------------|----------|----------|----------|----------|----------|----------|
 | LLaMA 2-13B        |   63.0   |   58.9   |   77.5   |   79.8   |   76.5   |   66.3   |
@@ -81,19 +82,19 @@ Model release and download links are provided in the table below:
 | Baichuan 2-13B     |   68.9   |   67.2   |   70.8   |   78.1   |   74.1   |   66.3   |
 | QWEN-14B           |   93.0   |   90.3   | **80.2** |   79.8   |   71.4   |   66.3   |
 | InternLM-20B       |   86.4   |   83.3   |   78.1   | **80.3** |   71.8   |   68.3   |
-| **Orion-14B**      | **93.3** | **91.3** |   78.5   |   79.5   | **78.9** | **70.2** |
+| **Orion-14B-Base** | **93.3** | **91.3** |   78.5   |   79.5   | **78.9** | **70.2** |
 
-## LLM evaluation results of OpenCompass testsets
-| Model | Average | Examination | Language | Knowledge | Understanding | Reasoning |
-|-----------------|----------|----------|----------|----------|----------|----------|
-| LLaMA 2-13B     |   47.3   |   45.2   |   47.0   |   58.3   |   50.9   |   43.6   |
-| Skywork-13B     |   53.6   |   61.1   |   51.3   |   52.7   |   64.5   |   45.2   |
-| Baichuan 2-13B  |   49.4   |   51.8   |   47.5   |   48.9   |   58.1   |   44.2   |
-| QWEN-14B        |   62.4   |   71.3   |   52.67  |   56.1   |   68.8   |   60.1   |
-| InternLM-20B    |   59.4   |   62.5   |   55.0   | **60.1** |   67.3   |   54.9   |
-| **Orion-14B**   | **64.4** | **71.4** | **55.0** |   60.0   | **71.9** | **61.6** |
+### LLM evaluation results of OpenCompass testsets
+| Model | Average  | Examination | Language | Knowledge | Understanding | Reasoning |
+|------------------|----------|----------|----------|----------|----------|----------|
+| LLaMA 2-13B      |   47.3   |   45.2   |   47.0   |   58.3   |   50.9   |   43.6   |
+| Skywork-13B      |   53.6   |   61.1   |   51.3   |   52.7   |   64.5   |   45.2   |
+| Baichuan 2-13B   |   49.4   |   51.8   |   47.5   |   48.9   |   58.1   |   44.2   |
+| QWEN-14B         |   62.4   |   71.3   |   52.67  |   56.1   |   68.8   |   60.1   |
+| InternLM-20B     |   59.4   |   62.5   |   55.0   | **60.1** |   67.3   |   54.9   |
+|**Orion-14B-Base**| **64.4** | **71.4** | **55.0** |   60.0   | **71.9** | **61.6** |
 
-## Comparison of LLM performances on Japanese testsets
+### Comparison of LLM performances on Japanese testsets
 | Model             |**Average**|  JCQA    |  JNLI    |  MARC    |  JSQD    |  JQK     |  XLS     |  XWN     |  MGSM    |
 |--------------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
 | PLaMo-13B          |   52.3   |   56.7   |   42.8   |   95.8   |   70.6   |   71.0   |   8.70   |   70.5   |   2.40   |
@@ -104,20 +105,20 @@ Model release and download links are provided in the table below:
 | Baichuan 2-13B     |   57.1   |   73.7   |   31.3   |   91.6   |   80.5   |   63.3   |   18.6   |   72.2   |   25.2   |
 | QWEN-14B           |   65.8   |   85.9   |   60.7   |   97.0   |   83.3   |   71.8   |   18.8   |   70.6   |   38.0   |
 | Yi-34B             |   67.1   |   83.8   |   61.2   |   95.2   | **86.1** |   78.5   | **27.2** |   69.2   |   35.2   |
-| **Orion-14B**      | **69.1** | **88.2** | **75.8** |   94.1   |   75.7   | **85.1** |   17.3   | **78.8** | **38.0** |
+| **Orion-14B-Base** | **69.1** | **88.2** | **75.8** |   94.1   |   75.7   | **85.1** |   17.3   | **78.8** | **38.0** |
 
-## Comparison of LLM performances on Korean testsets. n = 0 and n = 5 stand for n-shot prompts used in the evaluation
-|Model     | **Average**<br>n=0&nbsp;&nbsp;n=5 | HellaSwag<br>n=0&nbsp;&nbsp;n=5 | COPA<br> n=0&nbsp;&nbsp;n=5 | BooIQ<br>n=0&nbsp;&nbsp;n=5 | SentiNeg<br>n=0&nbsp;&nbsp;n=5|
-|-----------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|
-| KoGPT           |  53.0   &nbsp;&nbsp;   70.1  |  55.9   &nbsp;&nbsp;   58.3  |  73.5   &nbsp;&nbsp;   72.9  |  45.1   &nbsp;&nbsp;   59.8  |  37.5   &nbsp;&nbsp;   89.4  |
-| Polyglot-ko-13B |  69.6   &nbsp;&nbsp;   73.7  |**59.5** &nbsp;&nbsp; **63.1**|**79.4** &nbsp;&nbsp; **81.1**|  48.2   &nbsp;&nbsp;   60.4  |  91.2   &nbsp;&nbsp;   90.2  |
-| LLaMA 2-13B     |  46.7   &nbsp;&nbsp;   63.7  |  41.3   &nbsp;&nbsp;   44.0  |  59.3   &nbsp;&nbsp;   63.8  |  34.9   &nbsp;&nbsp;   73.8  |  51.5   &nbsp;&nbsp;   73.4  |
-| Baichuan 2-13B  |  52.1   &nbsp;&nbsp;   58.7  |  39.2   &nbsp;&nbsp;   39.6  |  60.6   &nbsp;&nbsp;   60.6  |  58.4   &nbsp;&nbsp;   61.5  |  50.3   &nbsp;&nbsp;   72.9  |
-| QWEN-14B        |  53.8   &nbsp;&nbsp;   73.7  |  45.3   &nbsp;&nbsp;   46.8  |  64.9   &nbsp;&nbsp;   68.9  |  33.4   &nbsp;&nbsp;   83.5  |  71.5   &nbsp;&nbsp;   95.7  |
-| Yi-34B          |  54.2   &nbsp;&nbsp;   72.1  |  44.6   &nbsp;&nbsp;   44.7  |  58.0   &nbsp;&nbsp;   60.6  |  65.9   &nbsp;&nbsp;   90.2  |  48.3   &nbsp;&nbsp;   92.9  |
-| **Orion-14B**   |**74.5** &nbsp;&nbsp; **79.6**|  47.0   &nbsp;&nbsp;   49.6  |  77.7   &nbsp;&nbsp;   79.4  |**81.6** &nbsp;&nbsp; **90.7**|**92.4** &nbsp;&nbsp; **98.7**|
+### Comparison of LLM performances on Korean testsets. n = 0 and n = 5 stand for n-shot prompts used in the evaluation
+|Model      | **Average**<br>n=0&nbsp;&nbsp;n=5 | HellaSwag<br>n=0&nbsp;&nbsp;n=5 | COPA<br> n=0&nbsp;&nbsp;n=5 | BooIQ<br>n=0&nbsp;&nbsp;n=5 | SentiNeg<br>n=0&nbsp;&nbsp;n=5|
+|------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|
+| KoGPT            |  53.0   &nbsp;&nbsp;   70.1  |  55.9   &nbsp;&nbsp;   58.3  |  73.5   &nbsp;&nbsp;   72.9  |  45.1   &nbsp;&nbsp;   59.8  |  37.5   &nbsp;&nbsp;   89.4  |
+| Polyglot-ko-13B  |  69.6   &nbsp;&nbsp;   73.7  |**59.5** &nbsp;&nbsp; **63.1**|**79.4** &nbsp;&nbsp; **81.1**|  48.2   &nbsp;&nbsp;   60.4  |  91.2   &nbsp;&nbsp;   90.2  |
+| LLaMA 2-13B      |  46.7   &nbsp;&nbsp;   63.7  |  41.3   &nbsp;&nbsp;   44.0  |  59.3   &nbsp;&nbsp;   63.8  |  34.9   &nbsp;&nbsp;   73.8  |  51.5   &nbsp;&nbsp;   73.4  |
+| Baichuan 2-13B   |  52.1   &nbsp;&nbsp;   58.7  |  39.2   &nbsp;&nbsp;   39.6  |  60.6   &nbsp;&nbsp;   60.6  |  58.4   &nbsp;&nbsp;   61.5  |  50.3   &nbsp;&nbsp;   72.9  |
+| QWEN-14B         |  53.8   &nbsp;&nbsp;   73.7  |  45.3   &nbsp;&nbsp;   46.8  |  64.9   &nbsp;&nbsp;   68.9  |  33.4   &nbsp;&nbsp;   83.5  |  71.5   &nbsp;&nbsp;   95.7  |
+| Yi-34B           |  54.2   &nbsp;&nbsp;   72.1  |  44.6   &nbsp;&nbsp;   44.7  |  58.0   &nbsp;&nbsp;   60.6  |  65.9   &nbsp;&nbsp;   90.2  |  48.3   &nbsp;&nbsp;   92.9  |
+|**Orion-14B-Chat**|**74.5** &nbsp;&nbsp; **79.6**|  47.0   &nbsp;&nbsp;   49.6  |  77.7   &nbsp;&nbsp;   79.4  |**81.6** &nbsp;&nbsp; **90.7**|**92.4** &nbsp;&nbsp; **98.7**|
 
-## Multilingual evaluation
+### Multilingual evaluation
 | Model              | Train Lang | Japanese | Korean   | Chinese  |  English |
 |--------------------|------------|----------|----------|----------|----------|
 | PLaMo-13B          |  En,Jp     |   52.3   |   *      |   *      |   *      |
@@ -130,9 +131,9 @@ Model release and download links are provided in the table below:
 | Qwen-14B           |  Multi     |   65.8   |   73.7   |   64.5   |   65.4   |
 | Llama2-13B         |  Multi     |   46.3   |   63.7   |   41.4   |   55.3   |
 | Yi-34B             |  Multi     |   67.1   |   72.2   |   58.7   | **68.8** |
-| **Orion-14B**      |  Multi     | **69.1** | **79.5** | **67.9** |   67.3   |
+| **Orion-14B-Chat** |  Multi     | **69.1** | **79.5** | **67.9** |   67.3   |
 
-## Evaluation for data contamination
+### Evaluation for data contamination
 | Model                  |  C-Eval  | CMMLU    |  MMLU    |Lambada   |HellaSwag |
 |------------------------|----------|----------|----------|----------|----------|
 | GPT-4                  |   69.9   |   71.0   |   83.0   |   65.5   | **91.4** |
@@ -141,16 +142,8 @@ Model release and download links are provided in the table below:
 | Orion-14B              |   72.8   |   70.6   |   69.9   |   78.8   |   78.5   |
 | Orion-14B(contaminated)| **92.7** | **82.9** | **85.4** | **78.5** |   85.8   |
 
-## Chat model standard evaluation
-| Model                |   CMMLU  |  MMLU    |  BBH     |HellaSwag |   PIQA   |   WSC    |
-|----------------------|----------|----------|----------|----------|----------|----------|
-| Baichuan2-13B-Chat   |   58.4   |   57.0   |   49.9   |   66.9   |   77.6   | **71.2** |
-| Qwen-14B-Chat        | **70.0** | **66.4** | **58.0** |   65.2   |   74.0   |   66.3   |
-| Llama2-13B-Chat      |   38.7   |   54.6   |  40.2    | **78.2** | **78.8** |   68.3   |
-| InternLM-20B-Chat    |   52.2   |   52.5   |  35.3    |   69.2   |   76.7   |   61.5   |
-| **Orion-14B-Chat**   |   63.7   |   61.71  |  49.05   |   76.7   |   78.4   |   71.15  |
-
-## Chat model subjective evaluation of MTBench
+## Chat Model Benchmarks
+### Chat model subjective evaluation of MTBench
 | Model        | First-Turn | Second-Turn | **Average** |
 |----------------------|----------|----------|----------|
 | Baichuan2-13B-Chat   |   7.05   |   6.47   |   6.76   |
@@ -159,14 +152,14 @@ Model release and download links are provided in the table below:
 | InternLM-20B-Chat    |   7.03   |   5.93   |   6.48   |
 | **Orion-14B-Chat**   | **7.68** | **7.07** | **7.37** |
 
-## Chat model subjective evaluation of AlignBench
+### Chat model subjective evaluation of AlignBench
 | Model              | Math.  |  Logi. | Basic. | Chi.   | Comp.  | Writ.  | Role.  | Prof.  |**Avg.**|
 |--------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 | Baichuan2-13B-Chat |  3.76  |  4.07  |  6.22  |  6.05  |  7.11  |  6.97  |  6.75  |  6.43  |  5.25  |
 | Qwen-14B-Chat      |**4.91**|**4.71**|**6.90**|  6.36  |  6.74  |  6.64  |  6.59  |  6.56  |**5.72**|
 | Llama2-13B-Chat    |  3.05  |  3.79  |  5.43  |  4.40  |  6.76  |  6.63  |  6.99  |  5.65  |  4.70  |
 | InternLM-20B-Chat  |  3.39  |  3.92  |  5.96  |  5.50  |**7.18**|  6.19  |  6.49  |  6.22  |  4.96  |
-| Orion-14B-Chat     |  4.00  |  4.24  |  6.18  |**6.57**|  7.16  |**7.36**|**7.16**|**6.99**|  5.51  |
+| **Orion-14B-Chat** |  4.00  |  4.24  |  6.18  |**6.57**|  7.16  |**7.36**|**7.16**|**6.99**|  5.51  |
 
 
 # Model Inference
@@ -191,7 +184,6 @@ messages = [{"role": "user", "content": "Hello, what is your name? "}]
 response = model.chat(tokenizer, messages, streaming=False)
 print(response)
 
-# Hello, my name is ChatMax. Nice to meet you.
 ```
 
 In the above Python code, the model is loaded with `device_map='auto'` to utilize all available GPUs. To specify the
