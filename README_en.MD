@@ -8,10 +8,6 @@
 </h1>
 </div>
 
-<p align="center">
-🤗 <a href="https://huggingface.co/OrionStarAI/Orion-14B" target="_blank">HuggingFace Model Download</a> |  🤖 <a href="https://modelscope.cn/models/OrionStarAI/Orion-14B/summary" target="_blank">ModelScope Download</a>
-</p>
-
 <div align="center">
 
 
@@ -23,6 +19,12 @@
 </h4>
 
 </div>
+
+<p align="center">
+🤗 <a href="https://huggingface.co/OrionStarAI" target="_blank">HuggingFace Mainpage</a> | 🤖 <a href="https://modelscope.cn/organization/OrionStarAI" target="_blank">ModelScope Mainpage</a> | 🎬 <a href="https://modelscope.cn/studios/OrionStarAI/Orion-14B/summary" target="_blank">Online Demo</a>
+</p>
+
+
 
 # Table of Contents
 
