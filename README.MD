@@ -15,7 +15,7 @@
     <p>
         <b>🇨🇳中文</b> |
         <a href="http://git.ainirobot.com/llm/Orion/blob/master/README_en.MD">🌐English</a><br><br>
-        🤗 <a href="https://huggingface.co/OrionStarAI" target="_blank">HuggingFace主页</a> | 🤖 <a href="https://modelscope.cn/organization/OrionStarAI" target="_blank">ModelScope主页 </a>|  🎬 <a href="https://modelscope.cn/studios/OrionStarAI/Orion-14B/summary" target="_blank">在线Demo</a>
+        🤗 <a href="https://huggingface.co/OrionStarAI" target="_blank">HuggingFace主页</a> | 🤖 <a href="https://modelscope.cn/organization/OrionStarAI" target="_blank">ModelScope主页 </a>|  🎬 <a href="https://modelscope.cn/studios/OrionStarAI/Orion-14B/summary" target="_blank">在线试用</a>
     <p>
 </h4>
 
@@ -37,6 +37,15 @@
 - Orion-14B-Base是一个具有140亿参数的多语种大模型，该模型在一个包含2.5万亿token的多样化数据集上进行了训练，涵盖了中文、英语、日语、韩语等多种语言。在多语言环境下的一系列任务中展现出卓越的性能。
 
 - 在主流的基准评测中，Orion-14B系列模型都具有超强的竞争力，显著超出同规模模型。从公开评估结果来看，Orion-14B系列模型也是首个评估超过三种语言的大语言模型，希望猎户星空全体同仁的贡献能够为多语言LLM研究领域建立一个新的基准
+
+- Orion-14B系列大语言模型包含:
+  - **Orion-14B-Base:**  基于2.5万亿令牌多样化数据集训练处的140亿参数量级的多语言基座模型。
+  - **Orion-14B-Chat:**  基于高质量语料库微调的对话类模型，旨在为大模型社区提供更好的用户交互体验。
+  - **Orion-14B-LongChat:**  支持长度超过200K令牌上下文的交互，在长文本评估集上性能比肩专有模型。
+  - **Orion-14B-RAG:**  在一个定制的检索增强生成数据集上进行微调的聊天模型，在检索增强生成任务中取得了卓越的性能。
+  - **Orion-14B-PlugIn:**  专门针对插件和函数调用任务定制的聊天模型，非常适用于使用代理的相关场景，其中大语言模型充当插件和函数调用系统。
+  - **Orion-14B-Base-Int4:**  一个使用4位整数进行量化的基座模型。它将模型大小显著减小了70%，同时提高了推理速度30%，仅引入了1%的最小性能损失。
+  - **Orion-14B-Chat-Int4:**  一个使用4位整数进行量化的对话模型。
 
 # 下载路径
 
