@@ -49,15 +49,15 @@
 
 发布模型和下载链接见下表：
 
-| 模型名称                 | 下载链接                                                                              |
-|------------------------|--------------------------------------------------------------------------------------|
-| 基座模型                 | ⚾ [Orion-14B-Base](https://huggingface.co/OrionStarAI/Orion-14B-Base)               |
-| 对话模型                 | 😛 [Orion-14B-Chat](https://huggingface.co/OrionStarAI/Orion-14B-Chat)               |
-| 长上下文模型              | 📃 [Orion-14B-LongChat](https://huggingface.co/OrionStarAI/Orion-14B-LongChat)       |
-| 检索增强模型              | 🔎 [Orion-14B-Chat-RAG](https://huggingface.co/OrionStarAI/Orion-14B-Chat-RAG)       |
-| 插件模型                 | 🔌 [Orion-14B-Chat-Plugin](https://huggingface.co/OrionStarAI/Orion-14B-Chat-Plugin) |
-| 基座Int4量化模型          | 💼 [Orion-14B-Base-Int4](https://huggingface.co/OrionStarAI/Orion-14B-Base-Int4)     |
-| 对话Int4量化模型          | 📦 [Orion-14B-Chat-Int4](https://huggingface.co/OrionStarAI/Orion-14B-Chat-Int4)     |
+| 模型名称              | HuggingFace下载链接                                                                |
+|---------------------|-----------------------------------------------------------------------------------|
+| ⚾ 基座模型           | [Orion-14B-Base](https://huggingface.co/OrionStarAI/Orion-14B-Base)               |
+| 😛 对话模型           | [Orion-14B-Chat](https://huggingface.co/OrionStarAI/Orion-14B-Chat)               |
+| 📃 长上下文模型        | [Orion-14B-LongChat](https://huggingface.co/OrionStarAI/Orion-14B-LongChat)       |
+| 🔎 检索增强模型        | [Orion-14B-Chat-RAG](https://huggingface.co/OrionStarAI/Orion-14B-Chat-RAG)       |
+| 🔌 插件模型           | [Orion-14B-Chat-Plugin](https://huggingface.co/OrionStarAI/Orion-14B-Chat-Plugin) |
+| 💼 基座Int4量化模型    | [Orion-14B-Base-Int4](https://huggingface.co/OrionStarAI/Orion-14B-Base-Int4)     |
+| 📦 对话Int4量化模型    | [Orion-14B-Chat-Int4](https://huggingface.co/OrionStarAI/Orion-14B-Chat-Int4)     |
 
 # 评估结果
 
