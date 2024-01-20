@@ -45,7 +45,8 @@
   - The long-chat version supports extremely long texts, extending up to 200K tokens.
   - The quantized versions reduce model size by 70%, improve inference speed by 30%, with performance loss less than 1%.
  <div align="center">
-  <img src="./assets/imgs/model_cap_en.png" alt="model_cap_en" width="50%" />
+  <img src="./assets/imgs/opencompass_en.png" alt="opencompass" style="width: 80%; margin-right: 5px;" />
+  <img src="./assets/imgs/model_cap_en.png" alt="model_cap" style="width: 50%; margin-left: 5px;" />
 </div>
 
 - Orion-14B series models including:
