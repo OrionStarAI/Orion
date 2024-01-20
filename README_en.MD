@@ -36,7 +36,7 @@
 
 # 1. Model Introduction
 
-- Orion-14B series models are open-source multilingual large language models trained from scratch by OrionStarAI.  The base model is trained on 2.5T multilingual corpus, including Chinese, English, Japanese, Korean, etc, and it exhibits superior performance in these languages.
+- Orion-14B series models are open-source multilingual large language models trained from scratch by OrionStarAI.  The base model is trained on 2.5T multilingual corpus, including Chinese, English, Japanese, Korean, etc, and it exhibits superior performance in these languages.  For details, please refer to [tech report]().
 
 - The Orion-14B series models exhibit the following features:
   - Among models with 20B-parameter scale level, Orion-14B-Base model shows outstanding performance in comprehensive evaluations.
@@ -45,7 +45,7 @@
   - The long-chat version supports extremely long texts, extending up to 200K tokens.
   - The quantized versions reduce model size by 70%, improve inference speed by 30%, with performance loss less than 1%.
  <div align="center">
-  <img src="./assets/imgs/model_cap_zh.png" alt="logo" width="50%" />
+  <img src="./assets/imgs/model_cap_en.png" alt="model_cap_en" width="50%" />
 </div>
 
 - Orion-14B series models including:
@@ -321,7 +321,9 @@ Truly Useful Robots", OrionStar empowers more people through AI technology.
 **The core strengths of OrionStar lies in possessing end-to-end AI application capabilities,** including big data preprocessing, large model pretraining, fine-tuning, prompt engineering, agent, etc.  With comprehensive end-to-end model training capabilities, including systematic data processing workflows and the parallel model training capability of hundreds of GPUs, it has been successfully applied in various industry scenarios such as government affairs, cloud services, international e-commerce, and fast-moving consumer goods.
 
 Companies with demands for deploying large-scale model applications are welcome to contact us.
-**Enquiry Hotline: 400-898-7779**
+**Enquiry Hotline: 400-898-7779**<br>
 **E-mail: ai@orionstar.com**
 
-![](./assets/imgs/wechat_group.jpg)
+<div align="center">
+  <img src="./assets/imgs/wechat_group.jpg" alt="wechat" width="40%" />
+</div>
