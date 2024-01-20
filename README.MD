@@ -45,7 +45,8 @@
   - 长上下文版本支持超长文本，长达200k token
   - 量化版本模型大小缩小70%，推理速度提升30%，性能损失小于1%
 <div align="center">
-  <img src="./assets/imgs/model_cap_zh.png" alt="model_cap" width="50%" />
+  <img src="./assets/imgs/opencompass_zh.png" alt="opencompass" style="width: 80%; margin-right: 5px;" />
+  <img src="./assets/imgs/model_cap_zh.png" alt="model_cap" style="width: 50%; margin-left: 5px;" />
 </div>
 
 - 具体而言，Orion-14B系列大语言模型包含:
