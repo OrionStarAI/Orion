@@ -44,14 +44,16 @@
   - The fine-tuned models demonstrate strong adaptability, excelling in human-annotated blind tests.
   - The long-chat version supports extremely long texts, extending up to 200K tokens.
   - The quantized versions reduce model size by 70%, improve inference speed by 30%, with performance loss less than 1%.
-<div style="display: flex; justify-content: center;">
-  <div style="position: relative;">
-    <img src="./assets/imgs/opencompass_zh.png" alt="Image 1" style="width: auto; height: 220px;">
-  </div>
-  <div style="position: relative;">
-    <img src="./assets/imgs/model_cap_zh.png" alt="Image 2" style="width: auto; height: 220px;">
-  </div>
-</div>
+  <table style="border-collapse: collapse; width: 100%;">
+    <tr>
+      <td style="border: none; padding: 10px; box-sizing: border-box;">
+        <img src="./assets/imgs/opencompass_en.png" alt="opencompass" style="width: 100%; height: auto;">
+      </td>
+      <td style="border: none; padding: 10px; box-sizing: border-box;">
+        <img src="./assets/imgs/model_cap_en.png" alt="modelcap" style="width: 100%; height: auto;">
+      </td>
+    </tr>
+  </table>
 
 - Orion-14B series models including:
   - **Orion-14B-Base:**  A multilingual large language foundational model with 14 billion parameters, pretrained on a diverse dataset of 2.5 trillion tokens.
