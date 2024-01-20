@@ -295,8 +295,8 @@ improperly utilized, we will not assume any responsibility.
 ## License
 
 Community use of the Orion-14B series models
-For code, please comply with  [Apache License Version 2.0](LICENSE)
-For model, please comply with [【Orion-14B Series】 Models Community License Agreement](ModelsCommunityLicenseAgreement)
+For code, please comply with  [Apache License Version 2.0](./LICENSE)<br>
+For model, please comply with [【Orion-14B Series】 Models Community License Agreement](./ModelsCommunityLicenseAgreement)
 
 # Contact Us
 
