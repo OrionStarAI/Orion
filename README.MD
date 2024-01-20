@@ -326,7 +326,7 @@ Truly Useful Robots", OrionStar empowers more people through AI technology.
 
 **The core strengths of OrionStar lies in possessing end-to-end AI application capabilities,** including big data preprocessing, large model pretraining, fine-tuning, prompt engineering, agent, etc.  With comprehensive end-to-end model training capabilities, including systematic data processing workflows and the parallel model training capability of hundreds of GPUs, it has been successfully applied in various industry scenarios such as government affairs, cloud services, international e-commerce, and fast-moving consumer goods.
 
-Companies with demands for deploying large-scale model applications are welcome to contact us.
+Companies with demands for deploying large-scale model applications are welcome to contact us.<br>
 **Enquiry Hotline: 400-898-7779**<br>
 **E-mail: ai@orionstar.com**
 
