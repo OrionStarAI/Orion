@@ -272,7 +272,7 @@ User: Tell me a joke.
 Orion-14B: Sure, here's a classic one-liner: Why don't scientists trust atoms? Because they make up everything.
 `````
 
-## 日韩
+## Japanese & Korean Chat
 
 `````
 User：自己を紹介してください
