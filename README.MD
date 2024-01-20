@@ -45,12 +45,13 @@
   - 长上下文版本支持超长文本，长达200k token
   - 量化版本模型大小缩小70%，推理速度提升30%，性能损失小于1%
 
+
 <div style="display: flex; justify-content: center;">
-  <div style="position: relative;">
-    <img src="./assets/imgs/opencompass_zh.png" alt="Image 1" style="width: auto; height: 220px;">
+  <div style="flex: 1; padding: 10px;">
+    <img src="./assets/imgs/opencompass_zh.png" alt="Image 1" style="width: 100%;">
   </div>
-  <div style="position: relative;">
-    <img src="./assets/imgs/model_cap_zh.png" alt="Image 2" style="width: auto; height: 220px;">
+  <div style="flex: 1; padding: 10px;">
+    <img src="./assets/imgs/model_cap_zh.png" alt="Image 2" style="width: 50%;">
   </div>
 </div>
 
