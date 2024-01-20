@@ -149,6 +149,7 @@ Model release and download links are provided in the table below:
 | Llama2-13B-Chat      |   7.10   |   6.20   |   6.65   |
 | InternLM-20B-Chat    |   7.03   |   5.93   |   6.48   |
 | **Orion-14B-Chat**   | **7.68** | **7.07** | **7.37** |
+\* use vllm for inference
 
 ### Chat model subjective evaluation of AlignBench
 | Model              | Math.  |  Logi. | Basic. | Chi.   | Comp.  | Writ.  | Role.  | Prof.  |**Avg.**|
@@ -158,6 +159,8 @@ Model release and download links are provided in the table below:
 | Llama2-13B-Chat    |  3.05  |  3.79  |  5.43  |  4.40  |  6.76  |  6.63  |  6.99  |  5.65  |  4.70  |
 | InternLM-20B-Chat  |  3.39  |  3.92  |  5.96  |  5.50  |**7.18**|  6.19  |  6.49  |  6.22  |  4.96  |
 | **Orion-14B-Chat** |  4.00  |  4.24  |  6.18  |**6.57**|  7.16  |**7.36**|**7.16**|**6.99**|  5.51  |
+
+ \* use vllm for inference
 
 ## 3. LongChat Model Benchmarks
 ### LongChat evaluation of LongBench
@@ -227,7 +230,7 @@ device, you can use something like `export CUDA_VISIBLE_DEVICES=0,1` (using GPUs
 ## Command Line Tool
 
 ```shell
-python cli_demo.py
+CUDA_VISIBLE_DEVICES=0 python cli_demo.py
 ```
 
 This command-line tool is designed for chat scenarios, and thus, it does not support calling the base model.
@@ -235,7 +238,13 @@ This command-line tool is designed for chat scenarios, and thus, it does not sup
 ## Direct Script Inference
 
 ```shell
- python text_generation.py --model OrionStarAI/Orion-14B --tokenizer OrionStarAI/Orion-14B --prompt 你好,你叫什么名字
+
+# base model
+CUDA_VISIBLE_DEVICES=0 python demo/text_generation_base.py --model OrionStarAI/Orion-14B --tokenizer OrionStarAI/Orion-14B --prompt hello
+
+# chat model
+CUDA_VISIBLE_DEVICES=0 python demo/text_generation.py --model OrionStarAI/Orion-14B-Chat --tokenizer OrionStarAI/Orion-14B-Chat --prompt hi
+
 ```
 
 # Example Output
@@ -295,7 +304,9 @@ improperly utilized, we will not assume any responsibility.
 ## License
 
 Community use of the Orion-14B model must comply with
-the [Apache 2.0](https://github.com/OrionStarAI/Orion-14B/blob/main/LICENSE).
+the [Orion-14B Series Models Community License Agreement](https://github.com/OrionStarAI/Orion-14B/blob/main/ORION_MODEL_LICENSE.txt).
+
+Code must comply with the[Apache 2.0](https://github.com/OrionStarAI/Orion/blob/main/LICENSE)
 
 # Contact Us
 
