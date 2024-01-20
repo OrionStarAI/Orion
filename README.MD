@@ -181,7 +181,7 @@
 
 ## 5. 插件模型评估
 ### 自建插件测试集评估结果
-| 模型名称   | 全参数意图识别 | 缺参数意图识别 | 非插件调用识别 |
+| 模型名称  | 全参数意图识别 | 缺参数意图识别 | 非插件调用识别 |
 |-----------------------|--------|-----------|--------|
 | Baichuan2-13B-Chat    |   25   |   0       |   0    |
 | Qwen-14B-Chat         |   55   |   0       |   50   |
@@ -308,7 +308,8 @@ Orion-14B 开源模型而导致的任何问题，包括但不限于数据安全�
 ## 协议
 
 社区使用 Orion-14B
-模型需要遵循 [Orion-14B系列模型社区许可协议](https://github.com/OrionStarAI/Orion/blob/main/ORION_MODEL_LICENSE.txt)
+代码请遵循 [Apache License Version 2.0](LICENSE)
+模型请遵循 [Orion-14B系列模型社区许可协议](ModelsCommunityLicenseAgreement)
 
 # 联系我们
 

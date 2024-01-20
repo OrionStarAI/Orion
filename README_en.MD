@@ -294,8 +294,9 @@ improperly utilized, we will not assume any responsibility.
 
 ## License
 
-Community use of the Orion-14B model must comply with
-the [Apache 2.0](https://github.com/OrionStarAI/Orion-14B/blob/main/LICENSE).
+Community use of the Orion-14B series models
+For code, please comply with  [Apache License Version 2.0](LICENSE)
+For model, please comply with [【Orion-14B Series】 Models Community License Agreement](ModelsCommunityLicenseAgreement)
 
 # Contact Us
 

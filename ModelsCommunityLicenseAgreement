@@ -1,0 +1,167 @@
+【Orion-14B Series】 Models Community License Agreement
+                                 Version: 1.0
+                       Date of Release: 
+ 
+1. Definition
+
+“Agreement” refers to the terms and conditions defined in this 【Orion-14B Series】 Models Community License Agreement for the use, reproduction, and distribution of Yi 
+Series Models.
+ 
+“Model” refers to associated components (including checkpoints) developed based on machine learning, including learned weights and parameters (including the
+status of optimizer).
+ 
+“【Orion-14B Series】 Models” refers to open-source models with different specifications and capabilities provided by the Licensor, including:
+【Orion-14B-Base】Base model
+【Orion-14B-Chat】Chat model
+【Orion-14B-LongChat】Long context chat model
+【Orion-14B-Chat-RAG】Retrieval augmented generation chat model
+【Orion-14B-Chat-Plugin】Chat model with plugin capability
+【Orion-14B-Base-Int4】4-bit integer quantized base model
+【Orion-14B-Chat-Int4】4-bit integer quantized chat model
+ 
+“Derivatives” refers to all modifications to 【Orion-14B Series】 Models, work based on 【Orion-14B Series】 Models, or any other models created or initialized by transferring the weights, parameters, activations, or output patterns of 【Orion-14B Series】 Models to other models to achieve similar performance, including but not limited to methods that require using intermediate data representations or generating synthetic data based on 【Orion-14B Series】 Models to train other models.
+ 
+“Licensor” refers to Beijing Orionstar Technology Co., Ltd.
+ 
+“you” refers to an individual or legal entity that exercises the license granted by this Agreement and/or uses the 【Orion-14B Series】 Models for any purpose and in any field of use.
+ 
+“Third Party” refers to any individuals, legal entities, or non-legal organizations other than you.
+ 
+“Distribute” refers to transmitting, copying, publishing, or otherwise sharing the 【Orion-14B Series】 Models with third parties, including providing the 【Orion-14B Series】Models through electronic or other remote means (such as any SaaS software or PaaS software accessed via API or web access).
+ 
+“Commercial Purposes” refers to the use of the 【Orion-14B Series】 Models, directly or indirectly, for the operation, promotion, revenue generation, or any other profit-making purposes for entities or individuals.
+ 
+“Laws and Regulations” refers to the laws and administrative regulations of the mainland of the People's Republic of China (for the purposes of this Agreement only, excluding Hong Kong, Macau, and Taiwan).
+ 
+“Personal Information” refers to various information related to identified or identifiable natural persons recorded electronically or by other means, excluding information that has been anonymized.
+ 
+“Logo” refers to any trademark, service mark, trade name, domain name, website name, or other distinctive branding marks.
+ 
+2. License and License Restrictions
+The Licensor hereby grants you a non-exclusive, global, non-transferable, on-sub-licensable, revocable, and royalty-free copyright license. You must adhere to the following license restrictions:
+ 
+1) Your use of the 【Orion-14B Series】 Models must comply with the Laws and Regulations as well as applicable legal requirements of other countries/regions, and respect social ethics and moral standards, including but not limited to, not using the【Orion-14B Series】 Models for purposes prohibited by Laws and Regulations as well as applicable legal requirements of other countries/regions, such as harming national security, promoting terrorism, extremism, inciting ethnic or racial hatred, discrimination, violence, or pornography, and spreading false harmful information.
+ 
+2) You shall not, for military or unlawful purposes or in ways not allowed by Laws and Regulations as well as applicable legal requirements of other countries/regions, a) use, copy, or Distribute the【Orion-14B Series】 Models, or b) create complete or partial Derivatives of the 【Orion-14B Series】 Models.
+ 
+3) Your use of the 【Orion-14B Series】 Models (including using the output of the 【Orion-14B Series】 Models) and the creation of Derivatives must not infringe upon the legitimate rights of any Third Party, including but not limited to the rights of personal rights such as the right to likeness, reputation, and privacy, as well as intellectual property rights such as copyrights, patents, trade secrets, and other property rights.
+ 
+4) You must clearly attribute the source of the 【Orion-14B Series】 Models to the Licensor and provide a copy of this Agreement to any Third-Party users of the 【Orion-14B Series】 Models and Derivatives.
+ 
+5) If you modify the 【Orion-14B Series】 Models to create Derivatives, you must clearly indicate the substantial modifications made, and these modifications shall not violate the license restrictions of this Agreement. You shall not enable, assist, or in any way facilitate Third Parties to violate the license restrictions of this Agreement.
+ 
+If you plan to use the 【Orion-14B Series】 Models and Derivatives for Commercial Purposes, please refer to the Registration Form of 【Orion-14B Series】 Models for Commercial Purposes (“Registration Form”), available at 【https://test.orionstar.com/llm-license.html】) and to complete the registration and obtain the license for Commercial Purposes. If you obtained the license for Commercial Purposes and use the 【Orion-14B Series】 Models and Derivatives for Commercial Purposes, you must comply with the afore-mentioned license restrictions.
+ 
+ 
+3. Intellectual Property
+The ownership of the 【Orion-14B Series】 Models and their related intellectual property rights is solely held by the Licensor.
+ 
+In any circumstance, without the prior written consent of the Licensor, you are not allowed to use any Logo associated with the Licensor. If your use of the Licensor's Logo in violation of this Agreement causes any losses to the Licensor or others, you will bear full legal responsibility.
+
+Within the scope of the granted license, you are authorized to modify the Orion-14B series models to create derivative works. You may assert intellectual property rights over the portions of the derivative works that are the product of your creative labor.
+ 
+ 
+4. Disclaimer and Limitation of Liability
+
+The 【Orion-14B Series】 Models are provided "AS IS." The Licensor does not provide any express or implied warranties for the 【Orion-14B Series】 Models, including but not limited to stability, ownership, merchantability, non-infringement, or fitness for a specific purpose of the 【Orion-14B Series】 Models and their output results. You assume all responsibilities for the risks and consequences arising from the use, reproduction, and distribution of the 【Orion-14B Series】 Models, and the creation of Derivatives.
+ 
+The Licensor complies with Laws and Regulations at all stages of model training, maintaining the legality, authenticity, accuracy, objectivity, and diversity of data and algorithms. The Licensor is not liable for any direct, indirect, incidental consequences, and other losses or damages related to your use, reproduction, and distribution of the 【Orion-14B Series】 Models, and the creation of Derivatives under this Agreement. This includes but is not limited to:
+ 
+1) The Licensor is not responsible for data security risks resulting from your use of the 【Orion-14B Series】 Models.
+ 
+2) The 【Orion-14B Series】 Models may contain Personal Information. When you use 【Orion-14B Series】 Models, you acknowledge that you are the data processing entity as defined under the Laws and Regulations responsible for determining the processing methods and purposes of Personal Information. You must comply with legal requirements for processing any Personal Information that may be contained in the 【Orion-14B Series】 Models and assume the associated legal responsibilities, as well as the risks
+and consequences of processing Personal Information.
+ 
+3) The Licensor is not liable for reputation risks arising from your use of the 【Orion-14B Series】 Models or the output results of the 【Orion-14B Series】 Models.
+ 
+4) The Licensor is not liable for intellectual property risks associated with your use of the 【Orion-14B Series】 Models’ output results.
+ 
+If your use, reproduction, distribution of the 【Orion-14B Series】 Models, or the creation of Derivatives result in losses to the Licensor, the Licensor has the right to seek compensation from you. For any claims made by Third Parties against the Licensor related to your use, reproduction, and distribution of the 【Orion-14B Series】 Models, or the creation of Derivatives, the Licensor has the right to demand that you defend, compensate, and indemnify the Licensor and protect the Licensor from harm.
+ 
+ 
+5. Dispute Resolution
+The stipulation, effectiveness, interpretation, performance, modification, and termination of the Agreement, the use, copy, and Distribute of the 【Orion-14B Series】 Models, and dispute resolution associated with your use, copy, and distribution shall be governed by the laws of the mainland of the People's Republic of China (for the purposes of this agreement only, excluding Hong Kong, Macau, and Taiwan), and the application of conflict of laws is excluded.
+ Any disputes arising from the use, copy, or distribution of the 【Orion-14B Series】 Models should first be resolved through amicable negotiations. If negotiations fail, legal proceedings should be initiated in the People's Court at the location of the Licensor.
+ 
+ 
+6. Effectiveness and Termination of the Agreement
+
+Your use of the 【Orion-14B Series】 Models signifies that you have read and agreed to be bound by the terms of the Agreement. The Agreement becomes effective from the date of your use of the 【Orion-14B Series】 Models and will terminate from the date you cease using the 【Orion-14B Series】 Models. If you violate any terms or restrictions in the Agreement, the Licensor reserves the right to terminate the Agreement.
+ 
+Upon termination of the Agreement, you must immediately cease using the 【Orion-14B Series】Models. Section 4, "Disclaimer and Limitation of Liability," and Section 5, "Dispute Resolution," of this Agreement remain in effect after the termination of this Agreement.
+ 
+ 
+7. Updates to the Agreement and Contact Information
+
+The Licensor reserves the right to update the Agreement from time to time. 
+
+
+
+
+
+
+【Orion-14B系列】 模型社区许可协议
+版本：1.0
+发布日期：
+    一、 定义 
+“许可”是指本协议中定义的使用、复制和分发的条款和条件。
+ 
+“模型”是指任何附带的基于机器学习的组件（包括检查点），包括学习的权重、参数（包括 优化器状态）。
+ 
+“【Orion-14B系列】 模型”是指基于【Orion-14B-Base】模型构建的一系列具备领域特色的模型，包含 ：
+【Orion-14B-Base】基座模型
+【Orion-14B-Chat】对话模型
+【Orion-14B-LongChat】长上下文模型
+【Orion-14B-Chat-RAG】检索增强模型
+【Orion-14B-Chat-Plugin】插件模型
+【Orion-14B-Base-Int4】基座Int4量化模型
+【Orion-14B-Chat-Int4】对话Int4量化模型
+
+“数据”是指从与模型一起使用的数据集中提取的信息和/或内容的集合，包括用于训练、预 训练或以其他方式评估模型的数据。数据集中提取的信息和/或内容的集合，可能包含个人 信息或非个人信息。 
+
+“个人信息”是指以电子或者其他方式记录的与已识别或者可识别的自然人有关的各种信息， 不包括匿名化处理后的信息。个人信息的处理包括个人信息的收集、存储、使用、加工、 传输、提供、公开、删除等。
+ 
+“输出”是指运行模型的结果，体现在由此产生的信息内容中。
+ 
+“训练”是指为模型提供训练数据，以增强模型的预测能力。
+ 
+“模型衍生品”是指对【Orion-14B系列】模型的所有修改、基于【Orion-14B系列】模型的工作，或通过将 【Orion-14B系列】模型的权重、参数、激活或输出模式转移到其他模型而创建或初始化的任何其他 模型，以使其他模型的性能与【Orion-14B系列】模型类似，包括但不限于需要使用中间数据表示的 提取方法或基于【Orion-14B系列】模型生成合成数据来训练其他模型的方法
+。
+ “分发”是指向第三方传输、复制、发布或以其他方式共享模型或模型衍生品，包括将模型作为通过电子或其他远程方式（例如基于 API 或 Web 访问的任何 SaaS 软件或 PaaS 软件） 提供的托管服务。
+
+ “许可方”是指授予许可的版权所有者或版权所有者实体，包括可能对模型和/或被分发模型拥有权利的个人或实体。本协议下的许可方是：【北京猎户星空科技有限公司】，或其授权可 对任何第三方进行许可的实体或个人。“您”（或“您的”）是指行使本许可授予的权限和/或出于任何目的和在任何使用领域使用模 型的个人或法人实体，属于本协议的被许可人。
+ 
+“第三方”是指您之外的任何个人、法人实体或非法人组织。 
+
+“商业用途”是指使用 【Orion-14B系列】模型，直接或间接为实体或个人进行运营、推广或产生收入，或用于任何其他盈利目的。 
+
+    二、 许可及许可限制 
+根据本许可协议的条款和条件，许可方特此授予您一个非排他性、全球性、不可转让、不可再许可、可撤销、免版税的版权许可。您可以出于非商业用途使用此许可。许可方对您使用【Orion-14B系列】模型的输出或基于【Orion-14B系列】模型得到的模型衍生品不主张任何权利，但您必须满足如下许可限制条件： 
+    1． 您不得出于任何军事或非法目的使用、复制、修改、合并、发布、分发、复制或创建【Orion-14B系列】 模型的全部或部分衍生品。 
+    2． 如果您计划将【Orion-14B系列】模型及模型衍生品用作商业用途，应当按照本协议提供的联络方式，事先向许可方登记并获得许可方的书面授权。请点击以下链接进行登记：https://test.orionstar.com/llm-license.html
+    3． 您对【Orion-14B系列】模型的使用和修改（包括使用【Orion-14B系列】 模型的输出或者基于【Orion-14B系列】 模型得到的模型衍生品）不得违反任何国家的法律法规，尤其是中华人民共和国的法律法规，不得侵犯任何第三方的合法权益，包括但不限于肖像权、名誉权、隐私权等 人格权，著作权、专利权、商业秘密等知识产权，或者其他财产权益。
+    4． 您必须向【Orion-14B系列】模型或其模型衍生品的任何第三方使用者提供【Orion-14B系列】模型的来源以及本协议的副本。
+    5． 您修改【Orion-14B系列】 模型得到模型衍生品，必须以显著的方式说明修改的内容，且上述修改不得违反本协议的许可限制条件，也不能允许、协助或以其他方式使得第三方违反本协议中的许可限制条件。 
+    三、 知识产权 
+    1. 【Orion-14B系列】模型的所有权及其相关知识产权，由许可方单独所有。 
+    2. 在任何情况下，未经许可方事先书面同意，您不得使用许可方任何商标、服务标记、 商号、域名、网站名称或其他显著品牌特征（以下统称为"标识"），包括但不限于明示或暗示您自身为“许可方”。未经许可方事先书面同意，您不得将本条款前述标识以单独或结合的任何方式展示、使用或申请注册商标、进行域名注册等，也不得向他人明示或暗示有权展示、使用、或以其他方式处理这些标识的权利。由于您违反本协议使用许可方上述标识 等给许可方或他人造成损失的，由您承担全部法律责任。 
+    3. 在许可范围内，您可以对【Orion-14B系列】模型进行修改以得到模型衍生品，对于模型衍生品中您付出创造性劳动的部分，您可以主张该部分的知识产权。 
+    四、 免责声明及责任限制 
+    1. 在任何情况下，许可方不对您根据本协议使用【Orion-14B系列】模型而产生或与之相关的任何直接、间接、附带的后果、以及其他损失或损害承担责任。若由此导致许可方遭受损失，您应当向许可方承担全部赔偿责任。
+    2. 模型中的模型参数仅仅是一种示例，如果您需要满足其他要求，需自行训练，并遵守相应数据集的许可协议。您将对【Orion-14B系列】模型的输出及模型衍生品所涉及的知识产权风险或与之相关的任何直接、间接、附带的后果、以及其他损失或损害负责。 
+    3. 尽管许可方在【Orion-14B系列】模型训练的所有阶段，都坚持努力维护数据的合规性和准确 性，但受限于【Orion-14B系列】模型的规模及其概率固有的随机性因素影响，其输出结果的准确性无法得到保证，模型存在被误导的可能。因此，许可方在此声明，许可方不承担您因使用【Orion-14B系列】模型及其源代码而导致的数据安全问题、声誉风险，或任何涉及【Orion-14B系列】模型被误导、误用、传播或不正当使用而产生的任何风险和责任。
+    4. 本协议所称损失或损害包括但不限于下列任何损失或损害（无论此类损失或损害是不可预见的、可预见的、已知的或其他的）:(i)收入损失;(ii)实际或预期利润损失；(ii)货币使用损失；(iv)预期节约的损失；(v)业务损失；(vi)机会损失；(vii)商誉、声誉损失；(viii)软件的使用损失；或(x)任何间接、附带的特殊或间接损害损失。 
+    5. 除非适用的法律另有要求或经过许可方书面同意，否则许可方将按“现状”授予【Orion-14B系列】模型的许可。针对本协议中的【Orion-14B系列】模型，许可方不提供任何明示、暗示的保证，包括但不限于：关于所有权的任何保证或条件、关于适销性的保证或条件、适用于任何特定目的的保证或条件、过去、现在或未来关于【Orion-14B系列】模型不侵权的任何类型的保证、以及因任何交易过程、贸易使用（如建议书、规范或样品）而产生的任何保证。您将对其通过使用、复制或再分发等方式利用【Orion-14B系列】模型所产生的风险与后果，独自承担责任。 
+    6. 您充分知悉并理解同意，【Orion-14B系列】模型中可能包含个人信息。您承诺将遵守所有适用的法律法规进行个人信息的处理，特别是遵守《中华人民共和国个人信息保护法》的相关规定。请注意，许可方给予您使用【Orion-14B系列】模型的授权，并不意味着您已经获得处理相关个人信息的合法性基础。您作为独立的个人信息处理者，需要保证在处理【Orion-14B系列】模型中可能包含的个人信息时，完全符合相关法律法规的要求，包括但不限于获得个人信息主体的授权同意等，并愿意独自承担由此可能产生的任何风险和后果。 
+    7. 您充分理解并同意，许可方有权依合理判断对违反有关法律法规或本协议规定的行为进行处理，对您的违法违规行为采取适当的法律行动，并依据法律法规保存有关信息向有关部门报告等，您应独自承担由此而产生的一切法律责任。 
+    五、 研究、教育和学术目的 
+    1. 根据本许可协议的条款和条件，本着对学术界做出贡献的精神，许可方鼓励非营利性学术机构的师生将【Orion-14B系列】模型用于研究、教育和学术目的。
+    2. 进一步的，如您以研究、教育和学术目的使用【Orion-14B系列】模型，您可以在开展相关研 究、教育前，将您的机构名称、使用情况以及联系方式以邮件方式向我们进行提前告知，我们的联系邮箱为【ai@orionstar.com】，我们将可能基于您的联系方式，向您推送【Orion-14B系列】模型的相关更新资讯，以便您更好地开展研究、教育和学术工作。
+    六、 品牌曝光与显著标识
+    1. 您同意并理解，如您将您基于【Orion-14B系列】模型二次开发的模型衍生品在国内外的开源社区提供开源许可的，您需要在该开源社区以显著方式标注该模型衍生品系基于【Orion-14B系列】模型进行的二次开发，标注内容包括但不限于“【Orion-14B  Series】 Inside”以及与【Orion-14B系列】模型相关的品牌的其他元素。
+    2. 您同意并理解，如您将【Orion-14B系列】模型二次开发的模型衍生品参加国内外任何组织和个人举行的排名活动，包括但不限于针对模型性能、准确度、算法、算力等任何维度的排名活动，您均需在模型说明中以显著方式标注该模型衍生品系基于【Orion-14B系列】模型进行的二次开发，标注内容包括但不限于“【Orion-14B  Series】Inside”以及与【Orion-14B系列】模型相关的品牌的其他元素。 
+    七、 其他 
+    1. 许可方在法律法规许可的范围内对协议条款享有最终解释权。
+    2. 本协议的订立、效力、解释、履行、修改和终止，使用【Orion-14B系列】模型以及争议的解 决均适用中华人民共和国大陆地区（仅为本协议之目的，不包括香港、澳门和台湾）法律，并排除冲突法的适用。
+    3. 因使用【Orion-14B系列】模型而发生的任何争议，各方应首先通过友好协商的方式加以解决。协商不成时，向许可方所在地人民法院提起诉讼。
+
