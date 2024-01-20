@@ -17,7 +17,7 @@
     <p>
         <b>🇨🇳中文</b> |
         <a href="http://git.ainirobot.com/llm/Orion/blob/master/README_en.MD">🌐English</a><br><br>
-        🤗 <a href="https://huggingface.co/OrionStarAI" target="_blank">HuggingFace主页</a> | 🤖 <a href="https://modelscope.cn/organization/OrionStarAI" target="_blank">ModelScope主页</a><br>🎬 <a href="https://huggingface.co/spaces/OrionStarAI/Orion-14B-App-Demo" target="_blank">HuggingFace在线试用</a> | 🎫 <a href="https://modelscope.cn/studios/OrionStarAI/Orion-14B-App-Demo/summary" target="_blank">ModelScope在线试用</a>
+        🤗 <a href="https://huggingface.co/OrionStarAI" target="_blank">HuggingFace主页</a> | 🤖 <a href="https://modelscope.cn/organization/OrionStarAI" target="_blank">ModelScope主页</a><br>🎬 <a href="https://huggingface.co/spaces/OrionStarAI/Orion-14B-App-Demo" target="_blank">HuggingFace在线试用</a> | 🎫 <a href="https://modelscope.cn/studios/OrionStarAI/Orion-14B-App-Demo/summary" target="_blank">ModelScope在线试用</a><br>📖 <a href="https://github.com/OrionStarAI/Orion/blob/master/doc/Orion14B_v3.pdf" target="_blank">技术报告</a>
     <p>
 </h4>
 
@@ -36,7 +36,7 @@
 
 # 1. 模型介绍
 
-- Orion-14B-Base是一个具有140亿参数的多语种大模型，该模型在一个包含2.5万亿token的多样化数据集上进行了训练，涵盖了中文、英语、日语、韩语等多种语言。在多语言环境下的一系列任务中展现出卓越的性能。在主流的公开基准评测中，Orion-14B系列模型表现优异，多项指标显著超越同等参数基本的其他模型。具体技术细节请参考[技术报告]()。
+- Orion-14B-Base是一个具有140亿参数的多语种大模型，该模型在一个包含2.5万亿token的多样化数据集上进行了训练，涵盖了中文、英语、日语、韩语等多种语言。在多语言环境下的一系列任务中展现出卓越的性能。在主流的公开基准评测中，Orion-14B系列模型表现优异，多项指标显著超越同等参数基本的其他模型。具体技术细节请参考[技术报告](https://github.com/OrionStarAI/Orion/blob/master/doc/Orion14B_v3.pdf)。
 
 - Orion-14B系列大模型有以下几个特点：
   - 基座20B参数级别大模型综合评测效果表现优异
