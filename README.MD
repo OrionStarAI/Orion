@@ -47,10 +47,10 @@
 
 <div style="display: flex; justify-content: center;">
   <div style="position: relative;">
-    <img src="./assets/imgs/opencompass_zh.png" alt="Image 1" style="width: auto; height: 280px;">
+    <img src="./assets/imgs/opencompass_zh.png" alt="Image 1" style="width: auto; height: 220px;">
   </div>
   <div style="position: relative;">
-    <img src="./assets/imgs/model_cap_zh.png" alt="Image 2" style="width: auto; height: 280px;">
+    <img src="./assets/imgs/model_cap_zh.png" alt="Image 2" style="width: auto; height: 220px;">
   </div>
 </div>
 
