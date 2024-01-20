@@ -73,7 +73,7 @@ Model release and download links are provided in the table below:
 
 # 3. Model Benchmarks
 
-## 3.1. Base Model Benchmarks
+## 3.1. Base Model Orion-14B-Base Benchmarks
 ### 3.1.1. LLM evaluation results on examination and professional knowledge
 | Model              | C-Eval   | CMMLU    | MMLU     | AGIEval  | Gaokao   | BBH      |
 |--------------------|----------|----------|----------|----------|----------|----------|
@@ -144,7 +144,7 @@ Model release and download links are provided in the table below:
 | **Orion-14B-Chat** |  Multi     | **69.1** | **79.5** | **67.9** |   67.3   |
 
 
-## 3.2. Chat Model Benchmarks
+## 3.2. Chat Model Orion-14B-Chat Benchmarks
 ### 3.2.1. Chat model subjective evaluation of MTBench
 | Model        | First-Turn | Second-Turn | **Average** |
 |----------------------|----------|----------|----------|
@@ -166,7 +166,7 @@ Model release and download links are provided in the table below:
 
  \* use vllm for inference
 
-## 3.3. LongChat Model Benchmarks
+## 3.3. LongChat Model Orion-14B-LongChat Benchmarks
 ### 3.3.1. LongChat evaluation of LongBench
 | Model           | NarrativeQA|MultiFieldQA-en|MultiFieldQA-zh| DuReader  | QMSum     | VCSUM     | TREC      | TriviaQA  | LSHT      |RepoBench-P|
 |--------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
@@ -188,7 +188,7 @@ Model release and download links are provided in the table below:
 | Orion-14B-Chat-RAG  |  86  |  87  |  91  |  97  |  73  |  71  |
  \* means manual assessment
 
-## 3.5. Chat Plugin Model Benchmarks
+## 3.5. Chat Plugin Model Orion-14B-Chat-Plugin Benchmarks
 ### 3.5.1. LLM evaluation results of self-built plugin testsets
 |Model |Intent Recognition with Full Params |Intent Recognition with Missing Params |Non-Plugin Invocation Recognition |
 |-----------------------|--------|-----------|--------|
@@ -197,7 +197,7 @@ Model release and download links are provided in the table below:
 | GPT-4                 | **95** |   52.38   |   70   |
 | Orion-14B-Chat-Plugin |  92.5  | **60.32** | **90** |
 
-## 3.6. Quantized Model Benchmarks
+## 3.6. Quantized Model Orion-14B-Base-Int4 Benchmarks
 ### 3.6.1. Comparison of before and after quantization
 |Model |Size(GB)|Inference Speed(tokens/s)|C-Eval|CMMLU|MMLU|RACE|HellaSwag|
 |-------------------------|-------|-----|------|------|------|------|------|
