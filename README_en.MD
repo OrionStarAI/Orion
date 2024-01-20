@@ -46,10 +46,10 @@
   - The quantized versions reduce model size by 70%, improve inference speed by 30%, with performance loss less than 1%.
 <div style="display: flex; justify-content: center;">
   <div style="position: relative;">
-    <img src="./assets/imgs/opencompass_zh.png" alt="Image 1" style="width: auto; height: 280px;">
+    <img src="./assets/imgs/opencompass_zh.png" alt="Image 1" style="width: auto; height: 220px;">
   </div>
   <div style="position: relative;">
-    <img src="./assets/imgs/model_cap_zh.png" alt="Image 2" style="width: auto; height: 280px;">
+    <img src="./assets/imgs/model_cap_zh.png" alt="Image 2" style="width: auto; height: 220px;">
   </div>
 </div>
 
