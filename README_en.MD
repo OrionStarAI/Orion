@@ -252,27 +252,33 @@ CUDA_VISIBLE_DEVICES=0 python demo/text_generation.py --model OrionStarAI/Orion-
 ## Casual Chat
 
 `````
-User: Hello, what is your name?
-Orion-14B: Hello, my name is ChatMax. Nice to meet you.
+User: Hello
+Orion-14B: Hello! How can I help you today? If you have any questions or need assistance, feel free to ask.
 User: What functions do you have?
-Orion-14B: I am a versatile AI assistant. I can answer your questions, chat with you, help you look up information, provide life advice, and more.
+Orion-14B: As an AI language model, I have a wide range of functions and capabilities, including but not limited to:
+
+Answering general knowledge questions: I can provide information on various topics such as history, science, geography, and more.
+Providing definitions and explanations: I can explain complex concepts and provide definitions for words and phrases.
+Assisting with tasks: I can help with simple tasks like setting reminders, converting units of measurement, and even ordering food from restaurants.
+Generating text: I can write short stories, essays, articles, and other types of content based on prompts given to me.
+Translating languages: I can translate text from one language to another.
+Chatting: I can engage in conversation with users and respond to their queries in a conversational manner.
+Summarizing long texts: I can summarize longer texts like articles, books, and research papers.
+Generating random numbers and names: I can generate random numbers within a specified range and also suggest names based on certain criteria.
+Playing games: I can play simple games like Hangman, Trivia, and more.
+Providing recommendations: I can recommend movies, music, books, and other forms of entertainment based on user preferences.
+These are just some of the many functions that I am capable of performing. If you have a specific task in mind, feel free to ask me about it.
 User: Tell me a joke.
-Orion-14B: Why is sausage always unhappy? Because it has no friends and can only be sandwiched between bread.
+Orion-14B: Sure, here's a classic one-liner: Why don't scientists trust atoms? Because they make up everything.
 `````
 
-## Mathematical Problem
+## 日韩
 
 `````
-User: In a cage, there are chickens and rabbits with a total of 26 heads and 68 feet. So, how many chickens and how many rabbits are there?
-Orion-14B: Let the number of chickens be x, and the number of rabbits be y.
-According to the problem, we can derive the following two equations:
-x + y = 26 (Total number of heads)
-2x + 4y = 68 (Total number of feet)
-Rewriting the first equation, we get y = 26 - x.
-Substituting the value of y into the second equation, we get:
-2x + 4(26 - x) = 68
-Solving this equation, we find x = 18.
-Therefore, there are 18 chickens and 26 - 18 = 8 rabbits.
+User：自己を紹介してください
+Orion-14B：こんにちは、私の名前はChatMaxで、OrionStarによって開発されたAIアシスタントです。私はユーザーに正確で、客観的で、有用な回答を提供し、彼らが問題を解決し、情報を取得するのを助けることができます。
+User：자기소개를 해주세요.
+Orion-14B：안녕하세요, 제 이름은 ChatMax입니다. OrionStar에서 개발한 AI 어시스턴트입니다. 저는 사용자들에게 정확하고 객관적이며 유용한 답변을 제공하여 문제를 해결하고 정보를 얻는 데 도움을 줄 수 있습니다.
 `````
 
 # Company Introduction
