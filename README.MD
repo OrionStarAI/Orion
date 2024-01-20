@@ -45,14 +45,18 @@
   - 长上下文版本支持超长文本，长达200k token
   - 量化版本模型大小缩小70%，推理速度提升30%，性能损失小于1%
 
-<div style="display: flex; justify-content: center; max-width: 100%;">
-  <div style="flex: 1; padding: 10px; box-sizing: border-box;">
-    <img src="./assets/imgs/opencompass_zh.png" alt="Image 1" style="width: 100%; height: auto;">
-  </div>
-  <div style="flex: 1; padding: 10px; box-sizing: border-box;">
-    <img src="./assets/imgs/model_cap_zh.png" alt="Image 2" style="width: 50%; height: auto;">
-  </div>
+
 </div>
+<table style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <td style="padding: 10px; box-sizing: border-box;">
+      <img src="./assets/imgs/opencompass_zh.png" alt="Image 1" style="width: 100%; height: auto;">
+    </td>
+    <td style="padding: 10px; box-sizing: border-box;">
+      <img src="i./assets/imgs/model_cap_zh.png" alt="Image 2" style="width: 100%; height: auto;">
+    </td>
+  </tr>
+</table>
 
 
 - 具体而言，Orion-14B系列大语言模型包含:
