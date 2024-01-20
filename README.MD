@@ -1,7 +1,7 @@
 <!-- markdownlint-disable first-line-h1 -->
 <!-- markdownlint-disable html -->
 <div align="center">
-  <img src="./assets/imgs/orion_start.PNG" alt="logo" width="50%" />
+  <img src="./assets/imgs/orion_start.PNG" alt="logo" width="30%" />
 </div>
 
 <div align="center">
