@@ -36,7 +36,7 @@
 
 # 1. 模型介绍
 
-- Orion-14B-Base是一个具有140亿参数的多语种大模型，该模型在一个包含2.5万亿token的多样化数据集上进行了训练，涵盖了中文、英语、日语、韩语等多种语言。在多语言环境下的一系列任务中展现出卓越的性能。在主流的公开基准评测中，Orion-14B系列模型表现优异，多项指标显著超越同等参数基本的其他模型。
+- Orion-14B-Base是一个具有140亿参数的多语种大模型，该模型在一个包含2.5万亿token的多样化数据集上进行了训练，涵盖了中文、英语、日语、韩语等多种语言。在多语言环境下的一系列任务中展现出卓越的性能。在主流的公开基准评测中，Orion-14B系列模型表现优异，多项指标显著超越同等参数基本的其他模型。具体技术细节请参考[技术报告]()。
 
 - Orion-14B系列大模型有以下几个特点：
   - 基座20B参数级别大模型综合评测效果表现优异
@@ -45,7 +45,7 @@
   - 长上下文版本支持超长文本，长达200k token
   - 量化版本模型大小缩小70%，推理速度提升30%，性能损失小于1%
 <div align="center">
-  <img src="./assets/imgs/model_cap_zh.png" alt="logo" width="50%" />
+  <img src="./assets/imgs/model_cap_zh.png" alt="model_cap" width="50%" />
 </div>
 
 - 具体而言，Orion-14B系列大语言模型包含:
@@ -321,4 +321,6 @@ Engineering 、Agent开发的全链条能力和经验积累；拥有完整的端
 **咨询电话:** 400-898-7779<br>
 **电子邮箱:** ai@orionstar.com
 
-![](./assets/imgs/wechat_group.jpg)
+<div align="center">
+  <img src="./assets/imgs/wechat_group.jpg" alt="wechat" width="40%" />
+</div>
