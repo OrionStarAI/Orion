@@ -256,18 +256,17 @@ User: Hello
 Orion-14B: Hello! How can I help you today? If you have any questions or need assistance, feel free to ask.
 User: What functions do you have?
 Orion-14B: As an AI language model, I have a wide range of functions and capabilities, including but not limited to:
-
-Answering general knowledge questions: I can provide information on various topics such as history, science, geography, and more.
-Providing definitions and explanations: I can explain complex concepts and provide definitions for words and phrases.
-Assisting with tasks: I can help with simple tasks like setting reminders, converting units of measurement, and even ordering food from restaurants.
-Generating text: I can write short stories, essays, articles, and other types of content based on prompts given to me.
-Translating languages: I can translate text from one language to another.
-Chatting: I can engage in conversation with users and respond to their queries in a conversational manner.
-Summarizing long texts: I can summarize longer texts like articles, books, and research papers.
-Generating random numbers and names: I can generate random numbers within a specified range and also suggest names based on certain criteria.
-Playing games: I can play simple games like Hangman, Trivia, and more.
-Providing recommendations: I can recommend movies, music, books, and other forms of entertainment based on user preferences.
-These are just some of the many functions that I am capable of performing. If you have a specific task in mind, feel free to ask me about it.
+  Answering general knowledge questions: I can provide information on various topics such as history, science, geography, and more.
+  Providing definitions and explanations: I can explain complex concepts and provide definitions for words and phrases.
+  Assisting with tasks: I can help with simple tasks like setting reminders, converting units of measurement, and even ordering food from restaurants.
+  Generating text: I can write short stories, essays, articles, and other types of content based on prompts given to me.
+  Translating languages: I can translate text from one language to another.
+  Chatting: I can engage in conversation with users and respond to their queries in a conversational manner.
+  Summarizing long texts: I can summarize longer texts like articles, books, and research papers.
+  Generating random numbers and names: I can generate random numbers within a specified range and also suggest names based on certain criteria.
+  Playing games: I can play simple games like Hangman, Trivia, and more.
+  Providing recommendations: I can recommend movies, music, books, and other forms of entertainment based on user preferences.
+  These are just some of the many functions that I am capable of performing. If you have a specific task in mind, feel free to ask me about it.
 User: Tell me a joke.
 Orion-14B: Sure, here's a classic one-liner: Why don't scientists trust atoms? Because they make up everything.
 `````
