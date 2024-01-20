@@ -69,7 +69,7 @@ Model release and download links are provided in the table below:
 
 # Model Benchmarks
 
-## Base Model Benchmarks
+## 1. Base Model Benchmarks
 ### LLM evaluation results on examination and professional knowledge
 | Model              | C-Eval   | CMMLU    | MMLU     | AGIEval  | Gaokao   | BBH      |
 |--------------------|----------|----------|----------|----------|----------|----------|
@@ -140,7 +140,7 @@ Model release and download links are provided in the table below:
 | **Orion-14B-Chat** |  Multi     | **69.1** | **79.5** | **67.9** |   67.3   |
 
 
-## Chat Model Benchmarks
+## 2. Chat Model Benchmarks
 ### Chat model subjective evaluation of MTBench
 | Model        | First-Turn | Second-Turn | **Average** |
 |----------------------|----------|----------|----------|
@@ -159,7 +159,18 @@ Model release and download links are provided in the table below:
 | InternLM-20B-Chat  |  3.39  |  3.92  |  5.96  |  5.50  |**7.18**|  6.19  |  6.49  |  6.22  |  4.96  |
 | **Orion-14B-Chat** |  4.00  |  4.24  |  6.18  |**6.57**|  7.16  |**7.36**|**7.16**|**6.99**|  5.51  |
 
-## Chat RAG Model Benchmarks
+## 3. LongChat Model Benchmarks
+### LongChat evaluation of LongBench
+| Model           | NarrativeQA|MultiFieldQA-en|MultiFieldQA-zh| DuReader  | QMSum     | VCSUM     | TREC      | TriviaQA  | LSHT      |RepoBench-P|
+|--------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+| GPT-3.5-Turbo-16k        | **23.60** | **52.30** | **61.20** |   28.70   |   23.40   | **16.00** |   68.00   | **91.40** |   29.20   |   53.60   |
+| LongChat-v1.5-7B-32k     |   16.90   |   41.40   |   29.10   |   19.50   |   22.70   |    9.90   |   63.50   |   82.30   |   23.20   |   55.30   |
+| Vicuna-v1.5-7B-16k       |   19.40   |   38.50   |   43.00   |   19.30   |   22.80   |   15.10   |   71.50   |   86.20   |   28.80   |   43.50   |
+| Yi-6B-200K               |   14.11   |   36.74   |   22.68   |   14.01   |   20.44   |    8.08   |   72.00   |   86.61   |   38.00   | **63.29** |
+| Orion-14B-LongChat       |   19.47   |   48.11   |   55.84   | **37.02** | **24.87** |   15.44   | **77.00** |   89.12   | **45.50** |   54.31   |
+
+
+## 4. Chat RAG Model Benchmarks
 ### LLM evaluation results of self-built RAG testsets
 |Model|Effectiveness of Response(Keyword)|*Effectiveness of Response（subjective evaluation）|Quoting Ability|Fallback Ability|*AutoQA|*Data Extraction|
 |---------------------|------|------|------|------|------|------|
@@ -170,7 +181,7 @@ Model release and download links are provided in the table below:
 | Orion-14B-Chat-RAG  |  86  |  87  |  91  |  97  |  73  |  71  |
  \* means manual assessment
 
-## Chat Plugin Model Benchmarks
+## 5. Chat Plugin Model Benchmarks
 ### LLM evaluation results of self-built plugin testsets
 |Model |Intent Recognition with Full Params |Intent Recognition with Missing Params |Non-Plugin Invocation Recognition |
 |-----------------------|--------|-----------|--------|
@@ -179,7 +190,7 @@ Model release and download links are provided in the table below:
 | GPT-4                 | **95** |   52.38   |   70   |
 | Orion-14B-Chat-Plugin |  92.5  | **60.32** | **90** |
 
-## Quantized Model Benchmarks
+## 6. Quantized Model Benchmarks
 ### Comparison of before and after quantization
 |Model |Size(GB)|Inference Speed(tokens/s)|C-Eval|CMMLU|MMLU|RACE|HellaSwag|
 |-------------------------|-------|-----|------|------|------|------|------|
