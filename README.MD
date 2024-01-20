@@ -49,10 +49,10 @@
 </div>
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
-    <td style="padding: 10px; box-sizing: border-box;">
+    <td style="border: none; padding: 10px; box-sizing: border-box;">
       <img src="./assets/imgs/opencompass_zh.png" alt="Image 1" style="width: 100%; height: auto;">
     </td>
-    <td style="padding: 10px; box-sizing: border-box;">
+    <td style="border: none; padding: 10px; box-sizing: border-box;">
       <img src="./assets/imgs/model_cap_zh.png" alt="Image 2" style="width: 100%; height: auto;">
     </td>
   </tr>
