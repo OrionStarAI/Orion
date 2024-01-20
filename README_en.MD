@@ -16,7 +16,7 @@
 <h4 align="center">
     <p>
         <b>🌐English</b> |
-        <a href="./README.MD">🇨🇳中文</a><br><br>
+        <a href="./README_zh.MD">🇨🇳中文</a><br><br>
         🤗 <a href="https://huggingface.co/OrionStarAI" target="_blank">HuggingFace Mainpage</a> | 🤖 <a href="https://modelscope.cn/organization/OrionStarAI" target="_blank">ModelScope Mainpage</a><br>🎬 <a href="https://huggingface.co/spaces/OrionStarAI/Orion-14B-App-Demo" target="_blank">HuggingFace Demo</a> | 🎫 <a href="https://modelscope.cn/studios/OrionStarAI/Orion-14B-App-Demo/summary" target="_blank">ModelScope Demo</a><br>📖 <a href="https://github.com/OrionStarAI/Orion/blob/master/doc/Orion14B_v3.pdf" target="_blank">Tech Report</a>
     <p>
 </h4>
