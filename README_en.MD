@@ -163,8 +163,7 @@ Model release and download links are provided in the table below:
 | Llama2-13B-Chat    |  3.05  |  3.79  |  5.43  |  4.40  |  6.76  |  6.63  |  6.99  |  5.65  |  4.70  |
 | InternLM-20B-Chat  |  3.39  |  3.92  |  5.96  |  5.50  |**7.18**|  6.19  |  6.49  |  6.22  |  4.96  |
 | **Orion-14B-Chat** |  4.00  |  4.24  |  6.18  |**6.57**|  7.16  |**7.36**|**7.16**|**6.99**|  5.51  |
-
- \* use vllm for inference
+\* use vllm for inference
 
 ## 3.3. LongChat Model Orion-14B-LongChat Benchmarks
 ### 3.3.1. LongChat evaluation of LongBench
