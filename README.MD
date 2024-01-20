@@ -44,17 +44,16 @@
   - 微调模型适应性强，在人类标注盲测中，表现突出
   - 长上下文版本支持超长文本，长达200k token
   - 量化版本模型大小缩小70%，推理速度提升30%，性能损失小于1%
-  <table style="border-collapse: collapse; width: 100%;">
-    <tr>
-      <td style="border: none; padding: 10px; box-sizing: border-box;">
-        <img src="./assets/imgs/opencompass_zh.png" alt="opencompass" style="width: 100%; height: auto;">
-      </td>
-      <td style="border: none; padding: 10px; box-sizing: border-box;">
-        <img src="./assets/imgs/model_cap_zh.png" alt="modelcap" style="width: 100%; height: auto;">
-      </td>
-    </tr>
-  </table>
-
+ <table style="border-collapse: collapse; width: 100%;">
+   <tr>
+     <td style="border: none; padding: 10px; box-sizing: border-box;">
+       <img src="./assets/imgs/opencompass_zh.png" alt="opencompass" style="width: 100%; height: auto;">
+     </td>
+     <td style="border: none; padding: 10px; box-sizing: border-box;">
+       <img src="./assets/imgs/model_cap_zh.png" alt="modelcap" style="width: 100%; height: auto;">
+     </td>
+   </tr>
+ </table>
 
 - 具体而言，Orion-14B系列大语言模型包含:
   - **Orion-14B-Base:**  基于2.5万亿令牌多样化数据集训练处的140亿参数量级的多语言基座模型。
