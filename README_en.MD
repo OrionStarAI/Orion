@@ -1,6 +1,8 @@
 <!-- markdownlint-disable first-line-h1 -->
 <!-- markdownlint-disable html -->
-![](./assets/imgs/orion_start.PNG)
+<div align="center">
+  <img src="./assets/imgs/orion_start.PNG" alt="logo" width="50%" />
+</div>
 
 <div align="center">
 <h1>
@@ -29,10 +31,10 @@
 - [🔗 Model Download](#model-download)
 - [🔖 Model Benchmark](#model-benchmark)
 - [📊 Model Inference](#model-inference)
-- [🥇 Company Introduction](#company-introduction)
 - [📜 Declarations & License](#declarations-license)
+- [🥇 Company Introduction](#company-introduction)
 
-# Model Introduction
+# 1. Model Introduction
 
 - Orion-14B series models are open-source multilingual large language models trained from scratch by OrionStarAI.  The base model is trained on 2.5T multilingual corpus, including Chinese, English, Japanese, Korean, etc, and it exhibits superior performance in these languages.
 
@@ -42,7 +44,9 @@
   - The fine-tuned models demonstrate strong adaptability, excelling in human-annotated blind tests.
   - The long-chat version supports extremely long texts, extending up to 200K tokens.
   - The quantized versions reduce model size by 70%, improve inference speed by 30%, with performance loss less than 1%.
-  ![](./assets/imgs/model_cap_en.png)
+ <div align="center">
+  <img src="./assets/imgs/model_cap_zh.png" alt="logo" width="50%" />
+</div>
 
 - Orion-14B series models including:
   - **Orion-14B-Base:**  A multilingual large language foundational model with 14 billion parameters, pretrained on a diverse dataset of 2.5 trillion tokens.
@@ -53,7 +57,7 @@
   - **Orion-14B-Base-Int4:**  A quantized base model utilizing 4-bit integer weights. It significantly reduces the model size by 70% and increases the inference speed by 30% while incurring a minimal performance loss of only 1%.
   - **Orion-14B-Chat-Int4:**  A quantized chat model utilizing 4-bit integer weights.
 
-# Model Download
+# 2. Model Download
 
 Model release and download links are provided in the table below:
 
@@ -67,10 +71,10 @@ Model release and download links are provided in the table below:
 | 💼Orion-14B-Base-Int4   | [Orion-14B-Base-Int4](https://huggingface.co/OrionStarAI/Orion-14B-Base-Int4)     | [Orion-14B-Base-Int4](https://modelscope.cn/models/OrionStarAI/Orion-14B-Base-Int4/summary)     |
 | 📦Orion-14B-Chat-Int4   | [Orion-14B-Chat-Int4](https://huggingface.co/OrionStarAI/Orion-14B-Chat-Int4)     | [Orion-14B-Chat-Int4](https://modelscope.cn/models/OrionStarAI/Orion-14B-Chat-Int4/summary)     |
 
-# Model Benchmarks
+# 3. Model Benchmarks
 
-## 1. Base Model Benchmarks
-### LLM evaluation results on examination and professional knowledge
+## 3.1. Base Model Benchmarks
+### 3.1.1. LLM evaluation results on examination and professional knowledge
 | Model              | C-Eval   | CMMLU    | MMLU     | AGIEval  | Gaokao   | BBH      |
 |--------------------|----------|----------|----------|----------|----------|----------|
 | LLaMA2-13B         |   41.4   |   38.4   |   55.0   |   30.9   |   18.2   |   45.6   |
@@ -80,7 +84,7 @@ Model release and download links are provided in the table below:
 | InternLM-20B       |   58.8   |   59.0   |   62.1   |   44.6   |   45.5   |   52.5   |
 | **Orion-14B-Base** | **72.9** | **70.6** | **69.9** | **54.7** |   62.1   | **56.5** |
 
-### LLM evaluation results on language understanding and common knowledge
+### 3.1.2. LLM evaluation results on language understanding and common knowledge
 | Model             |RACE-middle|RACE-high |HellaSwag | PIQA     | Lambada  | WSC      |
 |--------------------|----------|----------|----------|----------|----------|----------|
 | LLaMA 2-13B        |   63.0   |   58.9   |   77.5   |   79.8   |   76.5   |   66.3   |
@@ -90,7 +94,7 @@ Model release and download links are provided in the table below:
 | InternLM-20B       |   86.4   |   83.3   |   78.1   | **80.3** |   71.8   |   68.3   |
 | **Orion-14B-Base** | **93.3** | **91.3** |   78.5   |   79.5   | **78.9** | **70.2** |
 
-### LLM evaluation results of OpenCompass testsets
+### 3.1.3. LLM evaluation results of OpenCompass testsets
 | Model | Average  | Examination | Language | Knowledge | Understanding | Reasoning |
 |------------------|----------|----------|----------|----------|----------|----------|
 | LLaMA 2-13B      |   47.3   |   45.2   |   47.0   |   58.3   |   50.9   |   43.6   |
@@ -100,7 +104,7 @@ Model release and download links are provided in the table below:
 | InternLM-20B     |   59.4   |   62.5   |   55.0   | **60.1** |   67.3   |   54.9   |
 |**Orion-14B-Base**| **64.4** | **71.4** | **55.0** |   60.0   | **71.9** | **61.6** |
 
-### Comparison of LLM performances on Japanese testsets
+### 3.1.4. Comparison of LLM performances on Japanese testsets
 | Model             |**Average**|  JCQA    |  JNLI    |  MARC    |  JSQD    |  JQK     |  XLS     |  XWN     |  MGSM    |
 |--------------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
 | PLaMo-13B          |   52.3   |   56.7   |   42.8   |   95.8   |   70.6   |   71.0   |   8.70   |   70.5   |   2.40   |
@@ -113,7 +117,7 @@ Model release and download links are provided in the table below:
 | Yi-34B             |   67.1   |   83.8   |   61.2   |   95.2   | **86.1** |   78.5   | **27.2** |   69.2   |   35.2   |
 | **Orion-14B-Base** | **69.1** | **88.2** | **75.8** |   94.1   |   75.7   | **85.1** |   17.3   | **78.8** | **38.0** |
 
-### Comparison of LLM performances on Korean testsets. n = 0 and n = 5 stand for n-shot prompts used in the evaluation
+### 3.1.5. Comparison of LLM performances on Korean testsets. n = 0 and n = 5 stand for n-shot prompts used in the evaluation
 |Model      | **Average**<br>n=0&nbsp;&nbsp;n=5 | HellaSwag<br>n=0&nbsp;&nbsp;n=5 | COPA<br> n=0&nbsp;&nbsp;n=5 | BooIQ<br>n=0&nbsp;&nbsp;n=5 | SentiNeg<br>n=0&nbsp;&nbsp;n=5|
 |------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|
 | KoGPT            |  53.0   &nbsp;&nbsp;   70.1  |  55.9   &nbsp;&nbsp;   58.3  |  73.5   &nbsp;&nbsp;   72.9  |  45.1   &nbsp;&nbsp;   59.8  |  37.5   &nbsp;&nbsp;   89.4  |
@@ -124,7 +128,7 @@ Model release and download links are provided in the table below:
 | Yi-34B           |  54.2   &nbsp;&nbsp;   72.1  |  44.6   &nbsp;&nbsp;   44.7  |  58.0   &nbsp;&nbsp;   60.6  |  65.9   &nbsp;&nbsp;   90.2  |  48.3   &nbsp;&nbsp;   92.9  |
 |**Orion-14B-Chat**|**74.5** &nbsp;&nbsp; **79.6**|  47.0   &nbsp;&nbsp;   49.6  |  77.7   &nbsp;&nbsp;   79.4  |**81.6** &nbsp;&nbsp; **90.7**|**92.4** &nbsp;&nbsp; **98.7**|
 
-### Multilingual evaluation
+### 3.1.6. Multilingual evaluation
 | Model              | Train Lang | Japanese | Korean   | Chinese  |  English |
 |--------------------|------------|----------|----------|----------|----------|
 | PLaMo-13B          |  En,Jp     |   52.3   |   *      |   *      |   *      |
@@ -140,8 +144,8 @@ Model release and download links are provided in the table below:
 | **Orion-14B-Chat** |  Multi     | **69.1** | **79.5** | **67.9** |   67.3   |
 
 
-## 2. Chat Model Benchmarks
-### Chat model subjective evaluation of MTBench
+## 3.2. Chat Model Benchmarks
+### 3.2.1. Chat model subjective evaluation of MTBench
 | Model        | First-Turn | Second-Turn | **Average** |
 |----------------------|----------|----------|----------|
 | Baichuan2-13B-Chat   |   7.05   |   6.47   |   6.76   |
@@ -151,7 +155,7 @@ Model release and download links are provided in the table below:
 | **Orion-14B-Chat**   | **7.68** | **7.07** | **7.37** |
 \* use vllm for inference
 
-### Chat model subjective evaluation of AlignBench
+### 3.2.2. Chat model subjective evaluation of AlignBench
 | Model              | Math.  |  Logi. | Basic. | Chi.   | Comp.  | Writ.  | Role.  | Prof.  |**Avg.**|
 |--------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 | Baichuan2-13B-Chat |  3.76  |  4.07  |  6.22  |  6.05  |  7.11  |  6.97  |  6.75  |  6.43  |  5.25  |
@@ -162,8 +166,8 @@ Model release and download links are provided in the table below:
 
  \* use vllm for inference
 
-## 3. LongChat Model Benchmarks
-### LongChat evaluation of LongBench
+## 3.3. LongChat Model Benchmarks
+### 3.3.1. LongChat evaluation of LongBench
 | Model           | NarrativeQA|MultiFieldQA-en|MultiFieldQA-zh| DuReader  | QMSum     | VCSUM     | TREC      | TriviaQA  | LSHT      |RepoBench-P|
 |--------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 | GPT-3.5-Turbo-16k        | **23.60** | **52.30** | **61.20** |   28.70   |   23.40   | **16.00** |   68.00   | **91.40** |   29.20   |   53.60   |
@@ -173,8 +177,8 @@ Model release and download links are provided in the table below:
 | Orion-14B-LongChat       |   19.47   |   48.11   |   55.84   | **37.02** | **24.87** |   15.44   | **77.00** |   89.12   | **45.50** |   54.31   |
 
 
-## 4. Chat RAG Model Benchmarks
-### LLM evaluation results of self-built RAG testsets
+## 3.4. Chat RAG Model Benchmarks
+### 3.4.1. LLM evaluation results of self-built RAG testsets
 |Model|Effectiveness of Response(Keyword)|*Effectiveness of Response（subjective evaluation）|Quoting Ability|Fallback Ability|*AutoQA|*Data Extraction|
 |---------------------|------|------|------|------|------|------|
 | Baichuan2-13B-Chat  |  85  |  76  |  1   |  0   |  69  |  51  |
@@ -184,8 +188,8 @@ Model release and download links are provided in the table below:
 | Orion-14B-Chat-RAG  |  86  |  87  |  91  |  97  |  73  |  71  |
  \* means manual assessment
 
-## 5. Chat Plugin Model Benchmarks
-### LLM evaluation results of self-built plugin testsets
+## 3.5. Chat Plugin Model Benchmarks
+### 3.5.1. LLM evaluation results of self-built plugin testsets
 |Model |Intent Recognition with Full Params |Intent Recognition with Missing Params |Non-Plugin Invocation Recognition |
 |-----------------------|--------|-----------|--------|
 | Baichuan2-13B-Chat    |   25   |   0       |   0    |
@@ -193,20 +197,20 @@ Model release and download links are provided in the table below:
 | GPT-4                 | **95** |   52.38   |   70   |
 | Orion-14B-Chat-Plugin |  92.5  | **60.32** | **90** |
 
-## 6. Quantized Model Benchmarks
-### Comparison of before and after quantization
+## 3.6. Quantized Model Benchmarks
+### 3.6.1. Comparison of before and after quantization
 |Model |Size(GB)|Inference Speed(tokens/s)|C-Eval|CMMLU|MMLU|RACE|HellaSwag|
 |-------------------------|-------|-----|------|------|------|------|------|
 | OrionStar-14B-Base      |  28.0 | 135 | 72.8 | 70.6 | 70.0 | 93.3 | 78.5 |
 | OrionStar-14B-Base-Int4 |  8.3  | 178 | 71.8 | 69.8 | 69.2 | 93.1 | 78.0 |
 
-# Model Inference
+# 4. Model Inference
 
 Model weights, source code, and configuration needed for inference are published on Hugging Face, and the download link
 is available in the table at the beginning of this document. We demonstrate various inference methods here, and the
 program will automatically download the necessary resources from Hugging Face.
 
-## Python Code
+## 4.1. Python Code
 
 ```python
 import torch
@@ -227,7 +231,7 @@ print(response)
 In the above Python code, the model is loaded with `device_map='auto'` to utilize all available GPUs. To specify the
 device, you can use something like `export CUDA_VISIBLE_DEVICES=0,1` (using GPUs 0 and 1).
 
-## Command Line Tool
+## 4.2. Command Line Tool
 
 ```shell
 CUDA_VISIBLE_DEVICES=0 python cli_demo.py
@@ -235,7 +239,7 @@ CUDA_VISIBLE_DEVICES=0 python cli_demo.py
 
 This command-line tool is designed for chat scenarios, and thus, it does not support calling the base model.
 
-## Direct Script Inference
+## 4.3. Direct Script Inference
 
 ```shell
 
@@ -247,9 +251,9 @@ CUDA_VISIBLE_DEVICES=0 python demo/text_generation.py --model OrionStarAI/Orion-
 
 ```
 
-# Example Output
+## 4.4 Example Output
 
-## Casual Chat
+### 4.4.1. Casual Chat
 
 `````
 User: Hello
@@ -271,7 +275,7 @@ User: Tell me a joke.
 Orion-14B: Sure, here's a classic one-liner: Why don't scientists trust atoms? Because they make up everything.
 `````
 
-## Japanese & Korean Chat
+### 4.4.2. Japanese & Korean Chat
 
 `````
 User：自己を紹介してください
@@ -280,7 +284,28 @@ User：자기소개를 해주세요.
 Orion-14B：안녕하세요, 제 이름은 ChatMax입니다. OrionStar에서 개발한 AI 어시스턴트입니다. 저는 사용자들에게 정확하고 객관적이며 유용한 답변을 제공하여 문제를 해결하고 정보를 얻는 데 도움을 줄 수 있습니다.
 `````
 
-# Company Introduction
+
+# 5. Declarations, License
+
+## 5.1. Declarations
+
+We strongly urge all users not to use the Orion-14B model for any activities that may harm national or social security or violate the law.
+Additionally, we request users not to use the Orion-14B model for internet services without proper security review and filing.
+We hope all users abide by this principle to ensure that technological development takes place in a regulated and legal environment.
+We have done our best to ensure the compliance of the data used in the model training process. However, despite our
+significant efforts, unforeseen issues may still arise due to the complexity of the model and data. Therefore, if any
+problems arise due to the use of the Orion-14B open-source model, including but not limited to data security
+issues, public opinion risks, or any risks and issues arising from the model being misled, abused, disseminated, or
+improperly utilized, we will not assume any responsibility.
+
+## 5.2. License
+
+Community use of the Orion-14B series models
+- For code, please comply with  [Apache License Version 2.0](./LICENSE)<br>
+- For model, please comply with [【Orion-14B Series】 Models Community License Agreement](./ModelsCommunityLicenseAgreement)
+
+
+# 6. Company Introduction
 
 OrionStar is a leading global service robot solutions company, founded in September 2016. OrionStar is dedicated to
 using artificial intelligence technology to create the next generation of revolutionary robots, allowing people to break
@@ -293,27 +318,10 @@ the Orion robotic arm platform, it has launched products such as OrionStar AI Ro
 Lucki, Coffee Master, and established the open platform OrionOS for Orion robots. Following the philosophy of "Born for
 Truly Useful Robots", OrionStar empowers more people through AI technology.
 
-# Declarations, License
+**The core strengths of OrionStar lies in possessing end-to-end AI application capabilities,** including big data preprocessing, large model pretraining, fine-tuning, prompt engineering, agent, etc.  With comprehensive end-to-end model training capabilities, including systematic data processing workflows and the parallel model training capability of hundreds of GPUs, it has been successfully applied in various industry scenarios such as government affairs, cloud services, international e-commerce, and fast-moving consumer goods.
 
-## Declarations
-
-We strongly urge all users not to use the Orion-14B model for any activities that may harm national or social security or violate the law.
-Additionally, we request users not to use the Orion-14B model for internet services without proper security review and filing.
-We hope all users abide by this principle to ensure that technological development takes place in a regulated and legal environment.
-We have done our best to ensure the compliance of the data used in the model training process. However, despite our
-significant efforts, unforeseen issues may still arise due to the complexity of the model and data. Therefore, if any
-problems arise due to the use of the Orion-14B open-source model, including but not limited to data security
-issues, public opinion risks, or any risks and issues arising from the model being misled, abused, disseminated, or
-improperly utilized, we will not assume any responsibility.
-
-## License
-
-Community use of the Orion-14B series models
-- For code, please comply with  [Apache License Version 2.0](./LICENSE)<br>
-- For model, please comply with [【Orion-14B Series】 Models Community License Agreement](./ModelsCommunityLicenseAgreement)
-
-# Contact Us
-
-Email: ai@orionstar.com
+Companies with demands for deploying large-scale model applications are welcome to contact us.
+**Enquiry Hotline: 400-898-7779**
+**E-mail: ai@orionstar.com**
 
 ![](./assets/imgs/wechat_group.jpg)
