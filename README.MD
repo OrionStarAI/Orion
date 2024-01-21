@@ -42,7 +42,7 @@
   - Among models with 20B-parameter scale level, Orion-14B-Base model shows outstanding performance in comprehensive evaluations.
   - Strong multilingual capabilities, significantly outperforming in Japanese and Korean testsets.
   - The fine-tuned models demonstrate strong adaptability, excelling in human-annotated blind tests.
-  - The long-chat version supports extremely long texts, extending up to 200K tokens.
+  - The long-chat version supports extremely long texts, performing exceptionally well at a token length of 200k and can support up to a maximum of 320k.
   - The quantized versions reduce model size by 70%, improve inference speed by 30%, with performance loss less than 1%.
  <table style="border-collapse: collapse; width: 100%;">
    <tr>
