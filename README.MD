@@ -42,7 +42,7 @@
   - Among models with 20B-parameter scale level, Orion-14B-Base model shows outstanding performance in comprehensive evaluations.
   - Strong multilingual capabilities, significantly outperforming in Japanese and Korean testsets.
   - The fine-tuned models demonstrate strong adaptability, excelling in human-annotated blind tests.
-  - The long-chat version supports extremely long texts, extending up to 200K tokens.
+  - The long-chat version supports extremely long texts, performing exceptionally well at a token length of 200k and can support up to a maximum of 320k.
   - The quantized versions reduce model size by 70%, improve inference speed by 30%, with performance loss less than 1%.
  <table style="border-collapse: collapse; width: 100%;">
    <tr>
@@ -58,7 +58,7 @@
 - Orion-14B series models including:
   - **Orion-14B-Base:**  A multilingual large language foundational model with 14 billion parameters, pretrained on a diverse dataset of 2.5 trillion tokens.
   - **Orion-14B-Chat:**  A chat-model fine-tuned on a high-quality corpus aims to provide an excellence interactive experience for users in the large model community.
-  - **Orion-14B-LongChat:**  This model is optimized for long context lengths more than 200k tokens and demonstrates performance comparable to proprietary models on long context evaluation sets.
+  - **Orion-14B-LongChat:**  The long-context version excels at handling extremely lengthy texts, performing exceptionally well at a token length of 200k and can support up to a maximum of 320k.
   - **Orion-14B-Chat-RAG:**  A chat-model fine-tuned on a custom retrieval augmented generation dataset, achieving superior performance in retrieval augmented generation tasks.
   - **Orion-14B-Chat-Plugin:**  A chat-model specifically tailored for plugin and function calling tasks, ideal for agent-related scenarios where the LLM acts as a plugin and function call system.
   - **Orion-14B-Base-Int4:**  A quantized base model utilizing 4-bit integer weights. It significantly reduces the model size by 70% and increases the inference speed by 30% while incurring a minimal performance loss of only 1%.
