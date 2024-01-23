@@ -34,7 +34,8 @@
 - [📜 Declarations & License](#declarations-license)
 - [🥇 Company Introduction](#company-introduction)
 
-# 1. Model Introduction<a name="model-introduction"></a>
+<a name="model-introduction"></a>
+# 1. Model Introduction
 
 - Orion-14B series models are open-source multilingual large language models trained from scratch by OrionStarAI.  The base model is trained on 2.5T multilingual corpus, including Chinese, English, Japanese, Korean, etc, and it exhibits superior performance in these languages.  For details, please refer to [tech report](https://github.com/OrionStarAI/Orion/blob/master/doc/Orion14B_v3.pdf).
 
