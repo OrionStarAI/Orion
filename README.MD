@@ -12,7 +12,7 @@
 <div align="center">
 
 <div align="center">
-     <b>🌐English</b> | <a herf="#目录">🇨🇳中文</a>
+     <b>🌐English</b> | 🇨🇳<a herf="#目录">中文</a>
 </div>
 
 <h4 align="center">
