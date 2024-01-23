@@ -34,8 +34,9 @@
 - [📜 Declarations & License](#declarations-license)
 - [🥇 Company Introduction](#company-introduction)
 
+<a name="model-introduction"></a>
 
-# 1. Model Introduction <a name="model-introduction"></a>
+# 1. Model Introduction
 
 - Orion-14B series models are open-source multilingual large language models trained from scratch by OrionStarAI.  The base model is trained on 2.5T multilingual corpus, including Chinese, English, Japanese, Korean, etc, and it exhibits superior performance in these languages.  For details, please refer to [tech report](https://github.com/OrionStarAI/Orion/blob/master/doc/Orion14B_v3.pdf).
 
@@ -65,7 +66,8 @@
   - **Orion-14B-Base-Int4:**  A quantized base model utilizing 4-bit integer weights. It significantly reduces the model size by 70% and increases the inference speed by 30% while incurring a minimal performance loss of only 1%.
   - **Orion-14B-Chat-Int4:**  A quantized chat model utilizing 4-bit integer weights.
 
-# 2. Model Download <a name="model-download"></a>
+<a name="model-download"></a>
+# 2. Model Download
 
 Model release and download links are provided in the table below:
 
@@ -79,7 +81,8 @@ Model release and download links are provided in the table below:
 | 💼Orion-14B-Base-Int4   | [Orion-14B-Base-Int4](https://huggingface.co/OrionStarAI/Orion-14B-Base-Int4)     | [Orion-14B-Base-Int4](https://modelscope.cn/models/OrionStarAI/Orion-14B-Base-Int4/summary)     |
 | 📦Orion-14B-Chat-Int4   | [Orion-14B-Chat-Int4](https://huggingface.co/OrionStarAI/Orion-14B-Chat-Int4)     | [Orion-14B-Chat-Int4](https://modelscope.cn/models/OrionStarAI/Orion-14B-Chat-Int4/summary)     |
 
-# 3. Model Benchmarks <a name="model-benchmark"></a>
+<a name="model-benchmark"></a><br>
+# 3. Model Benchmarks
 
 ## 3.1. Base Model Orion-14B-Base Benchmarks
 ### 3.1.1. LLM evaluation results on examination and professional knowledge
