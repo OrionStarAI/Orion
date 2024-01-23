@@ -13,7 +13,7 @@
 <div align="center">
 
 <div align="center">
-     <b>🇨🇳中文</b> | <a href="#Table-of-Contents">🌐English</a>
+     <b>🇨🇳中文</b> | <a href="#table-of-contents">🌐English</a>
 </div>
 
 <h4 align="center">
