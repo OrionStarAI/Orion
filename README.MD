@@ -34,8 +34,7 @@
 - [📜 Declarations & License](#declarations-license)
 - [🥇 Company Introduction](#company-introduction)
 
-<a name="model-introduction"></a>
-
+<a name="model-introduction"></a><br>
 # 1. Model Introduction
 
 - Orion-14B series models are open-source multilingual large language models trained from scratch by OrionStarAI.  The base model is trained on 2.5T multilingual corpus, including Chinese, English, Japanese, Korean, etc, and it exhibits superior performance in these languages.  For details, please refer to [tech report](https://github.com/OrionStarAI/Orion/blob/master/doc/Orion14B_v3.pdf).
@@ -66,7 +65,8 @@
   - **Orion-14B-Base-Int4:**  A quantized base model utilizing 4-bit integer weights. It significantly reduces the model size by 70% and increases the inference speed by 30% while incurring a minimal performance loss of only 1%.
   - **Orion-14B-Chat-Int4:**  A quantized chat model utilizing 4-bit integer weights.
 
-<a name="model-download"></a>
+
+<a name="model-download"></a><br>
 # 2. Model Download
 
 Model release and download links are provided in the table below:
@@ -214,7 +214,9 @@ Model release and download links are provided in the table below:
 | OrionStar-14B-Base      |  28.0 | 135 | 72.8 | 70.6 | 70.0 | 93.3 | 78.5 |
 | OrionStar-14B-Base-Int4 |  8.3  | 178 | 71.8 | 69.8 | 69.2 | 93.1 | 78.0 |
 
-# 4. Model Inference <a name="model-inference"></a>
+
+<a name="model-inference"></a><br>
+# 4. Model Inference
 
 Model weights, source code, and configuration needed for inference are published on Hugging Face, and the download link
 is available in the table at the beginning of this document. We demonstrate various inference methods here, and the
@@ -294,8 +296,8 @@ User：자기소개를 해주세요.
 Orion-14B：안녕하세요, 제 이름은 ChatMax입니다. OrionStar에서 개발한 AI 어시스턴트입니다. 저는 사용자들에게 정확하고 객관적이며 유용한 답변을 제공하여 문제를 해결하고 정보를 얻는 데 도움을 줄 수 있습니다.
 `````
 
-
-# 5. Declarations, License <a name="declarations-license"></a>
+<a name="declarations-license"></a><br>
+# 5. Declarations, License
 
 ## 5.1. Declarations
 
@@ -315,7 +317,8 @@ Community use of the Orion-14B series models
 - For model, please comply with [【Orion-14B Series】 Models Community License Agreement](./ModelsCommunityLicenseAgreement)
 
 
-# 6. Company Introduction <a name="company-introduction"></a>
+<a name="company-introduction"></a><br>
+# 6. Company Introduction
 
 OrionStar is a leading global service robot solutions company, founded in September 2016. OrionStar is dedicated to
 using artificial intelligence technology to create the next generation of revolutionary robots, allowing people to break
