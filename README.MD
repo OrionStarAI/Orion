@@ -34,7 +34,7 @@
 - [📜 Declarations & License](#declarations-license)
 - [🥇 Company Introduction](#company-introduction)
 
-# 1. Model Introduction
+# 1. Model Introduction<a name="model-introduction"></a>
 
 - Orion-14B series models are open-source multilingual large language models trained from scratch by OrionStarAI.  The base model is trained on 2.5T multilingual corpus, including Chinese, English, Japanese, Korean, etc, and it exhibits superior performance in these languages.  For details, please refer to [tech report](https://github.com/OrionStarAI/Orion/blob/master/doc/Orion14B_v3.pdf).
 
@@ -64,7 +64,7 @@
   - **Orion-14B-Base-Int4:**  A quantized base model utilizing 4-bit integer weights. It significantly reduces the model size by 70% and increases the inference speed by 30% while incurring a minimal performance loss of only 1%.
   - **Orion-14B-Chat-Int4:**  A quantized chat model utilizing 4-bit integer weights.
 
-# 2. Model Download
+# 2. Model Download<a name="model-download"></a>
 
 Model release and download links are provided in the table below:
 
@@ -78,7 +78,7 @@ Model release and download links are provided in the table below:
 | 💼Orion-14B-Base-Int4   | [Orion-14B-Base-Int4](https://huggingface.co/OrionStarAI/Orion-14B-Base-Int4)     | [Orion-14B-Base-Int4](https://modelscope.cn/models/OrionStarAI/Orion-14B-Base-Int4/summary)     |
 | 📦Orion-14B-Chat-Int4   | [Orion-14B-Chat-Int4](https://huggingface.co/OrionStarAI/Orion-14B-Chat-Int4)     | [Orion-14B-Chat-Int4](https://modelscope.cn/models/OrionStarAI/Orion-14B-Chat-Int4/summary)     |
 
-# 3. Model Benchmarks
+# 3. Model Benchmarks<a name="model-benchmark"></a>
 
 ## 3.1. Base Model Orion-14B-Base Benchmarks
 ### 3.1.1. LLM evaluation results on examination and professional knowledge
@@ -210,7 +210,7 @@ Model release and download links are provided in the table below:
 | OrionStar-14B-Base      |  28.0 | 135 | 72.8 | 70.6 | 70.0 | 93.3 | 78.5 |
 | OrionStar-14B-Base-Int4 |  8.3  | 178 | 71.8 | 69.8 | 69.2 | 93.1 | 78.0 |
 
-# 4. Model Inference
+# 4. Model Inference<a name="model-inference"></a>
 
 Model weights, source code, and configuration needed for inference are published on Hugging Face, and the download link
 is available in the table at the beginning of this document. We demonstrate various inference methods here, and the
@@ -291,7 +291,7 @@ Orion-14B：안녕하세요, 제 이름은 ChatMax입니다. OrionStar에서 개
 `````
 
 
-# 5. Declarations, License
+# 5. Declarations, License<a name="declarations-license"></a>
 
 ## 5.1. Declarations
 
@@ -311,7 +311,7 @@ Community use of the Orion-14B series models
 - For model, please comply with [【Orion-14B Series】 Models Community License Agreement](./ModelsCommunityLicenseAgreement)
 
 
-# 6. Company Introduction
+# 6. Company Introduction<a name="company-introduction"></a>
 
 OrionStar is a leading global service robot solutions company, founded in September 2016. OrionStar is dedicated to
 using artificial intelligence technology to create the next generation of revolutionary robots, allowing people to break
