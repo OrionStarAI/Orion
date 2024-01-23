@@ -11,9 +11,6 @@
 </div>
 <div align="center">
 
-
-[🇨🇳中文](#chinese-edition)
-
 <h4 align="center">
     <p>
         🤗 <a href="https://huggingface.co/OrionStarAI" target="_blank">HuggingFace Mainpage</a> | 🤖 <a href="https://modelscope.cn/organization/OrionStarAI" target="_blank">ModelScope Mainpage</a><br>🎬 <a href="https://huggingface.co/spaces/OrionStarAI/Orion-14B-App-Demo" target="_blank">HuggingFace Demo</a> | 🎫 <a href="https://modelscope.cn/studios/OrionStarAI/Orion-14B-App-Demo/summary" target="_blank">ModelScope Demo</a><br>😺 <a href="https://github.com/OrionStarAI/Orion" target="_blank">GitHub</a><br>📖 <a href="https://github.com/OrionStarAI/Orion/blob/master/doc/Orion14B_v3.pdf" target="_blank">Tech Report</a>
@@ -22,7 +19,8 @@
 
 </div>
 
-
+# 版本
+[🇨🇳中文](#chinese-edition)
 
 # Table of Contents
 
