@@ -12,6 +12,9 @@
 
 <div align="center">
 
+<div align="center">
+     <b>🇨🇳中文</b> | <a href="#Table-of-Contents">🌐English</a>
+</div>
 
 <h4 align="center">
     <p>
@@ -23,7 +26,7 @@
 </div>
 
 
-<a name="chinese-edition"></a><br>
+
 # 目录
 
 - [📖 模型介绍](#zh_model-introduction)
@@ -347,7 +350,6 @@ Engineering 、Agent开发的全链条能力和经验积累；拥有完整的端
 
 
 
-<a name="english-edition"></a><br>
 # Table of Contents
 
 - [📖 Model Introduction](#model-introduction)
