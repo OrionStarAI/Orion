@@ -12,7 +12,7 @@
 <div align="center">
 
 
-[🇨🇳](#chinese-edition)<br>
+[🇨🇳中文](#chinese-edition)
 
 
 <h4 align="center">
@@ -344,7 +344,7 @@ Companies with demands for deploying large-scale model applications are welcome 
 
 
 
-<a name="chinese-edition"></a><br>
+<a id="chinese-edition"></a><br>
 # 目录
 
 - [📖 模型介绍](#zh_model-introduction)
