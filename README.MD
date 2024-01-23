@@ -11,9 +11,8 @@
 </div>
 <div align="center">
 
-- [📖 模型介绍](#zh_model-introduction)
+
 [🇨🇳中文](#chinese-edition)
-- [🔖 Model Benchmark](#model-benchmark)
 
 <h4 align="center">
     <p>
@@ -344,7 +343,7 @@ Companies with demands for deploying large-scale model applications are welcome 
 
 
 
-<a id="chinese-edition"></a><br>
+<span id="chinese-edition"></span><br>
 # 目录
 
 - [📖 模型介绍](#zh_model-introduction)
