@@ -27,13 +27,15 @@
 
 # 目录
 
-- [📖 模型介绍](#模型介绍)
-- [🔗 下载路径](#下载路径)
-- [🔖 评估结果](#评估结果)
-- [📊 模型推理](#模型推理)
-- [📜 声明协议](#声明协议)
-- [🥇 企业介绍](#企业介绍)
+- [📖 模型介绍](#model-introduction)
+- [🔗 下载路径](#model-download)
+- [🔖 评估结果](#model-benchmark)
+- [📊 模型推理](#model-inference)
+- [📜 声明协议](#declarations-license)
+- [🥇 企业介绍](#company-introduction)
 
+
+<a name="model-introduction"></a><br>
 # 1. 模型介绍
 
 - Orion-14B-Base是一个具有140亿参数的多语种大模型，该模型在一个包含2.5万亿token的多样化数据集上进行了训练，涵盖了中文、英语、日语、韩语等多种语言。在多语言环境下的一系列任务中展现出卓越的性能。在主流的公开基准评测中，Orion-14B系列模型表现优异，多项指标显著超越同等参数基本的其他模型。具体技术细节请参考[技术报告](https://github.com/OrionStarAI/Orion/blob/master/doc/Orion14B_v3.pdf)。
@@ -65,6 +67,8 @@
   - **Orion-14B-Base-Int4:**  一个使用int4进行量化的基座模型。它将模型大小显著减小了70%，同时提高了推理速度30%，仅引入了1%的最小性能损失。
   - **Orion-14B-Chat-Int4:**  一个使用int4进行量化的对话模型。
 
+
+<a name="model-download"></a><br>
 # 2. 下载路径
 
 发布模型和下载链接见下表：
@@ -79,6 +83,8 @@
 | 💼 基座Int4量化模型    | [Orion-14B-Base-Int4](https://huggingface.co/OrionStarAI/Orion-14B-Base-Int4)     | [Orion-14B-Base-Int4](https://modelscope.cn/models/OrionStarAI/Orion-14B-Base-Int4/summary)    |
 | 📦 对话Int4量化模型    | [Orion-14B-Chat-Int4](https://huggingface.co/OrionStarAI/Orion-14B-Chat-Int4)     | [Orion-14B-Chat-Int4](https://modelscope.cn/models/OrionStarAI/Orion-14B-Chat-Int4/summary)    |
 
+
+<a name="model-benchmark"></a><br>
 # 3. 评估结果
 
 ## 3.1. 基座模型Orion-14B-Base评估
@@ -213,6 +219,7 @@
 | OrionStar-14B-Base-Int4 |  8.3 | 178 | 71.8 | 69.8 | 69.2 | 93.1 | 78.0 |
 
 
+<a name="model-inference"></a><br>
 # 4. 模型推理
 
 推理所需的模型权重、源码、配置已发布在 Hugging Face，下载链接见本文档最开始的表格。我们在此示范多种推理方式。程序会自动从
@@ -297,6 +304,7 @@ Orion-14B：안녕하세요, 제 이름은 ChatMax입니다. OrionStar에서 개
 `````
 
 
+<a name="declarations-license"></a><br>
 # 5. 声明、协议
 
 ## 5.1. 声明
@@ -314,6 +322,8 @@ Orion-14B 开源模型而导致的任何问题，包括但不限于数据安全�
 - 代码请遵循 [Apache License Version 2.0](./LICENSE)<br>
 - 模型请遵循 [Orion-14B系列模型社区许可协议](./ModelsCommunityLicenseAgreement)
 
+
+<a name="company-introduction"></a><br>
 # 6. 企业介绍
 
 猎户星空（OrionStar）是一家全球领先的服务机器人解决方案公司，成立于2016年9月。猎户星空致力于基于人工智能技术打造下一代革命性机器人，使人们能够摆脱重复的体力劳动，使人类的工作和生活更加智能和有趣，通过技术使社会和世界变得更加美好。
