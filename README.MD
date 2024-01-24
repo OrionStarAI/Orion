@@ -18,7 +18,7 @@
 
 <h4 align="center">
     <p>
-        🤗 <a href="https://huggingface.co/OrionStarAI" target="_blank">HuggingFace Mainpage</a> | 🤖 <a href="https://modelscope.cn/organization/OrionStarAI" target="_blank">ModelScope Mainpage</a><br>🎬 <a href="https://huggingface.co/spaces/OrionStarAI/Orion-14B-App-Demo" target="_blank">HuggingFace Demo</a> | 🎫 <a href="https://modelscope.cn/studios/OrionStarAI/Orion-14B-App-Demo/summary" target="_blank">ModelScope Demo</a><br>😺 <a href="https://github.com/OrionStarAI/Orion" target="_blank">GitHub</a><br>📖 <a href="https://github.com/OrionStarAI/Orion/blob/master/doc/Orion14B_v3.pdf" target="_blank">Tech Report</a>
+        🤗 <a href="https://huggingface.co/OrionStarAI" target="_blank">HuggingFace Mainpage</a> | 🤖 <a href="https://modelscope.cn/organization/OrionStarAI" target="_blank">ModelScope Mainpage</a><br>🎬 <a href="https://huggingface.co/spaces/OrionStarAI/Orion-14B-App-Demo" target="_blank">HuggingFace Demo</a> | 🎫 <a href="https://modelscope.cn/studios/OrionStarAI/Orion-14B-App-Demo/summary" target="_blank">ModelScope Demo</a><br>😺 <a href="https://github.com/OrionStarAI/Orion" target="_blank">GitHub</a><br>📖 <a href="https://arxiv.org/pdf/2401.12246.pdf" target="_blank">Tech Report</a>
     <p>
 </h4>
 
@@ -38,7 +38,7 @@
 <a name="model-introduction"></a><br>
 # 1. Model Introduction
 
-- Orion-14B series models are open-source multilingual large language models trained from scratch by OrionStarAI.  The base model is trained on 2.5T multilingual corpus, including Chinese, English, Japanese, Korean, etc, and it exhibits superior performance in these languages.  For details, please refer to [tech report](https://github.com/OrionStarAI/Orion/blob/master/doc/Orion14B_v3.pdf).
+- Orion-14B series models are open-source multilingual large language models trained from scratch by OrionStarAI.  The base model is trained on 2.5T multilingual corpus, including Chinese, English, Japanese, Korean, etc, and it exhibits superior performance in these languages.  For details, please refer to [tech report](https://arxiv.org/pdf/2401.12246.pdf).
 
 - The Orion-14B series models exhibit the following features:
   - Among models with 20B-parameter scale level, Orion-14B-Base model shows outstanding performance in comprehensive evaluations.
@@ -360,7 +360,7 @@ Companies with demands for deploying large-scale model applications are welcome 
 <a name="zh_model-introduction"></a><br>
 # 1. 模型介绍
 
-- Orion-14B-Base是一个具有140亿参数的多语种大模型，该模型在一个包含2.5万亿token的多样化数据集上进行了训练，涵盖了中文、英语、日语、韩语等多种语言。在多语言环境下的一系列任务中展现出卓越的性能。在主流的公开基准评测中，Orion-14B系列模型表现优异，多项指标显著超越同等参数基本的其他模型。具体技术细节请参考[技术报告](https://github.com/OrionStarAI/Orion/blob/master/doc/Orion14B_v3.pdf)。
+- Orion-14B-Base是一个具有140亿参数的多语种大模型，该模型在一个包含2.5万亿token的多样化数据集上进行了训练，涵盖了中文、英语、日语、韩语等多种语言。在多语言环境下的一系列任务中展现出卓越的性能。在主流的公开基准评测中，Orion-14B系列模型表现优异，多项指标显著超越同等参数基本的其他模型。具体技术细节请参考[技术报告](https://arxiv.org/pdf/2401.12246.pdf)。
 
 - Orion-14B系列大模型有以下几个特点：
   - 基座20B参数级别大模型综合评测效果表现优异
