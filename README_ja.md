@@ -240,7 +240,8 @@ tags:
 
 ## 4.1. Pythonコード
 
-```import torch
+```python
+import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers.generation.utils import GenerationConfig
 
@@ -252,6 +253,7 @@ model.generation_config = GenerationConfig.from_pretrained("OrionStarAI/Orion-14
 messages = [{"role": "user", "content": "Hello, what is your name? "}]
 response = model.chat(tokenizer, messages, streaming=False)
 print(response)
+
 ```
 
 上記のPythonソースコードでは、モデルは device_map='auto' でロードされ、利用可能なすべてのGPUを利用されています。デバイスを指定するには、 export CUDA_VISIBLE_DEVICES=0,1 のようなものを使用できます（GPU 0および1を使用）。
