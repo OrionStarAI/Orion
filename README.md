@@ -1,18 +1,3 @@
----
-language:
-- en
-- zh
-- ja
-- ko
-metrics:
-- accuracy
-pipeline_tag: text-generation
-tags:
-- code
-- model
-- llm
----
-
 <!-- markdownlint-disable first-line-h1 -->
 <!-- markdownlint-disable html -->
 <div align="center">
