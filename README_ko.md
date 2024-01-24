@@ -28,12 +28,12 @@
 
 # 목록
 
--[ 📖 모형 소개] (#model-introduction)
--[🔗 다운로드 경로] (#model-download)
--[🔖 평가결과] (#model-benchmark)
--[📊 모형 추리] (#model-inference)
--[📜 성명 합의] (#declarations-license)
--[🥇 기업 소개] (#company-introduction)
+- [ 📖 모형 소개] (#model-introduction)
+- [🔗 다운로드 경로] (#model-download)
+- [🔖 평가결과] (#model-benchmark)
+- [📊 모형 추리] (#model-inference)
+- [📜 성명 합의] (#declarations-license)
+- [🥇 기업 소개] (#company-introduction)
 
 
 <a name="model-introduction"></a><br>
