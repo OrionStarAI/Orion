@@ -240,7 +240,7 @@ tags:
 
 ## 4.1. Pythonコード
 
-import torch
+```import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers.generation.utils import GenerationConfig
 
@@ -252,22 +252,33 @@ model.generation_config = GenerationConfig.from_pretrained("OrionStarAI/Orion-14
 messages = [{"role": "user", "content": "Hello, what is your name? "}]
 response = model.chat(tokenizer, messages, streaming=False)
 print(response)
+```
+
 上記のPythonソースコードでは、モデルは device_map='auto' でロードされ、利用可能なすべてのGPUを利用されています。デバイスを指定するには、 export CUDA_VISIBLE_DEVICES=0,1 のようなものを使用できます（GPU 0および1を使用）。
 
 ## 4.2. コマンドラインツール
+
+```shell
 CUDA_VISIBLE_DEVICES=0 python cli_demo.py
+```
+
 このコマンドラインツールはチャットシナリオ向けに設計されており、基本モデルの呼び出しをサポートしていません。
 
 ## 4.3. 直接スクリプト推論
 
-ベースモデル
+```shell
+
+# ベースモデル
 CUDA_VISIBLE_DEVICES=0 python demo/text_generation_base.py --model OrionStarAI/Orion-14B --tokenizer OrionStarAI/Orion-14B --prompt hello
 
-チャットモデル
+# チャットモデル
 CUDA_VISIBLE_DEVICES=0 python demo/text_generation.py --model OrionStarAI/Orion-14B-Chat --tokenizer OrionStarAI/Orion-14B-Chat --prompt hi
+```
 
 ## 4.4 例の出力
 ### 4.4.1 カジュアルチャット
+
+`````
 User: Hello
 Orion-14B: Hello! How can I help you today? If you have any questions or need assistance, feel free to ask.
 User: What functions do you have?
@@ -285,13 +296,16 @@ Orion-14B: As an AI language model, I have a wide range of functions and capabil
   These are just some of the many functions that I am capable of performing. If you have a specific task in mind, feel free to ask me about it.
 User: Tell me a joke.
 Orion-14B: Sure, here's a classic one-liner: Why don't scientists trust atoms? Because they make up everything.
+`````
 
-### 4.4.2. Japanese & Korean Chat
+### 4.4.2. 日本語と韓国語のチャット
+
+`````
 User：自己を紹介してください
 Orion-14B：こんにちは、私の名前はChatMaxで、OrionStarによって開発されたAIアシスタントです。私はユーザーに正確で、客観的で、有用な回答を提供し、彼らが問題を解決し、情報を取得するのを助けることができます。
 User：자기소개를 해주세요.
 Orion-14B：안녕하세요, 제 이름은 ChatMax입니다. OrionStar에서 개발한 AI 어시스턴트입니다. 저는 사용자들에게 정확하고 객관적이며 유용한 답변을 제공하여 문제를 해결하고 정보를 얻는 데 도움을 줄 수 있습니다.
-
+`````
 
 <a name="declarations-license"></a><br>
 # 5. 声明、ライセンス

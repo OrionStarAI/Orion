@@ -67,10 +67,10 @@ tags:
  <table style="border-collapse: collapse; width: 100%;">
    <tr>
      <td style="border: none; padding: 10px; box-sizing: border-box;">
-       <img src="./assets/imgs/opencompass_zh.png" alt="opencompass" style="width: 100%; height: auto;">
+       <img src="./assets/imgs/opencompass_en.png" alt="opencompass" style="width: 100%; height: auto;">
      </td>
      <td style="border: none; padding: 10px; box-sizing: border-box;">
-       <img src="./assets/imgs/model_cap_zh.png" alt="modelcap" style="width: 100%; height: auto;">
+       <img src="./assets/imgs/model_cap_en.png" alt="modelcap" style="width: 100%; height: auto;">
      </td>
    </tr>
  </table>
