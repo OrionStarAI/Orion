@@ -27,11 +27,12 @@ tags:
 
 <div align="center">
 
+<div align="center">
+     <b>🇯🇵日本語</b> | <a href="./README.md">🌐英語</a> | <a href="./README_zh.md">🇨🇳中文</a> | <a href="./README_ko.md">🇰🇷한국어</a>
+</div>
 
 <h4 align="center">
     <p>
-        <b>🇯🇵日本語</b> | <a href="./README.md">🌐英語</a> | <a href="./README_zh.md">🇨🇳中文</a> | <a href="./README_ko.md">🇰🇷한국어</a>
-        <a href="./README_zh.MD">🇨🇳中国語</a><br><br>
         🤗 <a href="https://huggingface.co/OrionStarAI" target="_blank">HuggingFace メインページ</a> | 🤖 <a href="https://modelscope.cn/organization/OrionStarAI" target="_blank">ModelScope メインページ</a><br>🎬 <a href="https://huggingface.co/spaces/OrionStarAI/Orion-14B-App-Demo" target="_blank">HuggingFace デモ</a> | 🎫 <a href="https://modelscope.cn/studios/OrionStarAI/Orion-14B-App-Demo/summary" target="_blank">ModelScope デモ</a><br>😺 <a href="https://github.com/OrionStarAI/Orion" target="_blank">GitHub</a><br>📖 <a href="https://github.com/OrionStarAI/Orion/blob/master/doc/Orion14B_v3.pdf" target="_blank">技術レポート</a>
     <p>
 </h4>
@@ -49,6 +50,7 @@ tags:
 - [📜 声明とライセンス](#declarations-license)
 - [🥇 企業紹介](#company-introduction)
 
+<a name="model-introduction"></a><br>
 # 1. モデル紹介
 
 - Orion-14B-Baseは、140億のパラメータを持つマルチランゲージの大規模モデルで、さまざまな言語に対応するために2.5兆トークンの多様なデータセットでトレーニングされました。このデータセットには、中文、英語、日本語、韓国語などが含まれています。このモデルは、多言語環境でのさまざまなタスクにおいて卓越した性能を発揮しています。Orion-14Bシリーズモデルは、主要なパフォーマンスベンチマークで優れた結果を示し、同じパラメータ数を持つ他のベースモデルを明らかに凌駕しています。具体的な技術の詳細については、参照先をご覧ください。[技術レポート](https://github.com/OrionStarAI/Orion/blob/master/doc/Orion14B_v3.pdf)を参照してください。
@@ -80,6 +82,8 @@ tags:
   - **Orion-14B-Base-Int4:**  int4を使用して量子化された基本モデル。モデルサイズが70%縮小し、推論速度が30%向上し、わずか1%未満の性能低下しか発生しません。
   - **Orion-14B-Chat-Int4:**  int4を使用して量子化された対話モデル。
 
+
+<a name="model-download"></a><br>
 # 2. モデルのダウンロード
 
 以下はモデルのリリースとダウンロードURLが提供されています：
@@ -94,6 +98,8 @@ tags:
 | 💼Orion-14B-Base-Int4   | [Orion-14B-Base-Int4](https://huggingface.co/OrionStarAI/Orion-14B-Base-Int4)     | [Orion-14B-Base-Int4](https://modelscope.cn/models/OrionStarAI/Orion-14B-Base-Int4/summary)     |
 | 📦Orion-14B-Chat-Int4   | [Orion-14B-Chat-Int4](https://huggingface.co/OrionStarAI/Orion-14B-Chat-Int4)     | [Orion-14B-Chat-Int4](https://modelscope.cn/models/OrionStarAI/Orion-14B-Chat-Int4/summary)     |
 
+
+<a name="model-benchmark"></a><br>
 # 3. モデルのベンチマーク
 
 ## 3.1. 基本モデル Orion-14B-Base ベンチマーク
@@ -187,183 +193,52 @@ tags:
 | Orion-14B-Chat |  4.00  |  4.24  |  6.18  |**6.57**|  7.16  |**7.36**|**7.16**|**6.99**|  5.51  |
 \* 推論にはvllmを使用
 
-3.3. LongChatモデルOrion-14B-LongChatのベンチマーク
-3.3.1. LongChatによるLongBenchの評価
-モデル
-NarrativeQA
-MultiFieldQA-en
-MultiFieldQA-zh
-DuReader
-QMSum
-VCSUM
-TREC
-TriviaQA
-LSHT
-RepoBench-P
-GPT-3.5-Turbo-16k
-23.60
-52.30
-61.20
-28.70
-23.40
-16.00
-68.00
-91.40
-29.20
-53.60
-LongChat-v1.5-7B-32k
-16.90
-41.40
-29.10
-19.50
-22.70
-9.90
-63.50
-82.30
-23.20
-55.30
-Vicuna-v1.5-7B-16k
-19.40
-38.50
-43.00
-19.30
-22.80
-15.10
-71.50
-86.20
-28.80
-43.50
-Yi-6B-200K
-14.11
-36.74
-22.68
-14.01
-20.44
-8.08
-72.00
-86.61
-38.00
-63.29
-Orion-14B-LongChat
-19.47
-48.11
-55.84
-37.02
-24.87
-15.44
-77.00
-89.12
-45.50
-54.31
+## 3.3. LongChatモデルOrion-14B-LongChatのベンチマーク
+### 3.3.1. LongChatによるLongBenchの評価
+| モデル          | NarrativeQA|MultiFieldQA-en|MultiFieldQA-zh| DuReader  | QMSum     | VCSUM     | TREC      | TriviaQA  | LSHT      |RepoBench-P|
+|--------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+| GPT-3.5-Turbo-16k        | **23.60** | **52.30** | **61.20** |   28.70   |   23.40   | **16.00** |   68.00   | **91.40** |   29.20   |   53.60   |
+| LongChat-v1.5-7B-32k     |   16.90   |   41.40   |   29.10   |   19.50   |   22.70   |    9.90   |   63.50   |   82.30   |   23.20   |   55.30   |
+| Vicuna-v1.5-7B-16k       |   19.40   |   38.50   |   43.00   |   19.30   |   22.80   |   15.10   |   71.50   |   86.20   |   28.80   |   43.50   |
+| Yi-6B-200K               |   14.11   |   36.74   |   22.68   |   14.01   |   20.44   |    8.08   |   72.00   |   86.61   |   38.00   | **63.29** |
+| Orion-14B-LongChat       |   19.47   |   48.11   |   55.84   | **37.02** | **24.87** |   15.44   | **77.00** |   89.12   | **45.50** |   54.31   |
 
 
-3.4. Chat RAGモデルベンチマーク
-3.4.1. 自己構築RAGテストセットのLLM評価結果
-モデル
-応答の有効性（キーワード）
-応答の有効性（主観的評価）
-引用の能力
-フォールバックの能力
-AutoQA
-データ抽出
-Baichuan2-13B-Chat
-85
-76
-1
-0
-69
-51
-Qwen-14B-Chat
-79
-77
-75
-47
-68
-72
-Qwen-72B-Chat(Int4)
-87
-89
-90
-32
-67
-76
-GPT-4
-91
-94
-96
-95
-75
-86
-Orion-14B-Chat-RAG
-86
-87
-91
-97
-73
-71
+## 3.4. Chat RAGモデルベンチマーク
+### 3.4.1. 自己構築RAGテストセットのLLM評価結果
+|モデル|応答の有効性(キーワード)|*応答の有効性(主観的評価)|引用の能力|フォールバックの能力|*AutoQA|*データ抽出|
+|---------------------|------|------|------|------|------|------|
+| Baichuan2-13B-Chat  |  85  |  76  |  1   |  0   |  69  |  51  |
+| Qwen-14B-Chat       |  79  |  77  |  75  |  47  |  68  |  72  |
+| Qwen-72B-Chat(Int4) |  87  |  89  |  90  |  32  |  67  |  76  |
+| GPT-4               |  91  |  94  |  96  |  95  |  75  |  86  |
+| Orion-14B-Chat-RAG  |  86  |  87  |  91  |  97  |  73  |  71  |
 \* 手動評価を意味します
 
+## 3.5. Chat PluginモデルOrion-14B-Chat-Pluginベンチマーク
+### 3.5.1. 自己構築プラグインテストセットのLLM評価結果
+|モデル|フルパラメータの意図認識|パラメータが不足している場合の意図認識|非プラグイン呼び出しの認識|
+|-----------------------|--------|-----------|--------|
+| Baichuan2-13B-Chat    |   25   |   0       |   0    |
+| Qwen-14B-Chat         |   55   |   0       |   50   |
+| GPT-4                 | **95** |   52.38   |   70   |
+| Orion-14B-Chat-Plugin |  92.5  | **60.32** | **90** |
 
 
+## 3.6. 量子化モデルOrion-14B-Base-Int4ベンチマーク
+### 3.6.1. 量子化前後の比較
+| モデル|サイズ(GB) | 推論速度（トークン/秒） |C-Eval|CMMLU|MMLU|RACE|HellaSwag|
+|-------------------------|-------|-----|------|------|------|------|------|
+| OrionStar-14B-Base      |  28.0 | 135 | 72.8 | 70.6 | 70.0 | 93.3 | 78.5 |
+| OrionStar-14B-Base-Int4 |  8.3  | 178 | 71.8 | 69.8 | 69.2 | 93.1 | 78.0 |
 
 
-
-
-3.5. Chat PluginモデルOrion-14B-Chat-Pluginベンチマーク
-3.5.1. 自己構築プラグインテストセットのLLM評価結果
-モデル
-フルパラメータの意図認識
-パラメータが不足している場合の意図認識
-非プラグイン呼び出しの認識
-Baichuan2-13B-Chat
-25
-0
-0
-Qwen-14B-Chat
-55
-0
-50
-GPT-4
-95
-52.38
-70
-Orion-14B-Chat-Plugin
-92.5
-60.32
-90
-
-3.6. 量子化モデルOrion-14B-Base-Int4ベンチマーク
-3.6.1. 量子化前後の比較
-モデル
-サイズ（GB）
-推論速度（トークン/秒）
-C-Eval
-CMMLU
-MMLU
-RACE
-HellaSwag
-OrionStar-14B-Base
-28.0
-135
-72.8
-70.6
-70.0
-93.3
-78.5
-OrionStar-14B-Base-Int4
-8.3
-178
-71.8
-69.8
-69.2
-93.1
-78.0
-
-4. モデル推論
+<a name="model-inference"></a><br>
+# 4. モデル推論
 
 推論に必要なモデルの重み、ソースコード、および設定は、Hugging Faceに公開されており、ダウンロードリンクはこの文書の冒頭にある表に示されています。ここでは、さまざまな推論方法のデモが行われます。プログラムは自動的にHugging Faceから必要なリソースをダウンロードします。
 
-4.1. Pythonコード
+## 4.1. Pythonコード
 
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -378,18 +253,21 @@ messages = [{"role": "user", "content": "Hello, what is your name? "}]
 response = model.chat(tokenizer, messages, streaming=False)
 print(response)
 上記のPythonソースコードでは、モデルは device_map='auto' でロードされ、利用可能なすべてのGPUを利用されています。デバイスを指定するには、 export CUDA_VISIBLE_DEVICES=0,1 のようなものを使用できます（GPU 0および1を使用）。
-4.2. コマンドラインツール
+
+## 4.2. コマンドラインツール
 CUDA_VISIBLE_DEVICES=0 python cli_demo.py
 このコマンドラインツールはチャットシナリオ向けに設計されており、基本モデルの呼び出しをサポートしていません。
-4.3. 直接スクリプト推論
+
+## 4.3. 直接スクリプト推論
 
 ベースモデル
 CUDA_VISIBLE_DEVICES=0 python demo/text_generation_base.py --model OrionStarAI/Orion-14B --tokenizer OrionStarAI/Orion-14B --prompt hello
 
 チャットモデル
 CUDA_VISIBLE_DEVICES=0 python demo/text_generation.py --model OrionStarAI/Orion-14B-Chat --tokenizer OrionStarAI/Orion-14B-Chat --prompt hi
-4.4 例の出力
-4.4.1 カジュアルチャット
+
+## 4.4 例の出力
+### 4.4.1 カジュアルチャット
 User: Hello
 Orion-14B: Hello! How can I help you today? If you have any questions or need assistance, feel free to ask.
 User: What functions do you have?
@@ -408,12 +286,14 @@ Orion-14B: As an AI language model, I have a wide range of functions and capabil
 User: Tell me a joke.
 Orion-14B: Sure, here's a classic one-liner: Why don't scientists trust atoms? Because they make up everything.
 
-4.4.2. Japanese & Korean Chat
+### 4.4.2. Japanese & Korean Chat
 User：自己を紹介してください
 Orion-14B：こんにちは、私の名前はChatMaxで、OrionStarによって開発されたAIアシスタントです。私はユーザーに正確で、客観的で、有用な回答を提供し、彼らが問題を解決し、情報を取得するのを助けることができます。
 User：자기소개를 해주세요.
 Orion-14B：안녕하세요, 제 이름은 ChatMax입니다. OrionStar에서 개발한 AI 어시스턴트입니다. 저는 사용자들에게 정확하고 객관적이며 유용한 답변을 제공하여 문제를 해결하고 정보를 얻는 데 도움을 줄 수 있습니다.
 
+
+<a name="declarations-license"></a><br>
 # 5. 声明、ライセンス
 
 ## 5.1. 声明
@@ -429,6 +309,7 @@ Orion-14B シリーズモデルのコミュニティ利用
 - モデルは  [【Orion-14B シリーズ】 Models Community License Agreement](./ModelsCommunityLicenseAgreement)に従ってください。
 
 
+<a name="company-introduction"></a><br>
 # 6. 会社紹介
 
 オリオンスター（OrionStar）は、2016年9月に設立された、世界をリードするサービスロボットソリューション企業です。オリオンスターは人工知能技術を基に、次世代の革新的なロボットを開発し、人々が単純な体力労働から解放され、仕事や生活がよりスマートで面白くなるようにすることを目指しています。技術を通じて社会と世界をより良くすることを目指しています。
