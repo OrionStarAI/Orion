@@ -1,3 +1,18 @@
+---
+language:
+- en
+- zh
+- ja
+- ko
+metrics:
+- accuracy
+pipeline_tag: text-generation
+tags:
+- code
+- model
+- llm
+---
+
 <!-- markdownlint-disable first-line-h1 -->
 <!-- markdownlint-disable html -->
 <div align="center">
@@ -13,7 +28,7 @@
 <div align="center">
 
 <div align="center">
-     <b>🌐English</b> | <a href="./README_zh.md">🇨🇳中文</a>
+     <b>🌐English</b> | <a href="./README_zh.md">🇨🇳中文</a> | <a href="./README_ja.md">🇯🇵日本語</a> | <a href="./README_ko.md">🇰🇷한국어</a>
 </div>
 
 <h4 align="center">
