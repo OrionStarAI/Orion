@@ -31,7 +31,7 @@
 - [📖 모형 소개](#model-introduction)
 - [🔗 다운로드 경로](#model-download)
 - [🔖 평가결과](#model-benchmark)
-- [📊 모형 추리](#model-inference)
+- [📊 모형 추리](#model-inference) <img src="./assets/imgs/vllm.png" alt="vllm" height="20" /><img src="./assets/imgs/llama_cpp.png" alt="llamacpp" height="20" />
 - [📜 성명 합의](#declarations-license)
 - [🥇 기업 소개](#company-introduction)
 
@@ -265,9 +265,41 @@ CUDA_VISIBLE_DEVICES=0 python demo/text_generation.py --model OrionStarAI/Orion-
 
 ```
 
-## 4.4. 예시 노출
+## 4.4. vLLM 추론을 통해
 
-### 4.4.1. 잡담
+- 프로젝트 주소<br>
+  https://github.com/vllm-project/vllm
+
+- 풀 리퀘스트<br>
+  https://github.com/vllm-project/vllm/pull/2539
+
+
+## 4.5. llama.cpp 추론을 통해
+
+- 프로젝트 주소<br>
+  https://github.com/ggerganov/llama.cpp
+
+- 풀 리퀘스트<br>
+  https://github.com/ggerganov/llama.cpp/pull/5118
+
+- GGUF 형식으로 변환하는 방법
+  ```shell
+
+  python convert-hf-to-gguf.py path/to/Orion-14B-Chat --outfile chat.gguf
+
+  ```
+
+- 모델 추론 방법
+  ```shell
+
+  ./main --frequency-penalty 0.5 --frequency-penalty 0.5 --top-k 5 --top-p 0.9 -m chat.gguf -p "Building a website can be done in 10 simple steps:\nStep 1:" -n 400 -e
+
+  ```
+
+
+## 4.6. 예시 노출
+
+### 4.6.1. 잡담
 
 `````
 사용자：안녕,이름이 뭐예요
@@ -294,7 +326,7 @@ Orion-14B：예전에 잭이라는 어린 소년이 있었다. 그는 작은 마
 이 이야기는 저희에게 용기와 결심이 있다면 모든 어려움을 극복하고 자신의 꿈을 이룰 수 있다는 것을 알려준다.
 `````
 
-### 4.4.2. 한일
+### 4.6.2. 한일
 
 `````
 用户：自己を紹介してください

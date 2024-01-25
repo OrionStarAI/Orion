@@ -31,7 +31,7 @@
 - [📖 Model Introduction](#model-introduction)
 - [🔗 Model Download](#model-download)
 - [🔖 Model Benchmark](#model-benchmark)
-- [📊 Model Inference](#model-inference)
+- [📊 Model Inference](#model-inference)  <img src="./assets/imgs/vllm.png" alt="vllm" height="20" /><img src="./assets/imgs/llama_cpp.png" alt="llamacpp" height="20" />
 - [📜 Declarations & License](#declarations-license)
 - [🥇 Company Introduction](#company-introduction)
 
@@ -264,9 +264,41 @@ CUDA_VISIBLE_DEVICES=0 python demo/text_generation.py --model OrionStarAI/Orion-
 
 ```
 
-## 4.4 Example Output
+## 4.4. Inference by vllm
 
-### 4.4.1. Casual Chat
+- Project URL<br>
+  https://github.com/vllm-project/vllm
+
+- Pull Request<br>
+  https://github.com/vllm-project/vllm/pull/2539
+
+
+## 4.5. Inference by llama.cpp
+
+- Project URL<br>
+  https://github.com/ggerganov/llama.cpp
+
+- Pull Request<br>
+  https://github.com/ggerganov/llama.cpp/pull/5118
+
+- How to convert to GGUF model
+  ```shell
+
+  python convert-hf-to-gguf.py path/to/Orion-14B-Chat --outfile chat.gguf
+
+  ```
+
+- How to run generation
+  ```shell
+
+  ./main --frequency-penalty 0.5 --frequency-penalty 0.5 --top-k 5 --top-p 0.9 -m chat.gguf -p "Building a website can be done in 10 simple steps:\nStep 1:" -n 400 -e
+
+  ```
+
+
+## 4.6 Example Output
+
+### 4.6.1. Casual Chat
 
 `````
 User: Hello
@@ -288,7 +320,7 @@ User: Tell me a joke.
 Orion-14B: Sure, here's a classic one-liner: Why don't scientists trust atoms? Because they make up everything.
 `````
 
-### 4.4.2. Japanese & Korean Chat
+### 4.6.2. Japanese & Korean Chat
 
 `````
 User：自己を紹介してください

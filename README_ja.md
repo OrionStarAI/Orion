@@ -31,7 +31,7 @@
 - [📖 モデル紹介](#model-introduction)
 - [🔗 モデルダウンロード](#model-download)
 - [🔖 モデルベンチマーク](#model-benchmark)
-- [📊 モデル推論](#model-inference)
+- [📊 モデル推論](#model-inference) <img src="./assets/imgs/vllm.png" alt="vllm" height="20" /><img src="./assets/imgs/llama_cpp.png" alt="llamacpp" height="20" />
 - [📜 声明とライセンス](#declarations-license)
 - [🥇 企業紹介](#company-introduction)
 
@@ -262,8 +262,40 @@ CUDA_VISIBLE_DEVICES=0 python demo/text_generation_base.py --model OrionStarAI/O
 CUDA_VISIBLE_DEVICES=0 python demo/text_generation.py --model OrionStarAI/Orion-14B-Chat --tokenizer OrionStarAI/Orion-14B-Chat --prompt hi
 ```
 
-## 4.4 例の出力
-### 4.4.1 カジュアルチャット
+## 4.4. vLLMを使用した推論
+
+- プロジェクトのアドレス<br>
+  https://github.com/vllm-project/vllm
+
+- プルリクエスト<br>
+  https://github.com/vllm-project/vllm/pull/2539
+
+
+## 4.5. llama.cppvLLMを使用した推論
+
+- プロジェクトのアドレス<br>
+  https://github.com/ggerganov/llama.cpp
+
+- プルリクエスト<br>
+  https://github.com/ggerganov/llama.cpp/pull/5118
+
+- GGUF形式に変換する方法
+  ```shell
+
+  python convert-hf-to-gguf.py path/to/Orion-14B-Chat --outfile chat.gguf
+
+  ```
+
+- モデル推論方法
+  ```shell
+
+  ./main --frequency-penalty 0.5 --frequency-penalty 0.5 --top-k 5 --top-p 0.9 -m chat.gguf -p "Building a website can be done in 10 simple steps:\nStep 1:" -n 400 -e
+
+  ```
+
+
+## 4.6 例の出力
+### 4.6.1 カジュアルチャット
 
 `````
 User: Hello
@@ -285,7 +317,7 @@ User: Tell me a joke.
 Orion-14B: Sure, here's a classic one-liner: Why don't scientists trust atoms? Because they make up everything.
 `````
 
-### 4.4.2. 日本語と韓国語のチャット
+### 4.6.2. 日本語と韓国語のチャット
 
 `````
 User：自己を紹介してください

@@ -31,7 +31,7 @@
 - [📖 模型介绍](#zh_model-introduction)
 - [🔗 下载路径](#zh_model-download)
 - [🔖 评估结果](#zh_model-benchmark)
-- [📊 模型推理](#zh_model-inference)
+- [📊 模型推理](#zh_model-inference) <img src="./assets/imgs/vllm.png" alt="vllm" height="20" /><img src="./assets/imgs/llama_cpp.png" alt="llamacpp" height="20" />
 - [📜 声明协议](#zh_declarations-license)
 - [🥇 企业介绍](#zh_company-introduction)
 
@@ -266,9 +266,39 @@ CUDA_VISIBLE_DEVICES=0 python demo/text_generation.py --model OrionStarAI/Orion-
 
 ```
 
-## 4.4. 示例输出
+## 4.4. 使用vllm推理
+- 工程地址<br>
+  https://github.com/vllm-project/vllm
 
-### 4.4.1. 闲聊
+- 拉取请求<br>
+  https://github.com/vllm-project/vllm/pull/2539
+
+
+## 4.5. 使用llama.cpp推理
+
+- 工程地址<br>
+  https://github.com/ggerganov/llama.cpp
+
+- 拉取请求<br>
+  https://github.com/ggerganov/llama.cpp/pull/5118
+
+- 如何转换GGUF格式模型
+  ```shell
+
+  python convert-hf-to-gguf.py path/to/Orion-14B-Chat --outfile chat.gguf
+
+  ```
+
+- 如何运行GGUF格式模型推理
+  ```shell
+
+  ./main --frequency-penalty 0.5 --frequency-penalty 0.5 --top-k 5 --top-p 0.9 -m chat.gguf -p "Building a website can be done in 10 simple steps:\nStep 1:" -n 400 -e
+
+  ```
+
+## 4.6. 示例输出
+
+### 4.6.1. 闲聊
 
 `````
 用户：你好,你叫什么名字
@@ -295,7 +325,7 @@ Orion-14B：从前有一个小男孩叫杰克,他住在一个小村庄里。杰�
   这个故事告诉我们,只要有勇气和决心,我们就能克服一切困难,实现自己的梦想。
 `````
 
-### 4.4.2. 日韩
+### 4.6.2. 日韩
 
 `````
 用户：自己を紹介してください
