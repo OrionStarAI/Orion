@@ -31,7 +31,7 @@
 - [📖 모형 소개](#model-introduction)
 - [🔗 다운로드 경로](#model-download)
 - [🔖 평가결과](#model-benchmark)
-- [📊 모형 추리](#model-inference) [<img src="./assets/imgs/vllm.png" alt="vllm" height="20"/>](#vllm) [<img src="./assets/imgs/llama_cpp.png" alt="llamacpp" height="20"/>](#llama-cpp)
+- [📊 모형 추리](#model-inference) [<img src="./assets/imgs/vllm.png" alt="vllm" style="margin: 0;display: initial;" height="20" />](#vllm) [<img src="./assets/imgs/llama_cpp.png" alt="llamacpp" style="margin: 0;display: initial;" height="20" />](#llama-cpp)
 - [📜 성명 합의](#declarations-license)
 - [🥇 기업 소개](#company-introduction)
 

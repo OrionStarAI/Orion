@@ -31,7 +31,7 @@
 - [📖 モデル紹介](#model-introduction)
 - [🔗 モデルダウンロード](#model-download)
 - [🔖 モデルベンチマーク](#model-benchmark)
-- [📊 モデル推論](#model-inference) [<img src="./assets/imgs/vllm.png" alt="vllm" height="20"/>](#vllm) [<img src="./assets/imgs/llama_cpp.png" alt="llamacpp" height="20"/>](#llama-cpp)
+- [📊 モデル推論](#model-inference) [<img src="./assets/imgs/vllm.png" alt="vllm" style="margin: 0;display: initial;" height="20" />](#vllm) [<img src="./assets/imgs/llama_cpp.png" alt="llamacpp" style="margin: 0;display: initial;" height="20" />](#llama-cpp)
 - [📜 声明とライセンス](#declarations-license)
 - [🥇 企業紹介](#company-introduction)
 
