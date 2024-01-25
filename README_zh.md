@@ -283,18 +283,17 @@ CUDA_VISIBLE_DEVICES=0 python demo/text_generation.py --model OrionStarAI/Orion-
   https://github.com/ggerganov/llama.cpp/pull/5118
 
 - 如何转换GGUF格式模型
+
   ```shell
-
   python convert-hf-to-gguf.py path/to/Orion-14B-Chat --outfile chat.gguf
-
   ```
 
 - 如何运行GGUF格式模型推理
+
   ```shell
-
   ./main --frequency-penalty 0.5 --frequency-penalty 0.5 --top-k 5 --top-p 0.9 -m chat.gguf -p "Building a website can be done in 10 simple steps:\nStep 1:" -n 400 -e
-
   ```
+
 
 ## 4.6. 示例输出
 
