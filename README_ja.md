@@ -272,7 +272,7 @@ CUDA_VISIBLE_DEVICES=0 python demo/text_generation.py --model OrionStarAI/Orion-
   https://github.com/vllm-project/vllm/pull/2539
 
 <a name="llama-cpp"></a><br>
-## 4.5. llama.cppvLLMを使用した推論
+## 4.5. llama.cppを使用した推論
 
 - プロジェクトのアドレス<br>
   https://github.com/ggerganov/llama.cpp
