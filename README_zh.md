@@ -31,7 +31,7 @@
 - [📖 模型介绍](#zh_model-introduction)
 - [🔗 下载路径](#zh_model-download)
 - [🔖 评估结果](#zh_model-benchmark)
-- [📊 模型推理](#zh_model-inference) <img src="./assets/imgs/vllm.png" alt="vllm" height="20" /><img src="./assets/imgs/llama_cpp.png" alt="llamacpp" height="20" />
+- [📊 模型推理](#zh_model-inference) [<img src="./assets/imgs/vllm.png" alt="vllm" height="20"/>](#vllm) [<img src="./assets/imgs/llama_cpp.png" alt="llamacpp" height="20"/>](#llama-cpp)
 - [📜 声明协议](#zh_declarations-license)
 - [🥇 企业介绍](#zh_company-introduction)
 
@@ -266,6 +266,7 @@ CUDA_VISIBLE_DEVICES=0 python demo/text_generation.py --model OrionStarAI/Orion-
 
 ```
 
+<a name="vllm"></a><br>
 ## 4.4. 使用vllm推理
 - 工程地址<br>
   https://github.com/vllm-project/vllm
@@ -273,7 +274,7 @@ CUDA_VISIBLE_DEVICES=0 python demo/text_generation.py --model OrionStarAI/Orion-
 - 拉取请求<br>
   https://github.com/vllm-project/vllm/pull/2539
 
-
+<a name="llama-cpp"></a><br>
 ## 4.5. 使用llama.cpp推理
 
 - 工程地址<br>

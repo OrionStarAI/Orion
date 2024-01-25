@@ -31,7 +31,7 @@
 - [📖 모형 소개](#model-introduction)
 - [🔗 다운로드 경로](#model-download)
 - [🔖 평가결과](#model-benchmark)
-- [📊 모형 추리](#model-inference) <img src="./assets/imgs/vllm.png" alt="vllm" height="20" /><img src="./assets/imgs/llama_cpp.png" alt="llamacpp" height="20" />
+- [📊 모형 추리](#model-inference) [<img src="./assets/imgs/vllm.png" alt="vllm" height="20"/>](#vllm) [<img src="./assets/imgs/llama_cpp.png" alt="llamacpp" height="20"/>](#llama-cpp)
 - [📜 성명 합의](#declarations-license)
 - [🥇 기업 소개](#company-introduction)
 
@@ -265,6 +265,7 @@ CUDA_VISIBLE_DEVICES=0 python demo/text_generation.py --model OrionStarAI/Orion-
 
 ```
 
+<a name="vllm"></a><br>
 ## 4.4. vLLM 추론을 통해
 
 - 프로젝트 주소<br>
@@ -274,6 +275,7 @@ CUDA_VISIBLE_DEVICES=0 python demo/text_generation.py --model OrionStarAI/Orion-
   https://github.com/vllm-project/vllm/pull/2539
 
 
+<a name="llama-cpp"></a><br>
 ## 4.5. llama.cpp 추론을 통해
 
 - 프로젝트 주소<br>

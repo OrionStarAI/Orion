@@ -31,7 +31,7 @@
 - [📖 モデル紹介](#model-introduction)
 - [🔗 モデルダウンロード](#model-download)
 - [🔖 モデルベンチマーク](#model-benchmark)
-- [📊 モデル推論](#model-inference) <img src="./assets/imgs/vllm.png" alt="vllm" height="20" /><img src="./assets/imgs/llama_cpp.png" alt="llamacpp" height="20" />
+- [📊 モデル推論](#model-inference) [<img src="./assets/imgs/vllm.png" alt="vllm" height="20"/>](#vllm) [<img src="./assets/imgs/llama_cpp.png" alt="llamacpp" height="20"/>](#llama-cpp)
 - [📜 声明とライセンス](#declarations-license)
 - [🥇 企業紹介](#company-introduction)
 
@@ -262,6 +262,7 @@ CUDA_VISIBLE_DEVICES=0 python demo/text_generation_base.py --model OrionStarAI/O
 CUDA_VISIBLE_DEVICES=0 python demo/text_generation.py --model OrionStarAI/Orion-14B-Chat --tokenizer OrionStarAI/Orion-14B-Chat --prompt hi
 ```
 
+<a name="vllm"></a><br>
 ## 4.4. vLLMを使用した推論
 
 - プロジェクトのアドレス<br>
@@ -270,7 +271,7 @@ CUDA_VISIBLE_DEVICES=0 python demo/text_generation.py --model OrionStarAI/Orion-
 - プルリクエスト<br>
   https://github.com/vllm-project/vllm/pull/2539
 
-
+<a name="llama-cpp"></a><br>
 ## 4.5. llama.cppvLLMを使用した推論
 
 - プロジェクトのアドレス<br>
