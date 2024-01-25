@@ -31,7 +31,7 @@
 - [📖 模型介绍](#zh_model-introduction)
 - [🔗 下载路径](#zh_model-download)
 - [🔖 评估结果](#zh_model-benchmark)
-- [📊 模型推理](#zh_model-inference) [<img src="./assets/imgs/vllm.png" alt="vllm" height="20"/>](#vllm) [<img src="./assets/imgs/llama_cpp.png" alt="llamacpp" height="20"/>](#llama-cpp)
+- [📊 模型推理](#zh_model-inference) [<img src="./assets/imgs/vllm.png" alt="vllm" style="margin: 0;display: initial;" height="20" />](#vllm) [<img src="./assets/imgs/llama_cpp.png" alt="llamacpp" style="margin: 0;display: initial;" height="20" />](#llama-cpp)
 - [📜 声明协议](#zh_declarations-license)
 - [🥇 企业介绍](#zh_company-introduction)
 
