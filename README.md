@@ -31,7 +31,7 @@
 - [📖 Model Introduction](#model-introduction)
 - [🔗 Model Download](#model-download)
 - [🔖 Model Benchmark](#model-benchmark)
-- [📊 Model Inference](#model-inference)  <img src="./assets/imgs/vllm.png" alt="vllm" height="20"/>[<img src="./assets/imgs/llama_cpp.png" alt="llamacpp" height="20"/>](##4.5.inference-by-llama.cpp)
+- [📊 Model Inference](#model-inference)  [<img src="./assets/imgs/vllm.png" alt="vllm" height="20"/>](#vllm) [<img src="./assets/imgs/llama_cpp.png" alt="llamacpp" height="20"/>](#llama-cpp)
 - [📜 Declarations & License](#declarations-license)
 - [🥇 Company Introduction](#company-introduction)
 
@@ -264,6 +264,7 @@ CUDA_VISIBLE_DEVICES=0 python demo/text_generation.py --model OrionStarAI/Orion-
 
 ```
 
+<a name="vllm"></a><br>
 ## 4.4. Inference by vllm
 
 - Project URL<br>
@@ -272,7 +273,7 @@ CUDA_VISIBLE_DEVICES=0 python demo/text_generation.py --model OrionStarAI/Orion-
 - Pull Request<br>
   https://github.com/vllm-project/vllm/pull/2539
 
-
+<a name="llama-cpp"></a><br>
 ## 4.5. Inference by llama.cpp
 
 - Project URL<br>
