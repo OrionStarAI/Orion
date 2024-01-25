@@ -31,7 +31,7 @@
 - [📖 Model Introduction](#model-introduction)
 - [🔗 Model Download](#model-download)
 - [🔖 Model Benchmark](#model-benchmark)
-- [📊 Model Inference](#model-inference)  <img src="./assets/imgs/vllm.png" alt="vllm" height="20" /><img src="./assets/imgs/llama_cpp.png" alt="llamacpp" height="20" />
+- [📊 Model Inference](#model-inference)  <img src="./assets/imgs/vllm.png" alt="vllm" height="20"/>[<img src="./assets/imgs/llama_cpp.png" alt="llamacpp" height="20"/>](##4.5.inference-by-llama.cpp)
 - [📜 Declarations & License](#declarations-license)
 - [🥇 Company Introduction](#company-introduction)
 
