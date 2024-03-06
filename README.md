@@ -265,13 +265,15 @@ CUDA_VISIBLE_DEVICES=0 python demo/text_generation.py --model OrionStarAI/Orion-
 ```
 
 <a name="vllm"></a><br>
-## 4.4. Inference by vllm
+## 4.4. Inference by vLLM(>=v0.3.3)
 
-- Project URL<br>
-  https://github.com/vllm-project/vllm
-
-- Pull Request<br>
-  https://github.com/vllm-project/vllm/pull/2539
+- vLLM url & QuickStart<br>
+  https://github.com/vllm-project/vllm<br>
+  https://docs.vllm.ai/en/latest/getting_started/quickstart.html
+- Start vllm server:
+```shell
+python -m vllm.entrypoints.openai.api_server --model OrionStarAI/Orion-14B-Chat
+```
 
 <a name="llama-cpp"></a><br>
 ## 4.5. Inference by llama.cpp
@@ -279,8 +281,8 @@ CUDA_VISIBLE_DEVICES=0 python demo/text_generation.py --model OrionStarAI/Orion-
 - Project URL<br>
   https://github.com/ggerganov/llama.cpp
 
-- Pull Request<br>
-  https://github.com/ggerganov/llama.cpp/pull/5118
+- Orion-14B-Chat.gguf<br>
+  https://huggingface.co/OrionStarAI/Orion-14B-Chat/blob/main/Orion-14B-Chat.gguf
 
 - How to convert to GGUF model
 
