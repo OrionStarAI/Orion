@@ -359,4 +359,3 @@ Orion-14B シリーズモデルのコミュニティ利用
 <div align="center">
   <img src="./assets/imgs/wechat_group.jpg" alt="wechat" width="40%" />
 </div>
-```
