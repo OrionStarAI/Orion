@@ -370,7 +370,8 @@ Engineering 、Agent开发的全链条能力和经验积累；拥有完整的端
 
 ***欢迎有大模型应用落地需求的企业联系我们进行商务合作***<br>
 **咨询电话:** 400-898-7779<br>
-**电子邮箱:** ai@orionstar.com
+**电子邮箱:** ai@orionstar.com<br>
+**Discord社区链接:** https://discord.gg/zumjDWgdAs
 
 <div align="center">
   <img src="./assets/imgs/wechat_group.jpg" alt="wechat" width="40%" />
