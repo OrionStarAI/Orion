@@ -369,7 +369,8 @@ Truly Useful Robots", OrionStar empowers more people through AI technology.
 
 Companies with demands for deploying large-scale model applications are welcome to contact us.<br>
 **Enquiry Hotline: 400-898-7779**<br>
-**E-mail: ai@orionstar.com**
+**E-mail: ai@orionstar.com**<br>
+**Discord Link: https://discord.gg/zumjDWgdAs**
 
 <div align="center">
   <img src="./assets/imgs/wechat_group.jpg" alt="wechat" width="40%" />
