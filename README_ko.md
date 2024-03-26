@@ -366,7 +366,8 @@ Orion-14B：안녕하세요, 제 명칭은 ChatMax입니다. OrionStar에서 개
 
 ***대형 모델 응용 구현 필요가 있으신 회사께서 저희와 연락하는 것을 환영한다***<br>
 **문의 전화:** 400-898-7779<br>
-**이메일:** ai@orionstar.com
+**이메일:** ai@orionstar.com<br>
+**Discord 커뮤니티 링크:** https://discord.gg/zumjDWgdAs
 
 <div align="center">
   <img src="./assets/imgs/wechat_group.jpg" alt="wechat" width="40%" />
