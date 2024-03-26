@@ -354,7 +354,8 @@ Orion-14B シリーズモデルのコミュニティ利用
 
 大規模モデルアプリケーションの展開に関するニーズがある企業は、お気軽にお問い合わせください。<br>
 **Tel: 400-898-7779**<br>
-**E-mail: ai@orionstar.com**
+**E-mail: ai@orionstar.com**<br>
+**Discord コミュニティ リンク: https://discord.gg/zumjDWgdAs**
 
 <div align="center">
   <img src="./assets/imgs/wechat_group.jpg" alt="wechat" width="40%" />
