@@ -55,24 +55,24 @@ def quant(args):
 
     assert version in ["gemm", "gemv"]
     assert group_size in [32, 64, 128]
-    
+
     quant_config = { "zero_point": True, "q_group_size": group_size, "w_bit": bits, "version": version.upper() }
     tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
-    model = OrionAWQForCausalLM.from_pretrained(model_path, 
+    model = OrionAWQForCausalLM.from_pretrained(model_path,
                                             model_type="orion",
                                             device_map="auto",
-                                            trust_remote_code=True, 
+                                            trust_remote_code=True,
                                             torch_dtype=torch.float16)
     calib_data = load()
-   
+
     # Quantize
     # model.quantize(tokenizer, quant_config=quant_config, calib_data=load_wikitext())
     model.quantize(tokenizer, quant_config=quant_config, calib_data=calib_data)
-    
+
     # Save quantized model
     model.save_quantized(save_path)
     tokenizer.save_pretrained(save_path)
-    
+
     print(f'Model is quantized and saved at "{save_path}"')
 
 def get_args():
@@ -80,7 +80,7 @@ def get_args():
     parser = argparse.ArgumentParser(description="Quantized model")
     parser.add_argument("--model_path", type=str, help="The original model path")
     parser.add_argument("--save_path", type=str, help="The quantized name")
-    parser.add_argument("--group_size", type=int, defualt=128, help="The quantized name")
+    parser.add_argument("--group_size", type=int, default=128, help="The quantized name")
     parser.add_argument("--version", type=str, default="gemm", help="The quantized name")
     args = parser.parse_args()
     return args
