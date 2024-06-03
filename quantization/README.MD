@@ -15,7 +15,7 @@ The `quant.py` script is provided for you to perform AWQ quantization:
 
 ```bash
 python quant.py --model_path /base_model \
-    --save_path /quantized_model --group_size 128 --version "gemm" --trust_remote_code
+    --save_path /quantized_model --group_size 128 --version "gemm"
 ```
 
 ## Run Quantized Model
